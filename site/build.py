@@ -44,7 +44,7 @@ def std(r):
 
 
 def page(path, title, desc, body, current="", extra=""):
-    nav = [("/federal-bids/", "Federal bids", "bids"), ("/naics/construction/", "NAICS size standards", "naics"), ("/about/", "About the data", "about")]
+    nav = [("/federal-bids/", "Federal bids", "bids"), ("/state/", "State licenses", "lic"), ("/naics/construction/", "NAICS size standards", "naics"), ("/about/", "About the data", "about")]
     links = "".join(f'<a href="{h}"{" aria-current=page" if k == current else ""}>{t}</a>' for h, t, k in nav)
     robots = "" if INDEX else '<meta name="robots" content="noindex">\n'
     return f"""<!doctype html>
@@ -76,7 +76,7 @@ def page(path, title, desc, body, current="", extra=""):
 </main>
 <footer class="foot"><div class="wrap">
 <div><b>ContractorRules</b>Public government data for US construction contractors. Not legal advice and not affiliated with any government agency.</div>
-<div><b>Data</b><ul><li><a href="/federal-bids/">Open federal construction bids</a></li><li><a href="/naics/construction/">Construction NAICS size standards</a></li></ul></div>
+<div><b>Data</b><ul><li><a href="/federal-bids/">Open federal construction bids</a></li><li><a href="/naics/construction/">Construction NAICS size standards</a></li><li><a href="/state/">Contractor licenses by state</a></li></ul></div>
 <div><b>About</b><ul><li><a href="/about/">About the data</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="mailto:info@sahirgur.com">Contact</a></li></ul></div>
 </div></footer>
 </body>
@@ -299,6 +299,35 @@ else{{o.className='result no';o.textContent='Over the limit: not small under NAI
         pages[f"/naics/{code}/"] = page(f"/naics/{code}/", f"NAICS {code} size standard: {v} | {r['title']} | ContractorRules",
             f"SBA small business size standard for NAICS {code} ({r['title']}): {v} in {basis}. Check a business in seconds.", body, "naics")
 
+    # ---- state license guides
+    from licenses import GUIDES, CHECKED
+    chk = human(CHECKED)
+    lic_cards = "".join(f'<a class="card" href="/state/{g["slug"]}/license/"><h3>{g["name"]}</h3><p class="note" style="margin:0">{e(g["agency"])}</p><span class="go">Read the guide</span></a>' for g in GUIDES)
+    body = intro("Contractor license requirements by state",
+                 "Who licenses contractors, when a license is required, and what it costs, taken from each state's licensing agency.",
+                 [("/", "ContractorRules"), ("/state/", "State licenses")])
+    body += f'''<section><div class="wrap"><div class="grid">{lic_cards}</div>
+<p class="note">More states are being added. Each guide shows the date its figures were last checked against the official source.</p></div></section>'''
+    pages["/state/"] = page("/state/", "Contractor license requirements by state | ContractorRules",
+        "State-by-state contractor license requirements: who licenses, when a license is required, exams, bonds and fees, from official sources.", body, "lic")
+    for g in GUIDES:
+        sb = [n for n in bids if n.get("state") == g["code"]]
+        others = " · ".join(f'<a href="/state/{x["slug"]}/license/">{x["name"]}</a>' for x in GUIDES if x is not g)
+        facts = "".join(f'<div class="card"><div class="k">{e(k)}</div><div class="v" style="font-size:clamp(22px,3.4vw,28px)">{e(v)}</div></div>' for k, v in g["facts"])
+        bidline = (f'<p><a class="btn" href="/federal-bids/?state={g["code"]}">See {len(sb)} open federal construction bids in {g["name"]}</a></p>' if sb else "")
+        links = "".join(f'<li><a href="{u}" rel="noopener">{e(t)}</a></li>' for t, u in g["links"])
+        body = intro(f"{g['name']} contractor license requirements", e(g["answer"]),
+                     [("/", "ContractorRules"), ("/state/", "State licenses"), (f"/state/{g['slug']}/license/", g["name"])])
+        body += f'''<section><div class="wrap grid facts">{facts}</div></section>
+<section style="padding-top:0"><div class="wrap"><div class="prose">{g["body"]}
+<h2>Official sources</h2><ul>{links}</ul>
+<p class="note">Last checked against these sources on {chk}. This page is general information, not legal advice. Rules and fees change; confirm with the agency before you bid or sign a contract.</p>
+{bidline}
+<h2>Other states</h2><p>{others}</p>
+</div></div></section>'''
+        pages[f"/state/{g['slug']}/license/"] = page(f"/state/{g['slug']}/license/",
+            f"{g['name']} contractor license requirements ({CHECKED[:4]}) | ContractorRules", g["answer"][:155], body, "lic")
+
     # ---- home
     n45 = sum(1 for r in main if r["receipts_musd"] == 45)
     n19 = sum(1 for r in main if r["receipts_musd"] == 19)
@@ -321,10 +350,11 @@ else{{o.className='result no';o.textContent='Over the limit: not small under NAI
 <div><h2>Bidding on federal work?</h2><p class="sub" style="margin-bottom:14px">Open construction solicitations from SAM.gov, filterable by state, code and set-aside.</p><a class="btn" href="/federal-bids/">See open bids</a></div>
 </div></div></section>
 <section style="padding-top:8px"><div class="wrap">
-<h2>What you can check today</h2><p class="sub">More rules are on the way: state license requirements by trade come next.</p>
+<h2>What you can check today</h2><p class="sub">Federal size standards and bids, and state license rules.</p>
 <div class="grid">
 <a class="card" href="/naics/construction/"><h3>SBA size standards</h3><p class="note" style="margin:0">Is your business “small” for set-aside contracts? Limits for all {len(main)} construction codes, with a quick check on each code’s page.</p><span class="go">See all codes</span></a>
 <a class="card" href="/federal-bids/"><h3>Federal construction bids</h3><p class="note" style="margin:0">Solicitations, sources sought and presolicitations with a construction NAICS code, sorted by response deadline.</p><span class="go">See open bids</span></a>
+<a class="card" href="/state/"><h3>State contractor licenses</h3><p class="note" style="margin:0">When a license is required, exams, bonds and fees in California, Texas, Florida, New York and Arizona.</p><span class="go">See state guides</span></a>
 </div></div></section>
 <section style="padding-top:0"><div class="wrap">{proposal_notice()}</div></section>
 <script>
@@ -343,6 +373,7 @@ i.addEventListener('input',go);f.addEventListener('submit',function(ev){{ev.prev
 <h2>Sources</h2>
 <p><b>Federal bids</b> come from the SAM.gov Contract Opportunities public API run by the U.S. General Services Administration. Twice a day we collect every notice posted the previous day and keep those with a construction NAICS code (23).</p>
 <p><b>Size standards</b> come from the U.S. Small Business Administration’s Table of Small Business Size Standards, published on data.sba.gov. The current table took effect on {eff}. An automated job checks for a newer table every week.</p>
+<p><b>State license guides</b> are written from each state licensing agency’s own pages and the state statutes, which are linked on every guide with the date they were last checked.</p>
 <h2>How it is checked</h2>
 <p>Each new file is compared with the previous one. If its layout changes or records disappear, nothing is published until a person has checked it.</p>
 <h2>What it can’t tell you</h2>

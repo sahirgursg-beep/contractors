@@ -86,3 +86,5 @@ footer.foot .wrap{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,mi
 footer.foot b{color:#fff;display:block;margin-bottom:6px;font-size:15px}
 footer.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+@media(min-width:900px){.grid.facts{grid-template-columns:repeat(4,minmax(0,1fr))}}
