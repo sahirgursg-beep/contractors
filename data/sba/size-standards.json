@@ -506,7 +506,7 @@
  {
   "naics": "115310",
   "exception": "Exception 1",
-  "title": "Forest Fire Suppression1",
+  "title": "Forest Fire Suppression",
   "receipts_musd": 34,
   "employees": null,
   "footnote": "See footnote 1"
@@ -514,7 +514,7 @@
  {
   "naics": "115310",
   "exception": "Exception 2",
-  "title": "Fuels Management Services1",
+  "title": "Fuels Management Services",
   "receipts_musd": 34,
   "employees": null,
   "footnote": "See footnote 1"
@@ -898,7 +898,7 @@
  {
   "naics": "237990",
   "exception": "Exception",
-  "title": "Dredging and Surface Cleanup Activities2",
+  "title": "Dredging and Surface Cleanup Activities",
   "receipts_musd": 37,
   "employees": null,
   "footnote": "See footnote 2"
@@ -1058,7 +1058,7 @@
  {
   "naics": "238990",
   "exception": "Exception",
-  "title": "Building and Property Specialty Trade Services 13",
+  "title": "Building and Property Specialty Trade Services",
   "receipts_musd": 19,
   "employees": null,
   "footnote": "See footnote 13"
@@ -1194,7 +1194,7 @@
  {
   "naics": "311421",
   "exception": null,
-  "title": "Fruit and Vegetable Canning3",
+  "title": "Fruit and Vegetable Canning",
   "receipts_musd": null,
   "employees": 1000,
   "footnote": "See footnote 3"
@@ -1834,7 +1834,7 @@
  {
   "naics": "324110",
   "exception": null,
-  "title": "Petroleum Refineries4",
+  "title": "Petroleum Refineries",
   "receipts_musd": null,
   "employees": 1500,
   "footnote": "See footnote 4"
@@ -2202,7 +2202,7 @@
  {
   "naics": "326211",
   "exception": null,
-  "title": "Tire Manufacturing (except Retreading)5",
+  "title": "Tire Manufacturing (except Retreading)",
   "receipts_musd": null,
   "employees": 1500,
   "footnote": "See footnote 5"
@@ -3538,7 +3538,7 @@
  {
   "naics": "336413",
   "exception": null,
-  "title": "Other Aircraft Part and Auxiliary Equipment Manufacturing7",
+  "title": "Other Aircraft Part and Auxiliary Equipment Manufacturing",
   "receipts_musd": null,
   "employees": 1250,
   "footnote": "See footnote 7"
@@ -5218,7 +5218,7 @@
  {
   "naics": "488510",
   "exception": null,
-  "title": "Freight Transportation Arrangement10",
+  "title": "Freight Transportation Arrangement",
   "receipts_musd": 20,
   "employees": null,
   "footnote": "See footnote 10"
@@ -5538,7 +5538,7 @@
  {
   "naics": "522110",
   "exception": null,
-  "title": "Commercial Banking8",
+  "title": "Commercial Banking",
   "receipts_musd": null,
   "employees": null,
   "footnote": "See footnote 8"
@@ -5546,7 +5546,7 @@
  {
   "naics": "522130",
   "exception": null,
-  "title": "Credit Unions8",
+  "title": "Credit Unions",
   "receipts_musd": null,
   "employees": null,
   "footnote": "See footnote 8"
@@ -5554,7 +5554,7 @@
  {
   "naics": "522180",
   "exception": null,
-  "title": "Savings Institutions and Other Depository Credit Intermediation8",
+  "title": "Savings Institutions and Other Depository Credit Intermediation",
   "receipts_musd": null,
   "employees": null,
   "footnote": "See footnote 8"
@@ -5562,7 +5562,7 @@
  {
   "naics": "522210",
   "exception": null,
-  "title": "Credit Card Issuing8",
+  "title": "Credit Card Issuing",
   "receipts_musd": null,
   "employees": null,
   "footnote": "See footnote 8"
@@ -5810,7 +5810,7 @@
  {
   "naics": "531110",
   "exception": null,
-  "title": "Lessors of Residential Buildings and Dwellings9",
+  "title": "Lessors of Residential Buildings and Dwellings",
   "receipts_musd": 34,
   "employees": null,
   "footnote": "See footnote 9"
@@ -5826,7 +5826,7 @@
  {
   "naics": "531120",
   "exception": null,
-  "title": "Lessors of Nonresidential Buildings (except Miniwarehouses)9",
+  "title": "Lessors of Nonresidential Buildings (except Miniwarehouses)",
   "receipts_musd": 34,
   "employees": null,
   "footnote": "See footnote 9"
@@ -5842,7 +5842,7 @@
  {
   "naics": "531130",
   "exception": null,
-  "title": "Lessors of Miniwarehouses and Self Storage Units9",
+  "title": "Lessors of Miniwarehouses and Self Storage Units",
   "receipts_musd": 34,
   "employees": null,
   "footnote": "See footnote 9"
@@ -5858,7 +5858,7 @@
  {
   "naics": "531190",
   "exception": null,
-  "title": "Lessors of Other Real Estate Property9",
+  "title": "Lessors of Other Real Estate Property",
   "receipts_musd": 34,
   "employees": null,
   "footnote": "See footnote 9"
@@ -5874,7 +5874,7 @@
  {
   "naics": "531210",
   "exception": null,
-  "title": "Offices of Real Estate Agents and Brokers10",
+  "title": "Offices of Real Estate Agents and Brokers",
   "receipts_musd": 15,
   "employees": null,
   "footnote": "See footnote 10"
@@ -6242,7 +6242,7 @@
  {
   "naics": "541519",
   "exception": "Exception",
-  "title": "Information Technology Value Added Resellers18",
+  "title": "Information Technology Value Added Resellers",
   "receipts_musd": null,
   "employees": 150,
   "footnote": "See footnote 18"
@@ -6306,7 +6306,7 @@
  {
   "naics": "541713",
   "exception": null,
-  "title": "Research and Development in Nanotechnology11",
+  "title": "Research and Development in Nanotechnology",
   "receipts_musd": null,
   "employees": 1000,
   "footnote": "See footnote 11"
@@ -6314,7 +6314,7 @@
  {
   "naics": "541714",
   "exception": null,
-  "title": "Research and Development in Biotechnology (except Nanobiotechnology)11",
+  "title": "Research and Development in Biotechnology (except Nanobiotechnology)",
   "receipts_musd": null,
   "employees": 1000,
   "footnote": "See footnote 11"
@@ -6322,7 +6322,7 @@
  {
   "naics": "541715",
   "exception": null,
-  "title": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology) 11",
+  "title": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",
   "receipts_musd": null,
   "employees": 1000,
   "footnote": "See footnote 11"
@@ -6330,7 +6330,7 @@
  {
   "naics": "541715",
   "exception": "Exception 1",
-  "title": "Aircraft, Aircraft Engine and Engine Parts11",
+  "title": "Aircraft, Aircraft Engine and Engine Parts",
   "receipts_musd": null,
   "employees": 1500,
   "footnote": "See footnote 11"
@@ -6338,7 +6338,7 @@
  {
   "naics": "541715",
   "exception": "Exception 2",
-  "title": "Other Aircraft Parts and Auxiliary Equipment11",
+  "title": "Other Aircraft Parts and Auxiliary Equipment",
   "receipts_musd": null,
   "employees": 1250,
   "footnote": "See footnote 11"
@@ -6346,7 +6346,7 @@
  {
   "naics": "541715",
   "exception": "Exception 3",
-  "title": "Guided Missiles and Space Vehicles, Their Propulsion Units and Propulsion Parts11",
+  "title": "Guided Missiles and Space Vehicles, Their Propulsion Units and Propulsion Parts",
   "receipts_musd": null,
   "employees": 1300,
   "footnote": "See footnote 11"
@@ -6362,7 +6362,7 @@
  {
   "naics": "541810",
   "exception": null,
-  "title": "Advertising Agencies10",
+  "title": "Advertising Agencies",
   "receipts_musd": 25.5,
   "employees": null,
   "footnote": "See footnote 10"
@@ -6498,7 +6498,7 @@
  {
   "naics": "561210",
   "exception": null,
-  "title": "Facilities Support Services12",
+  "title": "Facilities Support Services",
   "receipts_musd": 47,
   "employees": null,
   "footnote": "See footnote 12"
@@ -6618,7 +6618,7 @@
  {
   "naics": "561510",
   "exception": null,
-  "title": "Travel Agencies10",
+  "title": "Travel Agencies",
   "receipts_musd": 25,
   "employees": null,
   "footnote": "See footnote 10"
@@ -6626,7 +6626,7 @@
  {
   "naics": "561520",
   "exception": null,
-  "title": "Tour Operators10",
+  "title": "Tour Operators",
   "receipts_musd": 25,
   "employees": null,
   "footnote": "See footnote 10"
@@ -6738,7 +6738,7 @@
  {
   "naics": "561920",
   "exception": null,
-  "title": "Convention and Trade Show Organizers10",
+  "title": "Convention and Trade Show Organizers",
   "receipts_musd": 20,
   "employees": null,
   "footnote": "See footnote 10"
@@ -6818,7 +6818,7 @@
  {
   "naics": "562910",
   "exception": "Exception",
-  "title": "Environmental Remediation Services14",
+  "title": "Environmental Remediation Services",
   "receipts_musd": null,
   "employees": 1000,
   "footnote": "See footnote 14"
@@ -6930,7 +6930,7 @@
  {
   "naics": "611519",
   "exception": "Exception",
-  "title": "Job Corps Centers16",
+  "title": "Job Corps Centers",
   "receipts_musd": 47,
   "employees": null,
   "footnote": "See footnote 16"
