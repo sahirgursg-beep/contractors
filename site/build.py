@@ -12,6 +12,9 @@ DATA, SRC, DIST = ROOT / "data", ROOT / "site", ROOT / "dist"
 SITE = "https://contractorrules.com"
 INDEX = True
 e = html.escape
+LOGO = ('<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M6 6h11v41h41v11H6z" fill="#F2A71B"/>'
+        '<g stroke="#1F2A33" stroke-width="1.8" stroke-linecap="round"><path d="M8 14h5M8 22h5M8 30h5M8 38h5M23 56v-5M31 56v-5M39 56v-5M47 56v-5"/></g>'
+        '<path d="M26 31l9 9 21-23" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 CSS = " ".join(l.strip() for l in (Path(__file__).resolve().parent / "assets" / "site.css").read_text().splitlines())
 
 GROUPS = {"236": "Construction of buildings", "237": "Heavy and civil engineering construction", "238": "Specialty trade contractors"}
@@ -32,7 +35,7 @@ def std(r):
 
 
 def page(path, title, desc, body, current="", extra=""):
-    nav = [("/federal-bids/", "Federal construction bids", "bids"), ("/naics/construction/", "Construction NAICS codes", "naics"), ("/about/", "About the data", "about")]
+    nav = [("/federal-bids/", "Federal bids", "bids"), ("/naics/construction/", "NAICS size standards", "naics"), ("/about/", "About the data", "about")]
     links = "".join(f'<a href="{h}"{" aria-current=page" if k == current else ""}>{t}</a>' for h, t, k in nav)
     robots = "" if INDEX else '<meta name="robots" content="noindex">\n'
     return f"""<!doctype html>
@@ -54,15 +57,16 @@ def page(path, title, desc, body, current="", extra=""):
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="top"><div class="wrap">
-<a class="brand" href="/"><img src="/assets/logo.svg" alt="" width="34" height="34">ContractorRules</a>
+<a class="brand" href="/">{LOGO}ContractorRules</a>
 <nav class="nav" aria-label="Main">{links}</nav>
 </div></header>
 <main id="main">
 {body}
 </main>
 <footer class="foot"><div class="wrap">
-<span>ContractorRules organizes public government data for US contractors. It is not legal advice and is not affiliated with any government agency.</span>
-<span><a href="/about/">About the data</a> · <a href="/privacy/">Privacy</a> · <a href="mailto:info@sahirgur.com">Contact</a></span>
+<div><b>ContractorRules</b>Public government data for US construction contractors. Not legal advice and not affiliated with any government agency.</div>
+<div><b>Data</b><ul><li><a href="/federal-bids/">Open federal construction bids</a></li><li><a href="/naics/construction/">Construction NAICS size standards</a></li></ul></div>
+<div><b>About</b><ul><li><a href="/about/">About the data</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="mailto:info@sahirgur.com">Contact</a></li></ul></div>
 </div></footer>
 </body>
 </html>
@@ -287,21 +291,39 @@ else{{o.className='result no';o.textContent='Over the limit: not small under NAI
     # ---- home
     n45 = sum(1 for r in main if r["receipts_musd"] == 45)
     n19 = sum(1 for r in main if r["receipts_musd"] == 19)
-    body = intro("Compliance data for US construction contractors",
-                 "Federal and state rules for contractors are spread across dozens of agencies. ContractorRules collects them from official sources, keeps them current and puts them in one place.")
-    body += f"""<section><div class="wrap grid">
-<a class="card" href="/naics/construction/" style="text-decoration:none;color:inherit">
-<div class="k">Federal contracting · SBA</div><h2 style="margin:6px 0">Construction size standards</h2>
-<p class="note" style="margin:0">Is your business “small” for set-aside contracts? {n45} building and heavy construction codes have a $45 million limit and {n19} specialty trade codes a $19 million limit. Check any of the {len(main)} construction codes.</p>
-<p style="margin:14px 0 0"><span style="text-decoration:underline;text-decoration-color:var(--amber);text-decoration-thickness:2px">See all construction codes</span></p></a>
-<a class="card" href="/federal-bids/" style="text-decoration:none;color:inherit">
-<div class="k">Federal contracting · SAM.gov</div><h2 style="margin:6px 0">Open federal construction bids</h2>
-<p class="note" style="margin:0">Construction solicitations from SAM.gov, filterable by state, NAICS code and set-aside, updated twice a day.</p>
-<p style="margin:14px 0 0"><span style="text-decoration:underline;text-decoration-color:var(--amber);text-decoration-thickness:2px">See open bids</span></p></a>
-<div class="card"><div class="k">Coming next</div><h2 style="margin:6px 0">More rules, state by state</h2>
-<p class="note" style="margin:0">Contractor license requirements by state and trade, California license data, and federal prevailing wage rates.</p></div>
-</div></section>
-<section style="padding-top:0"><div class="wrap">{proposal_notice()}</div></section>"""
+    sa = sum(1 for n in bids if setaside(n) != "None")
+    codes_js = json.dumps([[r["naics"], r["title"], std(r)[0]] for r in main], separators=(",", ":"))
+    bid_stat = (f'<a href="/federal-bids/"><span class="sl">Open federal construction bids</span><span class="sv">{len(bids):,}<i class="mark"></i></span>'
+                f'<span class="sn">{sa:,} set aside for small businesses</span></a>' if bids else
+                '<a href="/federal-bids/"><span class="sl">Open federal construction bids</span><span class="sv">Updating<i class="mark"></i></span><span class="sn">from SAM.gov, twice a day</span></a>')
+    body = f"""<section class="intro hero"><div class="wrap">
+<h1>The rules for construction contractors, in one place</h1>
+<p>Federal and state rules are spread across dozens of agencies. ContractorRules collects them from official sources and keeps them current, so you can check a requirement in seconds.</p>
+<div class="stats">{bid_stat}
+<a href="/naics/construction/"><span class="sl">Small business limit, specialty trades</span><span class="sv">$19 million</span><span class="sn">{n19} NAICS codes, average annual receipts</span></a>
+<a href="/naics/construction/"><span class="sl">Small business limit, building and heavy</span><span class="sv">$45 million</span><span class="sn">{n45} NAICS codes</span></a>
+</div></div></section>
+<section style="padding-top:0"><div class="wrap"><div class="panel">
+<div><h2>Find your NAICS code</h2><p class="sub" style="margin-bottom:14px">Type a trade or a code to see its SBA size standard and open federal bids.</p>
+<form class="lookup" id="lk" role="search"><label for="lq" class="sr">Trade or NAICS code</label><input id="lq" type="search" autocomplete="off" placeholder="e.g. roofing, electrical or 236220"><button class="btn" type="submit">Find</button></form>
+<ul class="hits" id="lh"></ul></div>
+<div><h2>Bidding on federal work?</h2><p class="sub" style="margin-bottom:14px">Open construction solicitations from SAM.gov, filterable by state, code and set-aside.</p><a class="btn" href="/federal-bids/">See open bids</a></div>
+</div></div></section>
+<section style="padding-top:8px"><div class="wrap">
+<h2>What you can check today</h2><p class="sub">More rules are on the way: state license requirements by trade come next.</p>
+<div class="grid">
+<a class="card" href="/naics/construction/"><h3>SBA size standards</h3><p class="note" style="margin:0">Is your business “small” for set-aside contracts? Limits for all {len(main)} construction codes, with a quick check on each code’s page.</p><span class="go">See all codes</span></a>
+<a class="card" href="/federal-bids/"><h3>Federal construction bids</h3><p class="note" style="margin:0">Solicitations, sources sought and presolicitations with a construction NAICS code, sorted by response deadline.</p><span class="go">See open bids</span></a>
+</div></div></section>
+<section style="padding-top:0"><div class="wrap">{proposal_notice()}</div></section>
+<script>
+(function(){{var C={codes_js},i=document.getElementById('lq'),h=document.getElementById('lh'),f=document.getElementById('lk');
+function esc(s){{return s.replace(/[&<>]/g,function(m){{return {{'&':'&amp;','<':'&lt;','>':'&gt;'}}[m];}});}}
+function go(){{var q=i.value.trim().toLowerCase();if(!q){{h.innerHTML='';return [];}}var w=q.split(/ +/);
+var m=C.filter(function(c){{var t=(c[0]+' '+c[1]).toLowerCase();return w.every(function(x){{return t.indexOf(x)>-1;}});}});
+h.innerHTML=m.length?m.slice(0,8).map(function(c){{return '<li><a href="/naics/'+c[0]+'/"><b>'+c[0]+'</b><span>'+esc(c[1])+'</span><span class="note" style="margin-left:auto;white-space:nowrap">'+c[2]+'</span></a></li>';}}).join(''):'<li class="note">No construction code matches. Try a broader word, such as “contractors”.</li>';return m;}}
+i.addEventListener('input',go);f.addEventListener('submit',function(ev){{ev.preventDefault();var m=go();if(m.length===1)location.href='/naics/'+m[0][0]+'/';}});}})();
+</script>"""
     pages["/"] = page("/", "ContractorRules: compliance data for US construction contractors",
                       "SBA size standards for every construction NAICS code, with more contractor rules coming. Collected from official sources.", body)
 
