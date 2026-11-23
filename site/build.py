@@ -15,6 +15,15 @@ e = html.escape
 LOGO = ('<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M6 6h11v41h41v11H6z" fill="#F2A71B"/>'
         '<g stroke="#1F2A33" stroke-width="1.8" stroke-linecap="round"><path d="M8 14h5M8 22h5M8 30h5M8 38h5M23 56v-5M31 56v-5M39 56v-5M47 56v-5"/></g>'
         '<path d="M26 31l9 9 21-23" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+GA_ID = "G-XZDMQS2ZM6"
+# Consent Mode v2: storage denied by default for the UK, EEA and Switzerland until a consent message is shown.
+CONSENT_REGIONS = ["GB", "IS", "LI", "NO", "CH", "AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT",
+                   "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE"]
+TAGS = ("<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
+        "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:" + json.dumps(CONSENT_REGIONS) + "});"
+        "gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});"
+        "gtag('js',new Date());gtag('config','" + GA_ID + "');</script>"
+        '<script async src="https://www.googletagmanager.com/gtag/js?id=' + GA_ID + '"></script>')
 CSS = " ".join(l.strip() for l in (Path(__file__).resolve().parent / "assets" / "site.css").read_text().splitlines())
 
 GROUPS = {"236": "Construction of buildings", "237": "Heavy and civil engineering construction", "238": "Specialty trade contractors"}
@@ -51,7 +60,9 @@ def page(path, title, desc, body, current="", extra=""):
 <meta property="og:url" content="{SITE}{path}">
 <meta name="theme-color" content="#1F2A33">
 <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+{TAGS}
 <style>{CSS}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1543873596510156" crossorigin="anonymous"></script>
 {extra}
 </head>
 <body>
@@ -343,8 +354,12 @@ i.addEventListener('input',go);f.addEventListener('submit',function(ev){{ev.prev
 
     privacy = intro("Privacy", "What ContractorRules collects about visitors.")
     privacy += """<section><div class="wrap"><div class="prose">
-<p>ContractorRules has no accounts and no analytics or advertising cookies. The size check runs entirely in your browser: the numbers you type are not sent anywhere. Our hosting provider keeps standard server logs (such as IP address and pages requested) for security and to keep the site running.</p>
-<p>If analytics or advertising are added later, this page will be updated first and will explain what those services collect and how to opt out.</p>
+<p>ContractorRules has no accounts. The size check and code lookup run entirely in your browser: what you type is not sent anywhere. Our hosting provider keeps standard server logs (such as IP address and pages requested) for security and to keep the site running.</p>
+<h2>Analytics</h2>
+<p>We use Google Analytics to see which pages are read and how visitors find the site. Google may set cookies and process your IP address and device information to do this. You can block it in any browser with <a href="https://tools.google.com/dlpage/gaoptout">Google’s opt-out add-on</a>.</p>
+<h2>Advertising</h2>
+<p>ContractorRules shows ads served by Google AdSense, which keeps the site free. Google and its partners use cookies to show ads and measure them, and may personalise ads based on your visits to this and other websites. You can turn off personalised ads in <a href="https://adssettings.google.com">Google’s Ad Settings</a>, and learn more in <a href="https://policies.google.com/technologies/ads">how Google uses cookies in advertising</a>.</p>
+<p>Visitors in the United Kingdom, the European Economic Area and Switzerland are asked for consent before any advertising or analytics cookies are used.</p>
 <p>Questions: <a href="mailto:info@sahirgur.com">info@sahirgur.com</a>.</p>
 </div></div></section>"""
     pages["/privacy/"] = page("/privacy/", "Privacy | ContractorRules", "What ContractorRules collects about visitors.", privacy)
