@@ -29,7 +29,13 @@ jobs:
       - name: Tests
         run: python -m unittest discover -s tests -v
       - name: Fetch
-        run: python pipelines/sba_size_standards.py
+        run: |
+          set -o pipefail
+          python pipelines/sba_size_standards.py 2>&1 | tee fetch.log
+      - name: Show log on the run page
+        if: always()
+        run: |
+          { echo '```'; tail -n 40 fetch.log 2>/dev/null; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
       - name: Commit data
         run: |
           git config user.name "contractorrules-bot"
