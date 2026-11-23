@@ -8,7 +8,7 @@ on:
       - "data/**"
       - ".github/workflows/build-site.yml"
   workflow_run:
-    workflows: ["SBA size standards"]
+    workflows: ["SBA size standards", "Federal construction opportunities"]
     types: [completed]
   workflow_dispatch:
 
