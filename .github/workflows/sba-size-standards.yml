@@ -1,0 +1,41 @@
+name: SBA size standards
+
+on:
+  schedule:
+    - cron: "19 13 * * 2"
+  workflow_dispatch:
+  push:
+    paths:
+      - "pipelines/sba_size_standards.py"
+      - ".github/workflows/sba-size-standards.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install openpyxl==3.1.5
+      - name: Tests
+        run: python -m unittest discover -s tests -v
+      - name: Fetch
+        run: python pipelines/sba_size_standards.py
+      - name: Commit data
+        run: |
+          git config user.name "contractorrules-bot"
+          git config user.email "contractorrules-bot@users.noreply.github.com"
+          git add data/sba
+          if git diff --cached --quiet; then echo "No change."; else
+            git commit -m "SBA size standards: $(python -c "import json;print(json.load(open('data/sba/state.json'))['effective'])")"
+            git pull --rebase && git push
+          fi
