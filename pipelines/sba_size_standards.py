@@ -57,17 +57,19 @@ def num(v):
 def parse(raw):
     import openpyxl
     wb = openpyxl.load_workbook(io.BytesIO(raw), read_only=True, data_only=True)
-    ws = wb.worksheets[0]
-    rows = list(ws.iter_rows(values_only=True))
-    hdr_i = None
-    for i, r in enumerate(rows[:40]):
-        cells = [str(c or "").lower() for c in r]
-        if any("naics" in c and "code" in c for c in cells) and any("employee" in c for c in cells):
-            hdr_i = i
+    rows, hdr_i, previews = None, None, []
+    for ws in sorted(wb.worksheets, key=lambda w: "table" not in w.title.lower()):
+        rs = list(ws.iter_rows(values_only=True))
+        for i, r in enumerate(rs[:40]):
+            cells = [str(c or "").lower() for c in r]
+            if any("naics" in c for c in cells) and any("employee" in c for c in cells):
+                rows, hdr_i = rs, i
+                break
+        if rows:
             break
-    if hdr_i is None:
-        preview = "\n".join(repr(r[:8]) for r in rows[:8])
-        raise SystemExit(f"Header row with NAICS code and employees not found. Sheets: {wb.sheetnames}. First rows:\n{preview}")
+        previews.append(f"[{ws.title}] " + " | ".join(repr(r[:6]) for r in rs[:4]))
+    if rows is None:
+        raise SystemExit("Header row with NAICS and employees not found in any sheet:\n" + "\n".join(previews))
     hdr = [re.sub(r"\s+", " ", str(c or "")).strip().lower() for c in rows[hdr_i]]
 
     def col(*words):
@@ -75,14 +77,15 @@ def parse(raw):
             if all(w in h for w in words):
                 return j
         return None
-    c_code, c_title = col("naics", "code"), col("description") if col("description") is not None else col("industry")
+    c_code = col("naics", "code") if col("naics", "code") is not None else col("naics")
+    c_title = col("description") if col("description") is not None else col("industry")
     c_rec, c_emp = col("millions"), col("employee")
     c_foot = col("footnote")
     if None in (c_code, c_title, c_rec, c_emp):
-        raise SystemExit(f"Columns not recognised: {hdr}")
+        raise SystemExit(f"Columns not recognised: {hdr}\nNext row: {rows[hdr_i + 1][:8]!r}")
     out = []
     for r in rows[hdr_i + 1:]:
-        code = str(r[c_code] or "").strip()
+        code = str(r[c_code] if r[c_code] is not None else "").strip()
         m = re.match(r"^(\d{6})(?:\s*\(?([a-z0-9 ]+)\)?)?", code, re.I)
         if not m:
             continue

@@ -9,7 +9,9 @@ import sba_size_standards as s
 
 def xlsx(rows):
     wb = openpyxl.Workbook()
-    ws = wb.active
+    wb.active.title = "overview"
+    wb.active.append(["U. S. Small Business Administration"])
+    ws = wb.create_sheet("table_of_size_standards-all")
     ws.append(["SBA Table of Size Standards"])
     ws.append([])
     ws.append(["NAICS Codes", "NAICS Industry Description", "Size Standards in millions of dollars", "Size standards in number of employees", "Footnotes"])
