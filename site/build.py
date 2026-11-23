@@ -4,7 +4,7 @@
 Usage: python3 site/build.py   (from the repo root)
 """
 import html, json, shutil
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -31,7 +31,7 @@ def std(r):
 
 
 def page(path, title, desc, body, current="", extra=""):
-    nav = [("/naics/construction/", "Construction NAICS codes", "naics"), ("/about/", "About the data", "about")]
+    nav = [("/federal-bids/", "Federal construction bids", "bids"), ("/naics/construction/", "Construction NAICS codes", "naics"), ("/about/", "About the data", "about")]
     links = "".join(f'<a href="{h}"{" aria-current=page" if k == current else ""}>{t}</a>' for h, t, k in nav)
     robots = "" if INDEX else '<meta name="robots" content="noindex">\n'
     return f"""<!doctype html>
@@ -81,6 +81,85 @@ def proposal_notice():
             f'<p class="note"><a href="{PROPOSED_RULE}">Read the proposed rule in the Federal Register</a>.</p></div>')
 
 
+STATES = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware",
+          "DC": "District of Columbia", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa",
+          "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine", "MD": "Maryland", "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota",
+          "MS": "Mississippi", "MO": "Missouri", "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey",
+          "NM": "New Mexico", "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio", "OK": "Oklahoma", "OR": "Oregon",
+          "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina", "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah",
+          "VT": "Vermont", "VA": "Virginia", "WA": "Washington", "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming", "PR": "Puerto Rico", "GU": "Guam"}
+
+
+def load_bids():
+    p = DATA / "opportunities" / "notices.json"
+    if not p.exists():
+        return [], None
+    today = date.today().isoformat()
+    bids = []
+    for n in json.loads(p.read_text(encoding="utf-8")):
+        dl = (n.get("responseDeadLine") or "")[:10]
+        if n.get("baseType", n.get("type")) in ("Award Notice",) or (n.get("type") or "").lower().startswith("award"):
+            continue
+        if dl and dl < today:
+            continue
+        bids.append(n)
+    bids.sort(key=lambda n: ((n.get("responseDeadLine") or "9999")[:10], n.get("title") or ""))
+    st = DATA / "opportunities" / "state.json"
+    return bids, (json.loads(st.read_text()) if st.exists() else None)
+
+
+ACRO = {"US", "USA", "VA", "DOD", "NASA", "GSA", "NAVFAC", "USACE", "FAA", "NPS", "BLM", "DHS", "DOE", "HHS", "IHS", "NIH", "USDA", "FEMA", "USCG", "AFCEC"}
+
+
+def agency(n):
+    seg = (n.get("fullParentPathName") or "").split(".")[-1].strip()
+    words = []
+    for i, w in enumerate(seg.split()):
+        u = w.upper()
+        words.append(u if u in ACRO else (w.lower() if i and u in {"OF", "THE", "AND", "FOR"} else w.capitalize()))
+    return " ".join(words)
+
+
+def setaside(n):
+    d = n.get("typeOfSetAsideDescription") or ""
+    return d.replace(" (FAR 19.5)", "").replace(" (FAR 19.8)", "").replace(" (FAR 19.13)", "").replace(" (FAR 19.14)", "").replace(" (FAR 19.15)", "") or "None"
+
+
+def bid_rows(bids):
+    out = []
+    for n in bids:
+        dl = (n.get("responseDeadLine") or "")[:10]
+        place = ", ".join(x for x in (n.get("city"), n.get("state")) if x) or "–"
+        out.append(f'<tr data-s="{e(n.get("state") or "")}" data-n="{e(n.get("naicsCode") or "")}" data-a="{e(setaside(n))}">'
+                   f'<td><a href="{e(n.get("uiLink") or "#")}" rel="noopener">{e(n.get("title") or "Untitled")}</a>'
+                   f'<div class="note">{e(agency(n))} · {e(n.get("type") or "")}</div></td>'
+                   f'<td class="code"><a href="/naics/{e(n.get("naicsCode") or "")}/">{e(n.get("naicsCode") or "")}</a></td><td>{e(place)}</td>'
+                   f'<td>{e(setaside(n))}</td><td class="num">{human(dl) if dl else "–"}</td></tr>')
+    return "".join(out)
+
+
+def bids_table(bids, filters=True):
+    head = '<div class="tablewrap"><table><thead><tr><th>Notice</th><th>NAICS</th><th>Place of performance</th><th>Set-aside</th><th class="num">Responses due</th></tr></thead><tbody>'
+    f = ""
+    if filters and bids:
+        states = sorted({n.get("state") for n in bids if n.get("state")})
+        codes = sorted({n.get("naicsCode") for n in bids if n.get("naicsCode")})
+        asides = sorted({setaside(n) for n in bids})
+        opt = lambda vals, lab: "".join(f'<option value="{e(v)}">{e(lab(v))}</option>' for v in vals)
+        f = (f'<div class="filters"><label>State <select id="fs"><option value="">All states</option>{opt(states, lambda v: STATES.get(v, v))}</select></label>'
+             f'<label>NAICS <select id="fn"><option value="">All codes</option>{opt(codes, str)}</select></label>'
+             f'<label>Set-aside <select id="fa"><option value="">Any</option>{opt(asides, str)}</select></label>'
+             f'<span class="note" id="fc"></span></div>')
+    return f + head + bid_rows(bids) + "</tbody></table></div>"
+
+
+FILTER_JS = """<script>
+(function(){var s=document.getElementById('fs');if(!s)return;var n=document.getElementById('fn'),a=document.getElementById('fa'),c=document.getElementById('fc'),r=[].slice.call(document.querySelectorAll('tbody tr'));
+var q=new URLSearchParams(location.search);if(q.get('state'))s.value=q.get('state');if(q.get('naics'))n.value=q.get('naics');
+function go(){var k=0;r.forEach(function(t){var ok=(!s.value||t.dataset.s===s.value)&&(!n.value||t.dataset.n===n.value)&&(!a.value||t.dataset.a===a.value);t.hidden=!ok;if(ok)k++;});c.textContent=k+' open notices';}
+[s,n,a].forEach(function(x){x.addEventListener('change',go);});go();})();
+</script>"""
+
 def build():
     rows = json.loads((DATA / "sba" / "size-standards.json").read_text())
     state = json.loads((DATA / "sba" / "state.json").read_text())
@@ -119,6 +198,44 @@ def build():
 </div></section>"""
     pages["/naics/construction/"] = page("/naics/construction/", "SBA size standards for construction NAICS codes (236, 237, 238) | ContractorRules",
         f"Current SBA small business size standards for all {len(main)} construction NAICS codes: $45 million for building and heavy construction, $19 million for most specialty trades.", body, "naics")
+
+    bids, bstate = load_bids()
+
+    def code_bids(code):
+        mine = [n for n in bids if n.get("naicsCode") == code]
+        if not mine:
+            return ""
+        more = f'<p class="note"><a href="/federal-bids/?naics={code}">See all {len(mine)} open notices for {code}</a></p>' if len(mine) > 10 else ""
+        return (f'<h2>Open federal bids for NAICS {code}</h2><p class="sub">Construction solicitations on SAM.gov under this code whose response deadline has not passed.</p>'
+                f'{bids_table(mine[:10], filters=False)}{more}<div style="height:32px"></div>')
+
+    # ---- federal bids
+    upd = human(bstate["updated_at"][:10]) if bstate else None
+    if bids:
+        lst = bids_table(bids)
+    else:
+        lst = ('<p class="empty card">The first notices are being collected from SAM.gov. The list fills in over the next few days, '
+               'starting with the newest postings.</p>')
+    states_n = {}
+    for n in bids:
+        if n.get("state"):
+            states_n[n["state"]] = states_n.get(n["state"], 0) + 1
+    sa = sum(1 for n in bids if setaside(n) != "None")
+    body = intro("Open federal construction bids",
+                 f"Construction solicitations (NAICS 23) posted on SAM.gov whose response deadline has not passed. "
+                 f"Updated twice a day{f'; last update {upd}' if upd else ''}.", [("/", "ContractorRules"), ("/federal-bids/", "Federal bids")])
+    body += f"""<section><div class="wrap grid">
+<div class="card"><div class="k">Open notices</div><div class="v">{len(bids):,}</div><div class="n">construction, all states</div></div>
+<div class="card"><div class="k">Set aside for small or disadvantaged businesses</div><div class="v">{sa:,}</div><div class="n">{(sa / len(bids) * 100 if bids else 0):.0f}% of open notices</div></div>
+<div class="card"><div class="k">States with open notices</div><div class="v">{len(states_n)}</div><div class="n">by place of performance</div></div>
+</div></section>
+<section style="padding-top:0"><div class="wrap">
+<h2>All open notices</h2><p class="sub">Sorted by response deadline. Each notice links to its official page on SAM.gov, where the documents and instructions are.</p>
+{lst}
+<p class="note">Source: SAM.gov Contract Opportunities, public API (U.S. General Services Administration). Notice types include solicitations, presolicitations, sources sought and special notices; award notices are left out. Always read the full notice on SAM.gov before responding.</p>
+</div></section>{FILTER_JS}"""
+    pages["/federal-bids/"] = page("/federal-bids/", "Open federal construction bids by state and NAICS code | ContractorRules",
+        f"{len(bids):,} open federal construction solicitations from SAM.gov, filterable by state, NAICS code and small business set-aside. Updated twice a day.", body, "bids")
 
     # ---- one page per code
     for r in main:
@@ -160,7 +277,7 @@ else{{o.className='result no';o.textContent='Over the limit: not small under NAI
 <p>Federal contracting officers assign one NAICS code to each solicitation. When you bid on a small business set-aside, you must be small under the code on that solicitation, which may differ from your primary code. You represent your size for each NAICS code in your SAM.gov registration.</p>
 </div></div></section>
 <section style="padding-top:0"><div class="wrap">{proposal_notice()}</div></section>
-<section style="padding-top:0"><div class="wrap">{exc_html}
+<section style="padding-top:0"><div class="wrap">{code_bids(code)}{exc_html}
 <h2>Other codes in {g} · {e(GROUPS[g])}</h2>
 <div class="tablewrap"><table><thead><tr><th>NAICS</th><th>Industry</th><th class="num">Size standard</th></tr></thead><tbody>{sib_rows}</tbody></table></div>
 <p class="note">Source: U.S. Small Business Administration, Table of Small Business Size Standards (13 CFR 121.201), effective {eff}. Size is determined under 13 CFR 121.104 (receipts) and 121.103 (affiliation). Confirm with SBA before relying on it for a bid.</p>
@@ -178,6 +295,10 @@ else{{o.className='result no';o.textContent='Over the limit: not small under NAI
 <div class="k">Federal contracting · SBA</div><h2 style="margin:6px 0">Construction size standards</h2>
 <p class="note" style="margin:0">Is your business “small” for set-aside contracts? {n45} building and heavy construction codes have a $45 million limit and {n19} specialty trade codes a $19 million limit. Check any of the {len(main)} construction codes.</p>
 <p style="margin:14px 0 0"><span style="text-decoration:underline;text-decoration-color:var(--amber);text-decoration-thickness:2px">See all construction codes</span></p></a>
+<a class="card" href="/federal-bids/" style="text-decoration:none;color:inherit">
+<div class="k">Federal contracting · SAM.gov</div><h2 style="margin:6px 0">Open federal construction bids</h2>
+<p class="note" style="margin:0">Construction solicitations from SAM.gov, filterable by state, NAICS code and set-aside, updated twice a day.</p>
+<p style="margin:14px 0 0"><span style="text-decoration:underline;text-decoration-color:var(--amber);text-decoration-thickness:2px">See open bids</span></p></a>
 <div class="card"><div class="k">Coming next</div><h2 style="margin:6px 0">More rules, state by state</h2>
 <p class="note" style="margin:0">Contractor license requirements by state and trade, California license data, and federal prevailing wage rates.</p></div>
 </div></section>
@@ -188,6 +309,7 @@ else{{o.className='result no';o.textContent='Over the limit: not small under NAI
     about = intro("About the data", "Where every rule on ContractorRules comes from, how it is kept current and what it can’t tell you.")
     about += f"""<section><div class="wrap"><div class="prose">
 <h2>Sources</h2>
+<p><b>Federal bids</b> come from the SAM.gov Contract Opportunities public API run by the U.S. General Services Administration. Twice a day we collect every notice posted the previous day and keep those with a construction NAICS code (23).</p>
 <p><b>Size standards</b> come from the U.S. Small Business Administration’s Table of Small Business Size Standards, published on data.sba.gov. The current table took effect on {eff}. An automated job checks for a newer table every week.</p>
 <h2>How it is checked</h2>
 <p>Each new file is compared with the previous one. If its layout changes or records disappear, nothing is published until a person has checked it.</p>

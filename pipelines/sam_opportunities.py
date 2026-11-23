@@ -19,7 +19,7 @@ from pathlib import Path
 API = "https://api.sam.gov/opportunities/v2/search"
 OUT = Path(os.environ.get("OPP_DIR", Path(__file__).resolve().parent.parent / "data" / "opportunities"))
 BUDGET = int(os.environ.get("SAM_CALL_BUDGET", "8"))
-BACKFILL_DAYS = int(os.environ.get("BACKFILL_DAYS", "45"))
+BACKFILL_DAYS = int(os.environ.get("BACKFILL_DAYS", "30"))
 PAGE = 1000
 PAUSE = float(os.environ.get("SAM_PAUSE", "1"))
 KEEP_AFTER_DEADLINE = 14  # days a notice stays listed after its response deadline
