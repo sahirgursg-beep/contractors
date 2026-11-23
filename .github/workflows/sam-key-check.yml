@@ -14,7 +14,7 @@ jobs:
           S="$GITHUB_STEP_SUMMARY"
           if [ -z "$KEY" ]; then echo "SAM_API_KEY secret: MISSING" >> $S; exit 0; fi
           echo "SAM_API_KEY secret: present (${#KEY} characters)" >> $S
-          q(){ c=$(curl -s -o /tmp/b -w "%{http_code}" --max-time 40 -H "Accept: application/json" "$2"); echo "- $1: HTTP $c — $(head -c 160 /tmp/b | tr '\n' ' ' | sed "s/$KEY/***/g")" >> $S; }
+          q(){ c=$(curl -s -o /tmp/b -w "%{http_code}" --max-time 40 "$2"); echo "- $1: HTTP $c — $(head -c 160 /tmp/b | tr '\n' ' ' | sed "s/$KEY/***/g")" >> $S; }
           q "Exclusions API (official, tests the key)" "https://api.sam.gov/entity-information/v4/exclusions?api_key=$KEY&size=1"
-          q "Wage determination via api.sam.gov (guess)" "https://api.sam.gov/prod/wdol/v1/wd/CA20260001/0?api_key=$KEY"
-          q "Wage determination search via api.sam.gov (guess)" "https://api.sam.gov/prod/sgs/v1/search/?index=dbra&page=0&size=1&api_key=$KEY"
+          q "Opportunities API (official)" "https://api.sam.gov/opportunities/v2/search?api_key=$KEY&limit=1&postedFrom=11/01/2026&postedTo=11/22/2026&ncode=238210"
+          q "Invalid key, for comparison" "https://api.sam.gov/entity-information/v4/exclusions?api_key=INVALID&size=1"
