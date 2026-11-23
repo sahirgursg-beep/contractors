@@ -17,7 +17,7 @@ class FakeApi(o.Api):
         super().__init__("k", budget)
         self.per_day, self.fail = per_day, fail_429_after
 
-    def get(self, day, offset):
+    def get(self, day, page):
         if self.left <= 0:
             raise o.Budget("budget")
         if self.fail is not None and self.calls >= self.fail:
@@ -25,7 +25,7 @@ class FakeApi(o.Api):
         self.left -= 1
         self.calls += 1
         items = self.per_day(day)
-        return {"totalRecords": len(items), "opportunitiesData": items[offset:offset + o.PAGE]}
+        return {"totalRecords": len(items), "opportunitiesData": items[page * o.PAGE:(page + 1) * o.PAGE]}
 
 
 class T(unittest.TestCase):
@@ -75,8 +75,8 @@ class T(unittest.TestCase):
 
     def test_partial_day_refused(self):
         class Short(FakeApi):
-            def get(self, day, offset):
-                r = super().get(day, offset)
+            def get(self, day, page):
+                r = super().get(day, page)
                 r["totalRecords"] = 5000
                 return r
         with self.assertRaises(SystemExit):

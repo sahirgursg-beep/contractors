@@ -36,11 +36,12 @@ class Api:
     def __init__(self, key, budget):
         self.key, self.left, self.calls = key, budget, 0
 
-    def get(self, day, offset):
+    def get(self, day, page):
+        """page is the page index: SAM.gov's 'offset' parameter counts pages, not records."""
         if self.left <= 0:
             raise Budget("request budget used up")
         q = {"api_key": self.key, "postedFrom": day.strftime("%m/%d/%Y"), "postedTo": day.strftime("%m/%d/%Y"),
-             "limit": PAGE, "offset": offset}
+             "limit": PAGE, "offset": page}
         req = urllib.request.Request(API + "?" + urllib.parse.urlencode(q), headers={"Accept": "application/json"})
         self.left -= 1
         self.calls += 1
@@ -69,10 +70,10 @@ def fetch_day(api, day):
     first = api.get(day, 0)
     total = int(first.get("totalRecords") or 0)
     items = list(first.get("opportunitiesData") or [])
-    offset = PAGE
-    while offset < total:
-        items += list(api.get(day, offset).get("opportunitiesData") or [])
-        offset += PAGE
+    page = 1
+    while len(items) < total and page * PAGE < total + PAGE:
+        items += list(api.get(day, page).get("opportunitiesData") or [])
+        page += 1
     if total and len(items) < total * 0.98:
         raise SystemExit(f"{day}: got {len(items)} of {total} notices; refusing a partial day.")
     con = [slim(n) for n in items if str(n.get("naicsCode") or "").startswith("23")]
