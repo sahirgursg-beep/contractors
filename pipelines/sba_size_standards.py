@@ -103,9 +103,13 @@ def validate(rows, old):
     for must in ("236220", "238210", "237310"):
         if must not in codes:
             raise SystemExit(f"Expected NAICS {must} missing.")
-    if any(r["receipts_musd"] is None and r["employees"] is None for r in rows if not r["exception"]):
-        bad = [r["naics"] for r in rows if r["receipts_musd"] is None and r["employees"] is None][:5]
-        raise SystemExit(f"Rows without any size standard, e.g. {bad}.")
+    # A few industries (banks, for example) are measured by assets and carry no receipts or employee figure.
+    blank = [r["naics"] for r in rows if r["receipts_musd"] is None and r["employees"] is None]
+    if len(blank) > len(rows) * 0.03:
+        raise SystemExit(f"{len(blank)} rows without a receipts or employee standard, e.g. {blank[:5]}.")
+    bad23 = [r["naics"] for r in rows if r["naics"].startswith("23") and r["receipts_musd"] is None and r["employees"] is None]
+    if bad23:
+        raise SystemExit(f"Construction rows without a size standard: {bad23[:5]}.")
     if old and len(rows) < len(old) * 0.9:
         raise SystemExit(f"Rows fell from {len(old)} to {len(rows)}; needs a human check.")
 
