@@ -12,28 +12,11 @@ jobs:
       - run: |
           set +e
           exec > probe-result.txt 2>&1
-          head -c 800 /tmp/p.json 2>/dev/null
           UA="ContractorRules data pipeline (+https://contractorrules.com)"
-          curl -s -A "$UA" --max-time 40 "https://data.sba.gov/api/3/action/package_show?id=small-business-size-standards" -o /tmp/p.json -w "pkg %{http_code}\n"; head -c 600 /tmp/p.json; echo
-          python3 - <<'PY'
-          import json
-          d=json.load(open('/tmp/p.json'))['result']
-          print(d.get('metadata_modified'))
-          for r in d['resources'][:6]:
-              print(r.get('name'),'|',r.get('format'),'|',r.get('url'),'|',r.get('last_modified'))
-          PY
-          u=$(python3 -c "import json;r=json.load(open('/tmp/p.json'))['result']['resources'];print([x['url'] for x in r if x.get('format','').lower()=='json' or x['url'].endswith('.json')][0])")
-          curl -s -A "$UA" --max-time 60 "$u" -o /tmp/n.json -w "json %{http_code} %{size_download}\n"
-          python3 - <<'PY'
-          import json
-          d=json.load(open('/tmp/n.json'))
-          print(type(d).__name__, len(d))
-          rows=d if isinstance(d,list) else list(d.values())[0]
-          print(json.dumps(rows[:2],indent=1)[:1500])
-          c=[r for r in rows if str(r.get('id',r.get('naicsCode',''))).startswith('23')]
-          print('construction rows', len(c))
-          print(json.dumps(c[:3],indent=1)[:1500])
-          PY
+          for u in "https://data.sba.gov/dataset/small-business-size-standards" "https://web.data.sba.gov/en/dataset/small-business-size-standards"; do
+            curl -sL -A "$UA" --max-time 40 "$u" -o /tmp/p.html -w "== %{http_code} %{size_download} $u\n"
+            grep -oiE 'href="[^"]+"' /tmp/p.html | grep -iE 'json|xlsx|naics|download|resource' | sort -u | head -30
+          done
       - if: always()
         run: |
           git config user.name bot; git config user.email bot@users.noreply.github.com
