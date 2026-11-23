@@ -1,0 +1,50 @@
+pkg 404
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="utf-8" />
+<meta name="description" content="Official open data portal for the U.S. Small Business Administration" />
+<meta property="og:title" content="Page not found | SBA open data" />
+<meta property="og:description" content="Official open data portal for the U.S. Small Business Administration" />
+<meta property="og:image" content="https://www.sba.gov/themes/custom/sba/dist/img/social/SBASEOImage.jpg" />
+<meta property="og:image:alt" content="U.S. Small Business Association" />
+<meta name="twit
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+  File "/usr/lib/python3.14/json/__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/usr/lib/python3.14/json/__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.14/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json;r=json.load(open('/tmp/p.json'))['result']['resources'];print([x['url'] for x in r if x.get('format','').lower()=='json' or x['url'].endswith('.json')][0])
+                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/json/__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/usr/lib/python3.14/json/__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.14/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+curl: option : blank argument where content is expected
+curl: try 'curl --help' or 'curl --manual' for more information
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/n.json'
