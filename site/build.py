@@ -12,6 +12,7 @@ DATA, SRC, DIST = ROOT / "data", ROOT / "site", ROOT / "dist"
 SITE = "https://contractorrules.com"
 INDEX = True
 e = html.escape
+CSS = " ".join(l.strip() for l in (Path(__file__).resolve().parent / "assets" / "site.css").read_text().splitlines())
 
 GROUPS = {"236": "Construction of buildings", "237": "Heavy and civil engineering construction", "238": "Specialty trade contractors"}
 PROPOSED_RULE = "https://www.federalregister.gov/documents/2026/08/20/2026-17042/small-business-size-standards"
@@ -47,9 +48,7 @@ def page(path, title, desc, body, current="", extra=""):
 <meta property="og:url" content="{SITE}{path}">
 <meta name="theme-color" content="#1F2A33">
 <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css">
+<style>{CSS}</style>
 {extra}
 </head>
 <body>

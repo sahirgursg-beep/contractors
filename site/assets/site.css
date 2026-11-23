@@ -5,7 +5,7 @@
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 "Archivo",ui-sans-serif,system-ui,sans-serif;font-variant-numeric:tabular-nums}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-variant-numeric:tabular-nums}
 a{color:var(--char);text-decoration-color:var(--amber);text-decoration-thickness:2px;text-underline-offset:3px}
 a:hover{color:var(--amber-ink)}
 :focus-visible{outline:3px solid var(--amber);outline-offset:2px;border-radius:3px}
