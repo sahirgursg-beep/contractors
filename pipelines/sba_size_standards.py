@@ -66,7 +66,8 @@ def parse(raw):
             hdr_i = i
             break
     if hdr_i is None:
-        raise SystemExit("Header row with NAICS code and employees not found.")
+        preview = "\n".join(repr(r[:8]) for r in rows[:8])
+        raise SystemExit(f"Header row with NAICS code and employees not found. Sheets: {wb.sheetnames}. First rows:\n{preview}")
     hdr = [re.sub(r"\s+", " ", str(c or "")).strip().lower() for c in rows[hdr_i]]
 
     def col(*words):
