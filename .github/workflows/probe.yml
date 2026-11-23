@@ -1,7 +1,7 @@
 name: Source probe
 on:
   push:
-    paths: [".github/workflows/probe.yml"]
+    paths: [".github/workflows/probe.yml", "probe.py"]
 permissions:
   contents: write
 jobs:
@@ -12,11 +12,9 @@ jobs:
       - run: |
           set +e
           exec > probe-result.txt 2>&1
-          UA="ContractorRules data pipeline (+https://contractorrules.com)"
-          for u in "https://data.sba.gov/dataset/small-business-size-standards" "https://web.data.sba.gov/en/dataset/small-business-size-standards"; do
-            curl -sL -A "$UA" --max-time 40 "$u" -o /tmp/p.html -w "== %{http_code} %{size_download} $u\n"
-            grep -oiE 'href="[^"]+"' /tmp/p.html | grep -iE 'json|xlsx|naics|download|resource' | sort -u | head -30
-          done
+          curl -sL -A "ContractorRules data pipeline (+https://contractorrules.com)" --max-time 60 -D /tmp/h "https://www.sba.gov/sites/default/files/data/naics.json" -o /tmp/n.json -w "== %{http_code} %{size_download}\n"
+          grep -iE 'last-modified|content-type' /tmp/h
+          python3 probe.py
       - if: always()
         run: |
           git config user.name bot; git config user.email bot@users.noreply.github.com
