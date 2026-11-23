@@ -1,0 +1,7970 @@
+[
+ {
+  "naics": "111110",
+  "exception": null,
+  "title": "Soybean Farming",
+  "receipts_musd": 2.25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111120",
+  "exception": null,
+  "title": "Oilseed (except Soybean) Farming",
+  "receipts_musd": 2.25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111130",
+  "exception": null,
+  "title": "Dry Pea and Bean Farming",
+  "receipts_musd": 2.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111140",
+  "exception": null,
+  "title": "Wheat Farming",
+  "receipts_musd": 2.25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111150",
+  "exception": null,
+  "title": "Corn Farming",
+  "receipts_musd": 2.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111160",
+  "exception": null,
+  "title": "Rice Farming",
+  "receipts_musd": 2.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111191",
+  "exception": null,
+  "title": "Oilseed and Grain Combination Farming",
+  "receipts_musd": 2.25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111199",
+  "exception": null,
+  "title": "All Other Grain Farming",
+  "receipts_musd": 2.25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111211",
+  "exception": null,
+  "title": "Potato Farming",
+  "receipts_musd": 4.25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111219",
+  "exception": null,
+  "title": "Other Vegetable (except Potato) and Melon Farming",
+  "receipts_musd": 3.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111310",
+  "exception": null,
+  "title": "Orange Groves",
+  "receipts_musd": 4,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111320",
+  "exception": null,
+  "title": "Citrus (except Orange) Groves",
+  "receipts_musd": 4.25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111331",
+  "exception": null,
+  "title": "Apple Orchards",
+  "receipts_musd": 4.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111332",
+  "exception": null,
+  "title": "Grape Vineyards",
+  "receipts_musd": 4,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111333",
+  "exception": null,
+  "title": "Strawberry Farming",
+  "receipts_musd": 5.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111334",
+  "exception": null,
+  "title": "Berry (except Strawberry) Farming",
+  "receipts_musd": 3.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111335",
+  "exception": null,
+  "title": "Tree Nut Farming",
+  "receipts_musd": 3.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111336",
+  "exception": null,
+  "title": "Fruit and Tree Nut Combination Farming",
+  "receipts_musd": 5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111339",
+  "exception": null,
+  "title": "Other Noncitrus Fruit Farming",
+  "receipts_musd": 3.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111411",
+  "exception": null,
+  "title": "Mushroom Production",
+  "receipts_musd": 4.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111419",
+  "exception": null,
+  "title": "Other Food Crops Grown Under Cover",
+  "receipts_musd": 4.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111421",
+  "exception": null,
+  "title": "Nursery and Tree Production",
+  "receipts_musd": 3.25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111422",
+  "exception": null,
+  "title": "Floriculture Production",
+  "receipts_musd": 3.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111910",
+  "exception": null,
+  "title": "Tobacco Farming",
+  "receipts_musd": 2.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111920",
+  "exception": null,
+  "title": "Cotton Farming",
+  "receipts_musd": 3.25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111930",
+  "exception": null,
+  "title": "Sugarcane Farming",
+  "receipts_musd": 5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111940",
+  "exception": null,
+  "title": "Hay Farming",
+  "receipts_musd": 2.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111991",
+  "exception": null,
+  "title": "Sugar Beet Farming",
+  "receipts_musd": 2.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111992",
+  "exception": null,
+  "title": "Peanut Farming",
+  "receipts_musd": 2.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "111998",
+  "exception": null,
+  "title": "All Other Miscellaneous Crop Farming",
+  "receipts_musd": 2.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112111",
+  "exception": null,
+  "title": "Beef Cattle Ranching and Farming",
+  "receipts_musd": 2.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112112",
+  "exception": null,
+  "title": "Cattle Feedlots",
+  "receipts_musd": 22,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112120",
+  "exception": null,
+  "title": "Dairy Cattle and Milk Production",
+  "receipts_musd": 3.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112210",
+  "exception": null,
+  "title": "Hog and Pig Farming",
+  "receipts_musd": 4,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112310",
+  "exception": null,
+  "title": "Chicken Egg Production",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112320",
+  "exception": null,
+  "title": "Broilers and Other Meat Type Chicken Production",
+  "receipts_musd": 3.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112330",
+  "exception": null,
+  "title": "Turkey Production",
+  "receipts_musd": 3.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112340",
+  "exception": null,
+  "title": "Poultry Hatcheries",
+  "receipts_musd": 4,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112390",
+  "exception": null,
+  "title": "Other Poultry Production",
+  "receipts_musd": 3.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112410",
+  "exception": null,
+  "title": "Sheep Farming",
+  "receipts_musd": 3.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112420",
+  "exception": null,
+  "title": "Goat Farming",
+  "receipts_musd": 2.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112511",
+  "exception": null,
+  "title": "Finfish Farming and Fish Hatcheries",
+  "receipts_musd": 3.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112512",
+  "exception": null,
+  "title": "Shellfish Farming",
+  "receipts_musd": 3.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112519",
+  "exception": null,
+  "title": "Other Aquaculture",
+  "receipts_musd": 3.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112910",
+  "exception": null,
+  "title": "Apiculture",
+  "receipts_musd": 3.25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112920",
+  "exception": null,
+  "title": "Horses and Other Equine Production",
+  "receipts_musd": 2.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112930",
+  "exception": null,
+  "title": "Fur\u2011Bearing Animal and Rabbit Production",
+  "receipts_musd": 3.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "112990",
+  "exception": null,
+  "title": "All Other Animal Production",
+  "receipts_musd": 2.75,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "113110",
+  "exception": null,
+  "title": "Timber Tract Operations",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "113210",
+  "exception": null,
+  "title": "Forest Nurseries and Gathering of Forest Products",
+  "receipts_musd": 20.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "113310",
+  "exception": null,
+  "title": "Logging",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "114111",
+  "exception": null,
+  "title": "Finfish Fishing",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "114112",
+  "exception": null,
+  "title": "Shellfish Fishing",
+  "receipts_musd": 14,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "114119",
+  "exception": null,
+  "title": "Other Marine Fishing",
+  "receipts_musd": 11.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "114210",
+  "exception": null,
+  "title": "Hunting and Trapping",
+  "receipts_musd": 8.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "115111",
+  "exception": null,
+  "title": "Cotton Ginning",
+  "receipts_musd": 16,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "115112",
+  "exception": null,
+  "title": "Soil Preparation, Planting, and Cultivating",
+  "receipts_musd": 9.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "115113",
+  "exception": null,
+  "title": "Crop Harvesting, Primarily by Machine",
+  "receipts_musd": 13.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "115114",
+  "exception": null,
+  "title": "Postharvest Crop Activities (except Cotton Ginning)",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "115115",
+  "exception": null,
+  "title": "Farm Labor Contractors and Crew Leaders",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "115116",
+  "exception": null,
+  "title": "Farm Management Services",
+  "receipts_musd": 15.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "115210",
+  "exception": null,
+  "title": "Support Activities for Animal Production",
+  "receipts_musd": 11,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "115310",
+  "exception": null,
+  "title": "Support Activities for Forestry",
+  "receipts_musd": 11.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "115310",
+  "exception": "Exception 1",
+  "title": "Forest Fire Suppression1",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": "See footnote 1"
+ },
+ {
+  "naics": "115310",
+  "exception": "Exception 2",
+  "title": "Fuels Management Services1",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": "See footnote 1"
+ },
+ {
+  "naics": "211120",
+  "exception": null,
+  "title": "Crude Petroleum Extraction",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "211130",
+  "exception": null,
+  "title": "Natural Gas Extraction",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "212114",
+  "exception": null,
+  "title": "Surface Coal Mining",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "212115",
+  "exception": null,
+  "title": "Underground Coal Mining",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "212210",
+  "exception": null,
+  "title": "Iron Ore Mining",
+  "receipts_musd": null,
+  "employees": 1400,
+  "footnote": null
+ },
+ {
+  "naics": "212220",
+  "exception": null,
+  "title": "Gold Ore and Silver Ore Mining",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "212230",
+  "exception": null,
+  "title": "Copper, Nickel, Lead, and Zinc Mining",
+  "receipts_musd": null,
+  "employees": 1400,
+  "footnote": null
+ },
+ {
+  "naics": "212290",
+  "exception": null,
+  "title": "Other Metal Ore Mining",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "212311",
+  "exception": null,
+  "title": "Dimension Stone Mining and Quarrying",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "212312",
+  "exception": null,
+  "title": "Crushed and Broken Limestone Mining and Quarrying",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "212313",
+  "exception": null,
+  "title": "Crushed and Broken Granite Mining and Quarrying",
+  "receipts_musd": null,
+  "employees": 850,
+  "footnote": null
+ },
+ {
+  "naics": "212319",
+  "exception": null,
+  "title": "Other Crushed and Broken Stone Mining and Quarrying",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "212321",
+  "exception": null,
+  "title": "Construction Sand and Gravel Mining",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "212322",
+  "exception": null,
+  "title": "Industrial Sand Mining",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "212323",
+  "exception": null,
+  "title": "Kaolin, Clay, and Ceramic and Refractory Minerals Mining",
+  "receipts_musd": null,
+  "employees": 650,
+  "footnote": null
+ },
+ {
+  "naics": "212390",
+  "exception": null,
+  "title": "Other Nonmetallic Mineral Mining and Quarrying",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "213111",
+  "exception": null,
+  "title": "Drilling Oil and Gas Wells",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "213112",
+  "exception": null,
+  "title": "Support Activities for Oil and Gas Operations",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "213113",
+  "exception": null,
+  "title": "Support Activities for Coal Mining",
+  "receipts_musd": 27.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "213114",
+  "exception": null,
+  "title": "Support Activities for Metal Mining",
+  "receipts_musd": 41,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "213115",
+  "exception": null,
+  "title": "Support Activities for Nonmetallic Minerals (except Fuels) Mining",
+  "receipts_musd": 20.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "221111",
+  "exception": null,
+  "title": "Hydroelectric Power Generation",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "221112",
+  "exception": null,
+  "title": "Fossil Fuel Electric Power Generation",
+  "receipts_musd": null,
+  "employees": 950,
+  "footnote": null
+ },
+ {
+  "naics": "221113",
+  "exception": null,
+  "title": "Nuclear Electric Power Generation",
+  "receipts_musd": null,
+  "employees": 1150,
+  "footnote": null
+ },
+ {
+  "naics": "221114",
+  "exception": null,
+  "title": "Solar Electric Power Generation",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "221115",
+  "exception": null,
+  "title": "Wind Electric Power Generation",
+  "receipts_musd": null,
+  "employees": 1150,
+  "footnote": null
+ },
+ {
+  "naics": "221116",
+  "exception": null,
+  "title": "Geothermal Electric Power Generation",
+  "receipts_musd": null,
+  "employees": 250,
+  "footnote": null
+ },
+ {
+  "naics": "221117",
+  "exception": null,
+  "title": "Biomass Electric Power Generation",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "221118",
+  "exception": null,
+  "title": "Other Electric Power Generation",
+  "receipts_musd": null,
+  "employees": 650,
+  "footnote": null
+ },
+ {
+  "naics": "221121",
+  "exception": null,
+  "title": "Electric Bulk Power Transmission and Control",
+  "receipts_musd": null,
+  "employees": 950,
+  "footnote": null
+ },
+ {
+  "naics": "221122",
+  "exception": null,
+  "title": "Electric Power Distribution",
+  "receipts_musd": null,
+  "employees": 1100,
+  "footnote": null
+ },
+ {
+  "naics": "221210",
+  "exception": null,
+  "title": "Natural Gas Distribution",
+  "receipts_musd": null,
+  "employees": 1150,
+  "footnote": null
+ },
+ {
+  "naics": "221310",
+  "exception": null,
+  "title": "Water Supply and Irrigation Systems",
+  "receipts_musd": 41,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "221320",
+  "exception": null,
+  "title": "Sewage Treatment Facilities",
+  "receipts_musd": 35,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "221330",
+  "exception": null,
+  "title": "Steam and Air\u2011Conditioning Supply",
+  "receipts_musd": 30,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "236115",
+  "exception": null,
+  "title": "New Single-family Housing Construction (Except For-Sale Builders)",
+  "receipts_musd": 45,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "236116",
+  "exception": null,
+  "title": "New Multifamily Housing Construction (except For-Sale Builders)",
+  "receipts_musd": 45,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "236117",
+  "exception": null,
+  "title": "New Housing For-Sale Builders",
+  "receipts_musd": 45,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "236118",
+  "exception": null,
+  "title": "Residential Remodelers",
+  "receipts_musd": 45,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "236210",
+  "exception": null,
+  "title": "Industrial Building Construction",
+  "receipts_musd": 45,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "236220",
+  "exception": null,
+  "title": "Commercial and Institutional Building Construction",
+  "receipts_musd": 45,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "237110",
+  "exception": null,
+  "title": "Water and Sewer Line and Related Structures Construction",
+  "receipts_musd": 45,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "237120",
+  "exception": null,
+  "title": "Oil and Gas Pipeline and Related Structures Construction",
+  "receipts_musd": 45,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "237130",
+  "exception": null,
+  "title": "Power and Communication Line and Related Structures Construction",
+  "receipts_musd": 45,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "237210",
+  "exception": null,
+  "title": "Land Subdivision",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "237310",
+  "exception": null,
+  "title": "Highway, Street, and Bridge Construction",
+  "receipts_musd": 45,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "237990",
+  "exception": null,
+  "title": "Other Heavy and Civil Engineering Construction",
+  "receipts_musd": 45,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "237990",
+  "exception": "Exception",
+  "title": "Dredging and Surface Cleanup Activities2",
+  "receipts_musd": 37,
+  "employees": null,
+  "footnote": "See footnote 2"
+ },
+ {
+  "naics": "238110",
+  "exception": null,
+  "title": "Poured Concrete Foundation and Structure Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238120",
+  "exception": null,
+  "title": "Structural Steel and Precast Concrete Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238130",
+  "exception": null,
+  "title": "Framing Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238140",
+  "exception": null,
+  "title": "Masonry Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238150",
+  "exception": null,
+  "title": "Glass and Glazing Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238160",
+  "exception": null,
+  "title": "Roofing Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238170",
+  "exception": null,
+  "title": "Siding Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238190",
+  "exception": null,
+  "title": "Other Foundation, Structure, and Building Exterior Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238210",
+  "exception": null,
+  "title": "Electrical Contractors and Other Wiring Installation Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238220",
+  "exception": null,
+  "title": "Plumbing, Heating, and Air\u2011Conditioning Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238290",
+  "exception": null,
+  "title": "Other Building Equipment Contractors",
+  "receipts_musd": 22,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238310",
+  "exception": null,
+  "title": "Drywall and Insulation Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238320",
+  "exception": null,
+  "title": "Painting and Wall Covering Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238330",
+  "exception": null,
+  "title": "Flooring Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238340",
+  "exception": null,
+  "title": "Tile and Terrazzo Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238350",
+  "exception": null,
+  "title": "Finish Carpentry Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238390",
+  "exception": null,
+  "title": "Other Building Finishing Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238910",
+  "exception": null,
+  "title": "Site Preparation Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238990",
+  "exception": null,
+  "title": "All Other Specialty Trade Contractors",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "238990",
+  "exception": "Exception",
+  "title": "Building and Property Specialty Trade Services 13",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": "See footnote 13"
+ },
+ {
+  "naics": "311111",
+  "exception": null,
+  "title": "Dog and Cat Food Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "311119",
+  "exception": null,
+  "title": "Other Animal Food Manufacturing",
+  "receipts_musd": null,
+  "employees": 650,
+  "footnote": null
+ },
+ {
+  "naics": "311211",
+  "exception": null,
+  "title": "Flour Milling",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "311212",
+  "exception": null,
+  "title": "Rice Milling",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "311213",
+  "exception": null,
+  "title": "Malt Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "311221",
+  "exception": null,
+  "title": "Wet Corn Milling and Starch Manufacturing",
+  "receipts_musd": null,
+  "employees": 1300,
+  "footnote": null
+ },
+ {
+  "naics": "311224",
+  "exception": null,
+  "title": "Soybean and Other Oilseed Processing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "311225",
+  "exception": null,
+  "title": "Fats and Oils Refining and Blending",
+  "receipts_musd": null,
+  "employees": 1100,
+  "footnote": null
+ },
+ {
+  "naics": "311230",
+  "exception": null,
+  "title": "Breakfast Cereal Manufacturing",
+  "receipts_musd": null,
+  "employees": 1300,
+  "footnote": null
+ },
+ {
+  "naics": "311313",
+  "exception": null,
+  "title": "Beet Sugar Manufacturing",
+  "receipts_musd": null,
+  "employees": 1150,
+  "footnote": null
+ },
+ {
+  "naics": "311314",
+  "exception": null,
+  "title": "Cane Sugar Manufacturing",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "311340",
+  "exception": null,
+  "title": "Nonchocolate Confectionery Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "311351",
+  "exception": null,
+  "title": "Chocolate and Confectionery Manufacturing from Cacao Beans",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "311352",
+  "exception": null,
+  "title": "Confectionery Manufacturing from Purchased Chocolate",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "311411",
+  "exception": null,
+  "title": "Frozen Fruit, Juice and Vegetable Manufacturing",
+  "receipts_musd": null,
+  "employees": 1100,
+  "footnote": null
+ },
+ {
+  "naics": "311412",
+  "exception": null,
+  "title": "Frozen Specialty Food Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "311421",
+  "exception": null,
+  "title": "Fruit and Vegetable Canning3",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": "See footnote 3"
+ },
+ {
+  "naics": "311422",
+  "exception": null,
+  "title": "Specialty Canning",
+  "receipts_musd": null,
+  "employees": 1400,
+  "footnote": null
+ },
+ {
+  "naics": "311423",
+  "exception": null,
+  "title": "Dried and Dehydrated Food Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "311511",
+  "exception": null,
+  "title": "Fluid Milk Manufacturing",
+  "receipts_musd": null,
+  "employees": 1150,
+  "footnote": null
+ },
+ {
+  "naics": "311512",
+  "exception": null,
+  "title": "Creamery Butter Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "311513",
+  "exception": null,
+  "title": "Cheese Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "311514",
+  "exception": null,
+  "title": "Dry, Condensed, and Evaporated Dairy Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "311520",
+  "exception": null,
+  "title": "Ice Cream and Frozen Dessert Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "311611",
+  "exception": null,
+  "title": "Animal (except Poultry) Slaughtering",
+  "receipts_musd": null,
+  "employees": 1150,
+  "footnote": null
+ },
+ {
+  "naics": "311612",
+  "exception": null,
+  "title": "Meat Processed from Carcasses",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "311613",
+  "exception": null,
+  "title": "Rendering and Meat Byproduct Processing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "311615",
+  "exception": null,
+  "title": "Poultry Processing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "311710",
+  "exception": null,
+  "title": "Seafood Product Preparation and Packaging",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "311811",
+  "exception": null,
+  "title": "Retail Bakeries",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "311812",
+  "exception": null,
+  "title": "Commercial Bakeries",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "311813",
+  "exception": null,
+  "title": "Frozen Cakes, Pies, and Other Pastries Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "311821",
+  "exception": null,
+  "title": "Cookie and Cracker Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "311824",
+  "exception": null,
+  "title": "Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour",
+  "receipts_musd": null,
+  "employees": 850,
+  "footnote": null
+ },
+ {
+  "naics": "311830",
+  "exception": null,
+  "title": "Tortilla Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "311911",
+  "exception": null,
+  "title": "Roasted Nuts and Peanut Butter Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "311919",
+  "exception": null,
+  "title": "Other Snack Food Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "311920",
+  "exception": null,
+  "title": "Coffee and Tea Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "311930",
+  "exception": null,
+  "title": "Flavoring Syrup and Concentrate Manufacturing",
+  "receipts_musd": null,
+  "employees": 1100,
+  "footnote": null
+ },
+ {
+  "naics": "311941",
+  "exception": null,
+  "title": "Mayonnaise, Dressing and Other Prepared Sauce Manufacturing",
+  "receipts_musd": null,
+  "employees": 850,
+  "footnote": null
+ },
+ {
+  "naics": "311942",
+  "exception": null,
+  "title": "Spice and Extract Manufacturing",
+  "receipts_musd": null,
+  "employees": 650,
+  "footnote": null
+ },
+ {
+  "naics": "311991",
+  "exception": null,
+  "title": "Perishable Prepared Food Manufacturing",
+  "receipts_musd": null,
+  "employees": 700,
+  "footnote": null
+ },
+ {
+  "naics": "311999",
+  "exception": null,
+  "title": "All Other Miscellaneous Food Manufacturing",
+  "receipts_musd": null,
+  "employees": 700,
+  "footnote": null
+ },
+ {
+  "naics": "312111",
+  "exception": null,
+  "title": "Soft Drink Manufacturing",
+  "receipts_musd": null,
+  "employees": 1400,
+  "footnote": null
+ },
+ {
+  "naics": "312112",
+  "exception": null,
+  "title": "Bottled Water Manufacturing",
+  "receipts_musd": null,
+  "employees": 1100,
+  "footnote": null
+ },
+ {
+  "naics": "312113",
+  "exception": null,
+  "title": "Ice Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "312120",
+  "exception": null,
+  "title": "Breweries",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "312130",
+  "exception": null,
+  "title": "Wineries",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "312140",
+  "exception": null,
+  "title": "Distilleries",
+  "receipts_musd": null,
+  "employees": 1100,
+  "footnote": null
+ },
+ {
+  "naics": "312230",
+  "exception": null,
+  "title": "Tobacco Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "313110",
+  "exception": null,
+  "title": "Fiber, Yarn, and Thread Mills",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "313210",
+  "exception": null,
+  "title": "Broadwoven Fabric Mills",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "313220",
+  "exception": null,
+  "title": "Narrow Fabric Mills and Schiffli Machine Embroidery",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "313230",
+  "exception": null,
+  "title": "Nonwoven Fabric Mills",
+  "receipts_musd": null,
+  "employees": 850,
+  "footnote": null
+ },
+ {
+  "naics": "313240",
+  "exception": null,
+  "title": "Knit Fabric Mills",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "313310",
+  "exception": null,
+  "title": "Textile and Fabric Finishing Mills",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "313320",
+  "exception": null,
+  "title": "Fabric Coating Mills",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "314110",
+  "exception": null,
+  "title": "Carpet and Rug Mills",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "314120",
+  "exception": null,
+  "title": "Curtain and Linen Mills",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "314910",
+  "exception": null,
+  "title": "Textile Bag and Canvas Mills",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "314994",
+  "exception": null,
+  "title": "Rope, Cordage, Twine, Tire Cord, and Tire Fabric Mills",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "314999",
+  "exception": null,
+  "title": "All Other Miscellaneous Textile Product Mills",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "315120",
+  "exception": null,
+  "title": "Apparel Knitting Mills",
+  "receipts_musd": null,
+  "employees": 850,
+  "footnote": null
+ },
+ {
+  "naics": "315210",
+  "exception": null,
+  "title": "Cut and Sew Apparel Contractors",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "315250",
+  "exception": null,
+  "title": "Cut and Sew Apparel Manufacturing (except Contractors)",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "315990",
+  "exception": null,
+  "title": "Apparel Accessories and Other Apparel Manufacturing",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "316110",
+  "exception": null,
+  "title": "Leather and Hide Tanning and Finishing",
+  "receipts_musd": null,
+  "employees": 800,
+  "footnote": null
+ },
+ {
+  "naics": "316210",
+  "exception": null,
+  "title": "Footwear Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "316990",
+  "exception": null,
+  "title": "Other Leather and Allied Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "321113",
+  "exception": null,
+  "title": "Sawmills",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "321114",
+  "exception": null,
+  "title": "Wood Preservation",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "321211",
+  "exception": null,
+  "title": "Hardwood Veneer and Plywood Manufacturing",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "321212",
+  "exception": null,
+  "title": "Softwood Veneer and Plywood Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "321215",
+  "exception": null,
+  "title": "Engineered Wood Member Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "321219",
+  "exception": null,
+  "title": "Reconstituted Wood Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "321911",
+  "exception": null,
+  "title": "Wood Window and Door Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "321912",
+  "exception": null,
+  "title": "Cut Stock, Resawing Lumber, and Planing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "321918",
+  "exception": null,
+  "title": "Other Millwork (including Flooring)",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "321920",
+  "exception": null,
+  "title": "Wood Container and Pallet Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "321991",
+  "exception": null,
+  "title": "Manufactured Home (Mobile Home) Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "321992",
+  "exception": null,
+  "title": "Prefabricated Wood Building Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "321999",
+  "exception": null,
+  "title": "All Other Miscellaneous Wood Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "322110",
+  "exception": null,
+  "title": "Pulp Mills",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "322120",
+  "exception": null,
+  "title": "Paper Mills",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "322130",
+  "exception": null,
+  "title": "Paperboard Mills",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "322211",
+  "exception": null,
+  "title": "Corrugated and Solid Fiber Box Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "322212",
+  "exception": null,
+  "title": "Folding Paperboard Box Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "322219",
+  "exception": null,
+  "title": "Other Paperboard Container Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "322220",
+  "exception": null,
+  "title": "Paper Bag and Coated and Treated Paper Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "322230",
+  "exception": null,
+  "title": "Stationery Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "322291",
+  "exception": null,
+  "title": "Sanitary Paper Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "322299",
+  "exception": null,
+  "title": "All Other Converted Paper Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "323111",
+  "exception": null,
+  "title": "Commercial Printing (except Screen and Books)",
+  "receipts_musd": null,
+  "employees": 650,
+  "footnote": null
+ },
+ {
+  "naics": "323113",
+  "exception": null,
+  "title": "Commercial Screen Printing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "323117",
+  "exception": null,
+  "title": "Books Printing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "323120",
+  "exception": null,
+  "title": "Support Activities for Printing",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "324110",
+  "exception": null,
+  "title": "Petroleum Refineries4",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": "See footnote 4"
+ },
+ {
+  "naics": "324121",
+  "exception": null,
+  "title": "Asphalt Paving Mixture and Block Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "324122",
+  "exception": null,
+  "title": "Asphalt Shingle and Coating Materials Manufacturing",
+  "receipts_musd": null,
+  "employees": 1100,
+  "footnote": null
+ },
+ {
+  "naics": "324191",
+  "exception": null,
+  "title": "Petroleum Lubricating Oil and Grease Manufacturing",
+  "receipts_musd": null,
+  "employees": 900,
+  "footnote": null
+ },
+ {
+  "naics": "324199",
+  "exception": null,
+  "title": "All Other Petroleum and Coal Products Manufacturing",
+  "receipts_musd": null,
+  "employees": 950,
+  "footnote": null
+ },
+ {
+  "naics": "325110",
+  "exception": null,
+  "title": "Petrochemical Manufacturing",
+  "receipts_musd": null,
+  "employees": 1300,
+  "footnote": null
+ },
+ {
+  "naics": "325120",
+  "exception": null,
+  "title": "Industrial Gas Manufacturing",
+  "receipts_musd": null,
+  "employees": 1200,
+  "footnote": null
+ },
+ {
+  "naics": "325130",
+  "exception": null,
+  "title": "Synthetic Dye and Pigment Manufacturing",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "325180",
+  "exception": null,
+  "title": "Other Basic Inorganic Chemical Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "325193",
+  "exception": null,
+  "title": "Ethyl Alcohol Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "325194",
+  "exception": null,
+  "title": "Cyclic Crude, Intermediate, and Gum and Wood Chemical Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "325199",
+  "exception": null,
+  "title": "All Other Basic Organic Chemical Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "325211",
+  "exception": null,
+  "title": "Plastics Material and Resin Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "325212",
+  "exception": null,
+  "title": "Synthetic Rubber Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "325220",
+  "exception": null,
+  "title": "Artificial and Synthetic Fibers and Filaments Manufacturing",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "325311",
+  "exception": null,
+  "title": "Nitrogenous Fertilizer Manufacturing",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "325312",
+  "exception": null,
+  "title": "Phosphatic Fertilizer Manufacturing",
+  "receipts_musd": null,
+  "employees": 1350,
+  "footnote": null
+ },
+ {
+  "naics": "325314",
+  "exception": null,
+  "title": "Fertilizer (Mixing Only) Manufacturing",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "325315",
+  "exception": null,
+  "title": "Compost Manufacturing",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "325320",
+  "exception": null,
+  "title": "Pesticide and Other Agricultural Chemical Manufacturing",
+  "receipts_musd": null,
+  "employees": 1150,
+  "footnote": null
+ },
+ {
+  "naics": "325411",
+  "exception": null,
+  "title": "Medicinal and Botanical Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "325412",
+  "exception": null,
+  "title": "Pharmaceutical Preparation Manufacturing",
+  "receipts_musd": null,
+  "employees": 1300,
+  "footnote": null
+ },
+ {
+  "naics": "325413",
+  "exception": null,
+  "title": "In\u2011Vitro Diagnostic Substance Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "325414",
+  "exception": null,
+  "title": "Biological Product (except Diagnostic) Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "325510",
+  "exception": null,
+  "title": "Paint and Coating Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "325520",
+  "exception": null,
+  "title": "Adhesive Manufacturing",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "325611",
+  "exception": null,
+  "title": "Soap and Other Detergent Manufacturing",
+  "receipts_musd": null,
+  "employees": 1100,
+  "footnote": null
+ },
+ {
+  "naics": "325612",
+  "exception": null,
+  "title": "Polish and Other Sanitation Good Manufacturing",
+  "receipts_musd": null,
+  "employees": 900,
+  "footnote": null
+ },
+ {
+  "naics": "325613",
+  "exception": null,
+  "title": "Surface Active Agent Manufacturing",
+  "receipts_musd": null,
+  "employees": 1100,
+  "footnote": null
+ },
+ {
+  "naics": "325620",
+  "exception": null,
+  "title": "Toilet Preparation Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "325910",
+  "exception": null,
+  "title": "Printing Ink Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "325920",
+  "exception": null,
+  "title": "Explosives Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "325991",
+  "exception": null,
+  "title": "Custom Compounding of Purchased Resins",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "325992",
+  "exception": null,
+  "title": "Photographic Film, Paper, Plate, Chemical, and Copy Toner Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "325998",
+  "exception": null,
+  "title": "All Other Miscellaneous Chemical Product and Preparation Manufacturing",
+  "receipts_musd": null,
+  "employees": 650,
+  "footnote": null
+ },
+ {
+  "naics": "326111",
+  "exception": null,
+  "title": "Plastic Bag and Pouch Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "326112",
+  "exception": null,
+  "title": "Plastics Packaging Film and Sheet (including Laminated) Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "326113",
+  "exception": null,
+  "title": "Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "326121",
+  "exception": null,
+  "title": "Unlaminated Plastics Profile Shape Manufacturing",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "326122",
+  "exception": null,
+  "title": "Plastics Pipe and Pipe Fitting Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "326130",
+  "exception": null,
+  "title": "Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing",
+  "receipts_musd": null,
+  "employees": 650,
+  "footnote": null
+ },
+ {
+  "naics": "326140",
+  "exception": null,
+  "title": "Polystyrene Foam Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "326150",
+  "exception": null,
+  "title": "Urethane and Other Foam Product (except Polystyrene) Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "326160",
+  "exception": null,
+  "title": "Plastics Bottle Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "326191",
+  "exception": null,
+  "title": "Plastics Plumbing Fixture Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "326199",
+  "exception": null,
+  "title": "All Other Plastics Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "326211",
+  "exception": null,
+  "title": "Tire Manufacturing (except Retreading)5",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": "See footnote 5"
+ },
+ {
+  "naics": "326212",
+  "exception": null,
+  "title": "Tire Retreading",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "326220",
+  "exception": null,
+  "title": "Rubber and Plastics Hoses and Belting Manufacturing",
+  "receipts_musd": null,
+  "employees": 800,
+  "footnote": null
+ },
+ {
+  "naics": "326291",
+  "exception": null,
+  "title": "Rubber Product Manufacturing for Mechanical Use",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "326299",
+  "exception": null,
+  "title": "All Other Rubber Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 650,
+  "footnote": null
+ },
+ {
+  "naics": "327110",
+  "exception": null,
+  "title": "Pottery, Ceramics, and Plumbing Fixture Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "327120",
+  "exception": null,
+  "title": "Clay Building Material and Refractories Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "327211",
+  "exception": null,
+  "title": "Flat Glass Manufacturing",
+  "receipts_musd": null,
+  "employees": 1100,
+  "footnote": null
+ },
+ {
+  "naics": "327212",
+  "exception": null,
+  "title": "Other Pressed and Blown Glass and Glassware Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "327213",
+  "exception": null,
+  "title": "Glass Container Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "327215",
+  "exception": null,
+  "title": "Glass Product Manufacturing Made of Purchased Glass",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "327310",
+  "exception": null,
+  "title": "Cement Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "327320",
+  "exception": null,
+  "title": "Ready\u2011Mix Concrete Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "327331",
+  "exception": null,
+  "title": "Concrete Block and Brick Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "327332",
+  "exception": null,
+  "title": "Concrete Pipe Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "327390",
+  "exception": null,
+  "title": "Other Concrete Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "327410",
+  "exception": null,
+  "title": "Lime Manufacturing",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "327420",
+  "exception": null,
+  "title": "Gypsum Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "327910",
+  "exception": null,
+  "title": "Abrasive Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 900,
+  "footnote": null
+ },
+ {
+  "naics": "327991",
+  "exception": null,
+  "title": "Cut Stone and Stone Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "327992",
+  "exception": null,
+  "title": "Ground or Treated Mineral and Earth Manufacturing",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "327993",
+  "exception": null,
+  "title": "Mineral Wool Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "327999",
+  "exception": null,
+  "title": "All Other Miscellaneous Nonmetallic Mineral Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "331110",
+  "exception": null,
+  "title": "Iron and Steel Mills and Ferroalloy Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "331210",
+  "exception": null,
+  "title": "Iron and Steel Pipe and Tube Manufacturing from Purchased Steel",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "331221",
+  "exception": null,
+  "title": "Rolled Steel Shape Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "331222",
+  "exception": null,
+  "title": "Steel Wire Drawing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "331313",
+  "exception": null,
+  "title": "Alumina Refining and Primary Aluminum Production",
+  "receipts_musd": null,
+  "employees": 1300,
+  "footnote": null
+ },
+ {
+  "naics": "331314",
+  "exception": null,
+  "title": "Secondary Smelting and Alloying of Aluminum",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "331315",
+  "exception": null,
+  "title": "Aluminum Sheet, Plate and Foil Manufacturing",
+  "receipts_musd": null,
+  "employees": 1400,
+  "footnote": null
+ },
+ {
+  "naics": "331318",
+  "exception": null,
+  "title": "Other Aluminum Rolling, Drawing, and Extruding",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "331410",
+  "exception": null,
+  "title": "Nonferrous Metal (except Aluminum) Smelting and Refining",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "331420",
+  "exception": null,
+  "title": "Copper Rolling, Drawing, Extruding, and Alloying",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "331491",
+  "exception": null,
+  "title": "Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing and Extruding",
+  "receipts_musd": null,
+  "employees": 900,
+  "footnote": null
+ },
+ {
+  "naics": "331492",
+  "exception": null,
+  "title": "Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)",
+  "receipts_musd": null,
+  "employees": 850,
+  "footnote": null
+ },
+ {
+  "naics": "331511",
+  "exception": null,
+  "title": "Iron Foundries",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "331512",
+  "exception": null,
+  "title": "Steel Investment Foundries",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "331513",
+  "exception": null,
+  "title": "Steel Foundries (except Investment)",
+  "receipts_musd": null,
+  "employees": 700,
+  "footnote": null
+ },
+ {
+  "naics": "331523",
+  "exception": null,
+  "title": "Nonferrous Metal Die-Casting Foundries",
+  "receipts_musd": null,
+  "employees": 700,
+  "footnote": null
+ },
+ {
+  "naics": "331524",
+  "exception": null,
+  "title": "Aluminum Foundries (except Die\u2011Casting)",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "331529",
+  "exception": null,
+  "title": "Other Nonferrous Metal Foundries (except Die-Casting)",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "332111",
+  "exception": null,
+  "title": "Iron and Steel Forging",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "332112",
+  "exception": null,
+  "title": "Nonferrous Forging",
+  "receipts_musd": null,
+  "employees": 950,
+  "footnote": null
+ },
+ {
+  "naics": "332114",
+  "exception": null,
+  "title": "Custom Roll Forming",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "332117",
+  "exception": null,
+  "title": "Powder Metallurgy Part Manufacturing",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "332119",
+  "exception": null,
+  "title": "Metal Crown, Closure, and Other Metal Stamping (except Automotive)",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "332215",
+  "exception": null,
+  "title": "Metal Kitchen Cookware, Utensil, Cutlery, and Flatware (except Precious) Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "332216",
+  "exception": null,
+  "title": "Saw Blade and Handtool Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "332311",
+  "exception": null,
+  "title": "Prefabricated Metal Building and Component Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "332312",
+  "exception": null,
+  "title": "Fabricated Structural Metal Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "332313",
+  "exception": null,
+  "title": "Plate Work Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "332321",
+  "exception": null,
+  "title": "Metal Window and Door Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "332322",
+  "exception": null,
+  "title": "Sheet Metal Work Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "332323",
+  "exception": null,
+  "title": "Ornamental and Architectural Metal Work Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "332410",
+  "exception": null,
+  "title": "Power Boiler and Heat Exchanger Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "332420",
+  "exception": null,
+  "title": "Metal Tank (Heavy Gauge) Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "332431",
+  "exception": null,
+  "title": "Metal Can Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "332439",
+  "exception": null,
+  "title": "Other Metal Container Manufacturing",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "332510",
+  "exception": null,
+  "title": "Hardware Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "332613",
+  "exception": null,
+  "title": "Spring Manufacturing",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "332618",
+  "exception": null,
+  "title": "Other Fabricated Wire Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "332710",
+  "exception": null,
+  "title": "Machine Shops",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "332721",
+  "exception": null,
+  "title": "Precision Turned Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "332722",
+  "exception": null,
+  "title": "Bolt, Nut, Screw, Rivet and Washer Manufacturing",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "332811",
+  "exception": null,
+  "title": "Metal Heat Treating",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "332812",
+  "exception": null,
+  "title": "Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "332813",
+  "exception": null,
+  "title": "Electroplating, Plating, Polishing, Anodizing and Coloring",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "332911",
+  "exception": null,
+  "title": "Industrial Valve Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "332912",
+  "exception": null,
+  "title": "Fluid Power Valve and Hose Fitting Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "332913",
+  "exception": null,
+  "title": "Plumbing Fixture Fitting and Trim Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "332919",
+  "exception": null,
+  "title": "Other Metal Valve and Pipe Fitting Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "332991",
+  "exception": null,
+  "title": "Ball and Roller Bearing Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "332992",
+  "exception": null,
+  "title": "Small Arms Ammunition Manufacturing",
+  "receipts_musd": null,
+  "employees": 1300,
+  "footnote": null
+ },
+ {
+  "naics": "332993",
+  "exception": null,
+  "title": "Ammunition (except Small Arms) Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "332994",
+  "exception": null,
+  "title": "Small Arms, Ordnance, and Ordnance Accessories Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "332996",
+  "exception": null,
+  "title": "Fabricated Pipe and Pipe Fitting Manufacturing",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "332999",
+  "exception": null,
+  "title": "All Other Miscellaneous Fabricated Metal Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "333111",
+  "exception": null,
+  "title": "Farm Machinery and Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "333112",
+  "exception": null,
+  "title": "Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "333120",
+  "exception": null,
+  "title": "Construction Machinery Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "333131",
+  "exception": null,
+  "title": "Mining Machinery and Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 900,
+  "footnote": null
+ },
+ {
+  "naics": "333132",
+  "exception": null,
+  "title": "Oil and Gas Field Machinery and Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "333241",
+  "exception": null,
+  "title": "Food Product Machinery Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "333242",
+  "exception": null,
+  "title": "Semiconductor Machinery Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "333243",
+  "exception": null,
+  "title": "Sawmill, Woodworking, and Paper Machinery Manufacturing",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "333248",
+  "exception": null,
+  "title": "All Other Industrial Machinery Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "333310",
+  "exception": null,
+  "title": "Commercial and Service Industry Machinery Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "333413",
+  "exception": null,
+  "title": "Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "333414",
+  "exception": null,
+  "title": "Heating Equipment (except Warm Air Furnaces) Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "333415",
+  "exception": null,
+  "title": "Air\u2011Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "333511",
+  "exception": null,
+  "title": "Industrial Mold Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "333514",
+  "exception": null,
+  "title": "Special Die and Tool, Die Set, Jig and Fixture Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "333515",
+  "exception": null,
+  "title": "Cutting Tool and Machine Tool Accessory Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "333517",
+  "exception": null,
+  "title": "Machine Tool Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "333519",
+  "exception": null,
+  "title": "Rolling Mill and Other Metalworking Machinery Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "333611",
+  "exception": null,
+  "title": "Turbine and Turbine Generator Set Unit Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "333612",
+  "exception": null,
+  "title": "Speed Changer, Industrial High\u2011Speed Drive and Gear Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "333613",
+  "exception": null,
+  "title": "Mechanical Power Transmission Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "333618",
+  "exception": null,
+  "title": "Other Engine Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "333912",
+  "exception": null,
+  "title": "Air and Gas Compressor Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "333914",
+  "exception": null,
+  "title": "Measuring, Dispensing, and Other Pumping Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "333921",
+  "exception": null,
+  "title": "Elevator and Moving Stairway Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "333922",
+  "exception": null,
+  "title": "Conveyor and Conveying Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "333923",
+  "exception": null,
+  "title": "Overhead Traveling Crane, Hoist and Monorail System Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "333924",
+  "exception": null,
+  "title": "Industrial Truck, Tractor, Trailer and Stacker Machinery Manufacturing",
+  "receipts_musd": null,
+  "employees": 900,
+  "footnote": null
+ },
+ {
+  "naics": "333991",
+  "exception": null,
+  "title": "Power\u2011Driven Hand Tool Manufacturing",
+  "receipts_musd": null,
+  "employees": 950,
+  "footnote": null
+ },
+ {
+  "naics": "333992",
+  "exception": null,
+  "title": "Welding and Soldering Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "333993",
+  "exception": null,
+  "title": "Packaging Machinery Manufacturing",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "333994",
+  "exception": null,
+  "title": "Industrial Process Furnace and Oven Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "333995",
+  "exception": null,
+  "title": "Fluid Power Cylinder and Actuator Manufacturing",
+  "receipts_musd": null,
+  "employees": 800,
+  "footnote": null
+ },
+ {
+  "naics": "333996",
+  "exception": null,
+  "title": "Fluid Power Pump and Motor Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "333998",
+  "exception": null,
+  "title": "All Other Miscellaneous General Purpose Machinery Manufacturing",
+  "receipts_musd": null,
+  "employees": 700,
+  "footnote": null
+ },
+ {
+  "naics": "334111",
+  "exception": null,
+  "title": "Electronic Computer Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "334112",
+  "exception": null,
+  "title": "Computer Storage Device Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "334118",
+  "exception": null,
+  "title": "Computer Terminal and Other Computer Peripheral Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "334210",
+  "exception": null,
+  "title": "Telephone Apparatus Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "334220",
+  "exception": null,
+  "title": "Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "334290",
+  "exception": null,
+  "title": "Other Communications Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 800,
+  "footnote": null
+ },
+ {
+  "naics": "334310",
+  "exception": null,
+  "title": "Audio and Video Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "334412",
+  "exception": null,
+  "title": "Bare Printed Circuit Board Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "334413",
+  "exception": null,
+  "title": "Semiconductor and Related Device Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "334416",
+  "exception": null,
+  "title": "Capacitor, Resistor, Coil, Transformer, and Other Inductor Manufacturing",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "334417",
+  "exception": null,
+  "title": "Electronic Connector Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "334418",
+  "exception": null,
+  "title": "Printed Circuit Assembly (Electronic Assembly) Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "334419",
+  "exception": null,
+  "title": "Other Electronic Component Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "334510",
+  "exception": null,
+  "title": "Electromedical and Electrotherapeutic Apparatus Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "334511",
+  "exception": null,
+  "title": "Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing",
+  "receipts_musd": null,
+  "employees": 1350,
+  "footnote": null
+ },
+ {
+  "naics": "334512",
+  "exception": null,
+  "title": "Automatic Environmental Control Manufacturing for Residential, Commercial and Appliance Use",
+  "receipts_musd": null,
+  "employees": 650,
+  "footnote": null
+ },
+ {
+  "naics": "334513",
+  "exception": null,
+  "title": "Instruments and Related Products Manufacturing for Measuring, Displaying, and Controlling Industrial Process Variables",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "334514",
+  "exception": null,
+  "title": "Totalizing Fluid Meter and Counting Device Manufacturing",
+  "receipts_musd": null,
+  "employees": 850,
+  "footnote": null
+ },
+ {
+  "naics": "334515",
+  "exception": null,
+  "title": "Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "334516",
+  "exception": null,
+  "title": "Analytical Laboratory Instrument Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "334517",
+  "exception": null,
+  "title": "Irradiation Apparatus Manufacturing",
+  "receipts_musd": null,
+  "employees": 1200,
+  "footnote": null
+ },
+ {
+  "naics": "334519",
+  "exception": null,
+  "title": "Other Measuring and Controlling Device Manufacturing",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "334610",
+  "exception": null,
+  "title": "Manufacturing and Reproducing Magnetic and Optical Media",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "335131",
+  "exception": null,
+  "title": "Residential Electric Lighting Fixture Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "335132",
+  "exception": null,
+  "title": "Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "335139",
+  "exception": null,
+  "title": "Electric Lamp Bulb and Other Lighting Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "335210",
+  "exception": null,
+  "title": "Small Electrical Appliance Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "335220",
+  "exception": null,
+  "title": "Major Household Appliance Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "335311",
+  "exception": null,
+  "title": "Power, Distribution and Specialty Transformer Manufacturing",
+  "receipts_musd": null,
+  "employees": 800,
+  "footnote": null
+ },
+ {
+  "naics": "335312",
+  "exception": null,
+  "title": "Motor and Generator Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "335313",
+  "exception": null,
+  "title": "Switchgear and Switchboard Apparatus Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "335314",
+  "exception": null,
+  "title": "Relay and Industrial Control Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "335910",
+  "exception": null,
+  "title": "Battery Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "335921",
+  "exception": null,
+  "title": "Fiber Optic Cable Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "335929",
+  "exception": null,
+  "title": "Other Communication and Energy Wire Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "335931",
+  "exception": null,
+  "title": "Current\u2011Carrying Wiring Device Manufacturing",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "335932",
+  "exception": null,
+  "title": "Noncurrent\u2011Carrying Wiring Device Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "335991",
+  "exception": null,
+  "title": "Carbon and Graphite Product Manufacturing",
+  "receipts_musd": null,
+  "employees": 900,
+  "footnote": null
+ },
+ {
+  "naics": "335999",
+  "exception": null,
+  "title": "All Other Miscellaneous Electrical Equipment and Component Manufacturing",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "336110",
+  "exception": null,
+  "title": "Automobile and Light Duty Motor Vehicle Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "336120",
+  "exception": null,
+  "title": "Heavy Duty Truck Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "336211",
+  "exception": null,
+  "title": "Motor Vehicle Body Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "336212",
+  "exception": null,
+  "title": "Truck Trailer Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "336213",
+  "exception": null,
+  "title": "Motor Home Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "336214",
+  "exception": null,
+  "title": "Travel Trailer and Camper Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "336310",
+  "exception": null,
+  "title": "Motor Vehicle Gasoline Engine and Engine Parts Manufacturing",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "336320",
+  "exception": null,
+  "title": "Motor Vehicle Electrical and Electronic Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "336330",
+  "exception": null,
+  "title": "Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "336340",
+  "exception": null,
+  "title": "Motor Vehicle Brake System Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "336350",
+  "exception": null,
+  "title": "Motor Vehicle Transmission and Power Train Parts Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "336360",
+  "exception": null,
+  "title": "Motor Vehicle Seating and Interior Trim Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "336370",
+  "exception": null,
+  "title": "Motor Vehicle Metal Stamping",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "336390",
+  "exception": null,
+  "title": "Other Motor Vehicle Parts Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "336411",
+  "exception": null,
+  "title": "Aircraft Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "336412",
+  "exception": null,
+  "title": "Aircraft Engine and Engine Parts Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "336413",
+  "exception": null,
+  "title": "Other Aircraft Part and Auxiliary Equipment Manufacturing7",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": "See footnote 7"
+ },
+ {
+  "naics": "336414",
+  "exception": null,
+  "title": "Guided Missile and Space Vehicle Manufacturing",
+  "receipts_musd": null,
+  "employees": 1300,
+  "footnote": null
+ },
+ {
+  "naics": "336415",
+  "exception": null,
+  "title": "Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": null
+ },
+ {
+  "naics": "336419",
+  "exception": null,
+  "title": "Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "336510",
+  "exception": null,
+  "title": "Railroad Rolling Stock Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "336611",
+  "exception": null,
+  "title": "Ship Building and Repairing",
+  "receipts_musd": null,
+  "employees": 1300,
+  "footnote": null
+ },
+ {
+  "naics": "336612",
+  "exception": null,
+  "title": "Boat Building",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "336991",
+  "exception": null,
+  "title": "Motorcycle, Bicycle and Parts Manufacturing",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "336992",
+  "exception": null,
+  "title": "Military Armored Vehicle, Tank and Tank Component Manufacturing",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "336999",
+  "exception": null,
+  "title": "All Other Transportation Equipment Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "337110",
+  "exception": null,
+  "title": "Wood Kitchen Cabinet and Counter Top Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "337121",
+  "exception": null,
+  "title": "Upholstered Household Furniture Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "337122",
+  "exception": null,
+  "title": "Nonupholstered Wood Household Furniture Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "337126",
+  "exception": null,
+  "title": "Household Furniture (except Wood and Upholstered) Manufacturing",
+  "receipts_musd": null,
+  "employees": 950,
+  "footnote": null
+ },
+ {
+  "naics": "337127",
+  "exception": null,
+  "title": "Institutional Furniture Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "337211",
+  "exception": null,
+  "title": "Wood Office Furniture Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "337212",
+  "exception": null,
+  "title": "Custom Architectural Woodwork and Millwork Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "337214",
+  "exception": null,
+  "title": "Office Furniture (Except Wood) Manufacturing",
+  "receipts_musd": null,
+  "employees": 1100,
+  "footnote": null
+ },
+ {
+  "naics": "337215",
+  "exception": null,
+  "title": "Showcase, Partition, Shelving, and Locker Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "337910",
+  "exception": null,
+  "title": "Mattress Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "337920",
+  "exception": null,
+  "title": "Blind and Shade Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "339112",
+  "exception": null,
+  "title": "Surgical and Medical Instrument Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "339113",
+  "exception": null,
+  "title": "Surgical Appliance and Supplies Manufacturing",
+  "receipts_musd": null,
+  "employees": 800,
+  "footnote": null
+ },
+ {
+  "naics": "339114",
+  "exception": null,
+  "title": "Dental Equipment and Supplies Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "339115",
+  "exception": null,
+  "title": "Ophthalmic Goods Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "339116",
+  "exception": null,
+  "title": "Dental Laboratories",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "339910",
+  "exception": null,
+  "title": "Jewelry and Silverware Manufacturing",
+  "receipts_musd": null,
+  "employees": 700,
+  "footnote": null
+ },
+ {
+  "naics": "339920",
+  "exception": null,
+  "title": "Sporting and Athletic Goods Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "339930",
+  "exception": null,
+  "title": "Doll, Toy, and Game Manufacturing",
+  "receipts_musd": null,
+  "employees": 700,
+  "footnote": null
+ },
+ {
+  "naics": "339940",
+  "exception": null,
+  "title": "Office Supplies (except Paper) Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "339950",
+  "exception": null,
+  "title": "Sign Manufacturing",
+  "receipts_musd": null,
+  "employees": 500,
+  "footnote": null
+ },
+ {
+  "naics": "339991",
+  "exception": null,
+  "title": "Gasket, Packing, and Sealing Device Manufacturing",
+  "receipts_musd": null,
+  "employees": 600,
+  "footnote": null
+ },
+ {
+  "naics": "339992",
+  "exception": null,
+  "title": "Musical Instrument Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "339993",
+  "exception": null,
+  "title": "Fastener, Button, Needle and Pin Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "339994",
+  "exception": null,
+  "title": "Broom, Brush and Mop Manufacturing",
+  "receipts_musd": null,
+  "employees": 750,
+  "footnote": null
+ },
+ {
+  "naics": "339995",
+  "exception": null,
+  "title": "Burial Casket Manufacturing",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "339999",
+  "exception": null,
+  "title": "All Other Miscellaneous Manufacturing",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "423110",
+  "exception": null,
+  "title": "Automobile and Other Motor Vehicle Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 250,
+  "footnote": null
+ },
+ {
+  "naics": "423120",
+  "exception": null,
+  "title": "Motor Vehicle Supplies and New Parts Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "423130",
+  "exception": null,
+  "title": "Tire and Tube Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "423140",
+  "exception": null,
+  "title": "Motor Vehicle Parts (Used) Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 125,
+  "footnote": null
+ },
+ {
+  "naics": "423210",
+  "exception": null,
+  "title": "Furniture Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 100,
+  "footnote": null
+ },
+ {
+  "naics": "423220",
+  "exception": null,
+  "title": "Home Furnishing Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 100,
+  "footnote": null
+ },
+ {
+  "naics": "423310",
+  "exception": null,
+  "title": "Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 150,
+  "footnote": null
+ },
+ {
+  "naics": "423320",
+  "exception": null,
+  "title": "Brick, Stone, and Related Construction Material Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 150,
+  "footnote": null
+ },
+ {
+  "naics": "423330",
+  "exception": null,
+  "title": "Roofing, Siding, and Insulation Material Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 225,
+  "footnote": null
+ },
+ {
+  "naics": "423390",
+  "exception": null,
+  "title": "Other Construction Material Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 100,
+  "footnote": null
+ },
+ {
+  "naics": "423410",
+  "exception": null,
+  "title": "Photographic Equipment and Supplies Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "423420",
+  "exception": null,
+  "title": "Office Equipment Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "423430",
+  "exception": null,
+  "title": "Computer and Computer Peripheral Equipment and Software Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 250,
+  "footnote": null
+ },
+ {
+  "naics": "423440",
+  "exception": null,
+  "title": "Other Commercial Equipment Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 100,
+  "footnote": null
+ },
+ {
+  "naics": "423450",
+  "exception": null,
+  "title": "Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "423460",
+  "exception": null,
+  "title": "Ophthalmic Goods Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 175,
+  "footnote": null
+ },
+ {
+  "naics": "423490",
+  "exception": null,
+  "title": "Other Professional Equipment and Supplies Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 150,
+  "footnote": null
+ },
+ {
+  "naics": "423510",
+  "exception": null,
+  "title": "Metal Service Centers and Other Metal Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "423520",
+  "exception": null,
+  "title": "Coal and Other Mineral and Ore Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "423610",
+  "exception": null,
+  "title": "Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "423620",
+  "exception": null,
+  "title": "Household Appliances, Electric Housewares, and Consumer Electronics Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 225,
+  "footnote": null
+ },
+ {
+  "naics": "423690",
+  "exception": null,
+  "title": "Other Electronic Parts and Equipment Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 250,
+  "footnote": null
+ },
+ {
+  "naics": "423710",
+  "exception": null,
+  "title": "Hardware Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 150,
+  "footnote": null
+ },
+ {
+  "naics": "423720",
+  "exception": null,
+  "title": "Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "423730",
+  "exception": null,
+  "title": "Warm Air Heating and Air\u2011Conditioning Equipment and Supplies Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 175,
+  "footnote": null
+ },
+ {
+  "naics": "423740",
+  "exception": null,
+  "title": "Refrigeration Equipment and Supplies Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 125,
+  "footnote": null
+ },
+ {
+  "naics": "423810",
+  "exception": null,
+  "title": "Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 250,
+  "footnote": null
+ },
+ {
+  "naics": "423820",
+  "exception": null,
+  "title": "Farm and Garden Machinery and Equipment Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 125,
+  "footnote": null
+ },
+ {
+  "naics": "423830",
+  "exception": null,
+  "title": "Industrial Machinery and Equipment Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 100,
+  "footnote": null
+ },
+ {
+  "naics": "423840",
+  "exception": null,
+  "title": "Industrial Supplies Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 125,
+  "footnote": null
+ },
+ {
+  "naics": "423850",
+  "exception": null,
+  "title": "Service Establishment Equipment and Supplies Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 125,
+  "footnote": null
+ },
+ {
+  "naics": "423860",
+  "exception": null,
+  "title": "Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 175,
+  "footnote": null
+ },
+ {
+  "naics": "423910",
+  "exception": null,
+  "title": "Sporting and Recreational Goods and Supplies Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 100,
+  "footnote": null
+ },
+ {
+  "naics": "423920",
+  "exception": null,
+  "title": "Toy and Hobby Goods and Supplies Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 175,
+  "footnote": null
+ },
+ {
+  "naics": "423930",
+  "exception": null,
+  "title": "Recyclable Material Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 125,
+  "footnote": null
+ },
+ {
+  "naics": "423940",
+  "exception": null,
+  "title": "Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 125,
+  "footnote": null
+ },
+ {
+  "naics": "423990",
+  "exception": null,
+  "title": "Other Miscellaneous Durable Goods Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 100,
+  "footnote": null
+ },
+ {
+  "naics": "424110",
+  "exception": null,
+  "title": "Printing and Writing Paper Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 225,
+  "footnote": null
+ },
+ {
+  "naics": "424120",
+  "exception": null,
+  "title": "Stationary and Office Supplies Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 150,
+  "footnote": null
+ },
+ {
+  "naics": "424130",
+  "exception": null,
+  "title": "Industrial and Personal Service Paper Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 150,
+  "footnote": null
+ },
+ {
+  "naics": "424210",
+  "exception": null,
+  "title": "Drugs and Druggists\u2019 Sundries Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 250,
+  "footnote": null
+ },
+ {
+  "naics": "424310",
+  "exception": null,
+  "title": "Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 100,
+  "footnote": null
+ },
+ {
+  "naics": "424340",
+  "exception": null,
+  "title": "Footwear Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "424350",
+  "exception": null,
+  "title": "Clothing and Clothing Accessories Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 150,
+  "footnote": null
+ },
+ {
+  "naics": "424410",
+  "exception": null,
+  "title": "General Line Grocery Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 250,
+  "footnote": null
+ },
+ {
+  "naics": "424420",
+  "exception": null,
+  "title": "Packaged Frozen Food Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "424430",
+  "exception": null,
+  "title": "Dairy Product (except Dried or Canned) Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "424440",
+  "exception": null,
+  "title": "Poultry and Poultry Product Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 150,
+  "footnote": null
+ },
+ {
+  "naics": "424450",
+  "exception": null,
+  "title": "Confectionery Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 225,
+  "footnote": null
+ },
+ {
+  "naics": "424460",
+  "exception": null,
+  "title": "Fish and Seafood Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 100,
+  "footnote": null
+ },
+ {
+  "naics": "424470",
+  "exception": null,
+  "title": "Meat and Meat Product Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 150,
+  "footnote": null
+ },
+ {
+  "naics": "424480",
+  "exception": null,
+  "title": "Fresh Fruit and Vegetable Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 100,
+  "footnote": null
+ },
+ {
+  "naics": "424490",
+  "exception": null,
+  "title": "Other Grocery and Related Products Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 250,
+  "footnote": null
+ },
+ {
+  "naics": "424510",
+  "exception": null,
+  "title": "Grain and Field Bean Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "424520",
+  "exception": null,
+  "title": "Livestock Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 125,
+  "footnote": null
+ },
+ {
+  "naics": "424590",
+  "exception": null,
+  "title": "Other Farm Product Raw Material Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 175,
+  "footnote": null
+ },
+ {
+  "naics": "424610",
+  "exception": null,
+  "title": "Plastics Materials and Basic Forms and Shapes Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 150,
+  "footnote": null
+ },
+ {
+  "naics": "424690",
+  "exception": null,
+  "title": "Other Chemical and Allied Products Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 175,
+  "footnote": null
+ },
+ {
+  "naics": "424710",
+  "exception": null,
+  "title": "Petroleum Bulk Stations and Terminals",
+  "receipts_musd": null,
+  "employees": 225,
+  "footnote": null
+ },
+ {
+  "naics": "424720",
+  "exception": null,
+  "title": "Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals)",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "424810",
+  "exception": null,
+  "title": "Beer and Ale Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "424820",
+  "exception": null,
+  "title": "Wine and Distilled Alcoholic Beverage Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 250,
+  "footnote": null
+ },
+ {
+  "naics": "424910",
+  "exception": null,
+  "title": "Farm Supplies Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "424920",
+  "exception": null,
+  "title": "Book, Periodical, and Newspaper Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "424930",
+  "exception": null,
+  "title": "Flower, Nursery Stock, and Florists\u2019 Supplies Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 100,
+  "footnote": null
+ },
+ {
+  "naics": "424940",
+  "exception": null,
+  "title": "Tobacco Product and Electronic Cigarette Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 250,
+  "footnote": null
+ },
+ {
+  "naics": "424950",
+  "exception": null,
+  "title": "Paint, Varnish, and Supplies Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 150,
+  "footnote": null
+ },
+ {
+  "naics": "424990",
+  "exception": null,
+  "title": "Other Miscellaneous Nondurable Goods Merchant Wholesalers",
+  "receipts_musd": null,
+  "employees": 100,
+  "footnote": null
+ },
+ {
+  "naics": "425120",
+  "exception": null,
+  "title": "Wholesale Trade Agents and Brokers",
+  "receipts_musd": null,
+  "employees": 125,
+  "footnote": null
+ },
+ {
+  "naics": "441110",
+  "exception": null,
+  "title": "New Car Dealers",
+  "receipts_musd": null,
+  "employees": 200,
+  "footnote": null
+ },
+ {
+  "naics": "441120",
+  "exception": null,
+  "title": "Used Car Dealers",
+  "receipts_musd": 30.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "441210",
+  "exception": null,
+  "title": "Recreational Vehicle Dealers",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "441222",
+  "exception": null,
+  "title": "Boat Dealers",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "441227",
+  "exception": null,
+  "title": "Motorcycle, ATV, and All Other Motor Vehicle Dealers",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "441330",
+  "exception": null,
+  "title": "Automotive Parts and Accessories Retailers",
+  "receipts_musd": 28.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "441340",
+  "exception": null,
+  "title": "Tire Dealers",
+  "receipts_musd": 25.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "444110",
+  "exception": null,
+  "title": "Home Centers",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "444120",
+  "exception": null,
+  "title": "Paint and Wallpaper Retailers",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "444140",
+  "exception": null,
+  "title": "Hardware Retailers",
+  "receipts_musd": 16.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "444180",
+  "exception": null,
+  "title": "Other Building Material Dealers",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "444230",
+  "exception": null,
+  "title": "Outdoor Power Equipment Retailers",
+  "receipts_musd": 9.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "444240",
+  "exception": null,
+  "title": "Nursery, Garden Center, and Farm Supply Retailers",
+  "receipts_musd": 21.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "445110",
+  "exception": null,
+  "title": "Supermarkets and Other Grocery Retailers (except Convenience Retailers)",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "445131",
+  "exception": null,
+  "title": "Convenience Retailers",
+  "receipts_musd": 36.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "445132",
+  "exception": null,
+  "title": "Vending Machine Operators",
+  "receipts_musd": 21,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "445230",
+  "exception": null,
+  "title": "Fruit and Vegetable Retailers",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "445240",
+  "exception": null,
+  "title": "Meat Retailers",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "445250",
+  "exception": null,
+  "title": "Fish and Seafood Retailers",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "445291",
+  "exception": null,
+  "title": "Baked Goods Retailers",
+  "receipts_musd": 16,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "445292",
+  "exception": null,
+  "title": "Confectionery and Nut Retailers",
+  "receipts_musd": 19.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "445298",
+  "exception": null,
+  "title": "All Other Specialty Food Retailers",
+  "receipts_musd": 10,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "445320",
+  "exception": null,
+  "title": "Beer, Wine, and Liquor Retailers",
+  "receipts_musd": 10,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "449110",
+  "exception": null,
+  "title": "Furniture Retailers",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "449121",
+  "exception": null,
+  "title": "Floor Covering Retailers",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "449122",
+  "exception": null,
+  "title": "Window Treatment Retailers",
+  "receipts_musd": 11.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "449129",
+  "exception": null,
+  "title": "All Other Home Furnishings Retailers",
+  "receipts_musd": 33.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "449210",
+  "exception": null,
+  "title": "Electronics and Appliance Retailers",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "455110",
+  "exception": null,
+  "title": "Department Stores",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "455211",
+  "exception": null,
+  "title": "Warehouse Clubs and Supercenters",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "455219",
+  "exception": null,
+  "title": "All Other General Merchandise Retailers",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "456110",
+  "exception": null,
+  "title": "Pharmacies and Drug Retailers",
+  "receipts_musd": 37.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "456120",
+  "exception": null,
+  "title": "Cosmetics, Beauty Supplies, and Perfume Retailers",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "456130",
+  "exception": null,
+  "title": "Optical Goods Retailers",
+  "receipts_musd": 29.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "456191",
+  "exception": null,
+  "title": "Food (Health) Supplement Retailers",
+  "receipts_musd": 22.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "456199",
+  "exception": null,
+  "title": "All Other Health and Personal Care Retailers",
+  "receipts_musd": 9.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "457110",
+  "exception": null,
+  "title": "Gasoline Stations with Convenience Stores",
+  "receipts_musd": 36.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "457120",
+  "exception": null,
+  "title": "Other Gasoline Stations",
+  "receipts_musd": 33.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "457210",
+  "exception": null,
+  "title": "Fuel Dealers",
+  "receipts_musd": null,
+  "employees": 100,
+  "footnote": null
+ },
+ {
+  "naics": "458110",
+  "exception": null,
+  "title": "Clothing and Clothing Accessories Retailers",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "458210",
+  "exception": null,
+  "title": "Shoe Retailers",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "458310",
+  "exception": null,
+  "title": "Jewelry Retailers",
+  "receipts_musd": 20.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "458320",
+  "exception": null,
+  "title": "Luggage and Leather Goods Retailers",
+  "receipts_musd": 38,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459110",
+  "exception": null,
+  "title": "Sporting Goods Retailers",
+  "receipts_musd": 26.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459120",
+  "exception": null,
+  "title": "Hobby, Toy, and Game Retailers",
+  "receipts_musd": 35,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459130",
+  "exception": null,
+  "title": "Sewing, Needlework, and Piece Goods Retailers",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459140",
+  "exception": null,
+  "title": "Musical Instrument and Supplies Retailers",
+  "receipts_musd": 22.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459210",
+  "exception": null,
+  "title": "Book Retailers and News Dealers",
+  "receipts_musd": 36,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459310",
+  "exception": null,
+  "title": "Florists",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459410",
+  "exception": null,
+  "title": "Office Supplies and Stationery Retailers",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459420",
+  "exception": null,
+  "title": "Gift, Novelty, and Souvenir Retailers",
+  "receipts_musd": 13.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459510",
+  "exception": null,
+  "title": "Used Merchandise Retailers",
+  "receipts_musd": 14,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459910",
+  "exception": null,
+  "title": "Pet and Pet Supplies Retailers",
+  "receipts_musd": 32,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459920",
+  "exception": null,
+  "title": "Art Dealers",
+  "receipts_musd": 16.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459930",
+  "exception": null,
+  "title": "Manufactured (Mobile) Home Dealers",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459991",
+  "exception": null,
+  "title": "Tobacco, Electronic Cigarette, and Other Smoking Supplies Retailers",
+  "receipts_musd": 11.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "459999",
+  "exception": null,
+  "title": "All Other Miscellaneous Retailers",
+  "receipts_musd": 11.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "481111",
+  "exception": null,
+  "title": "Scheduled Passenger Air Transportation",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "481112",
+  "exception": null,
+  "title": "Scheduled Freight Air Transportation",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "481211",
+  "exception": null,
+  "title": "Nonscheduled Chartered Passenger Air Transportation",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "481212",
+  "exception": null,
+  "title": "Nonscheduled Chartered Freight Air Transportation",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "481219",
+  "exception": null,
+  "title": "Other Nonscheduled Air Transportation",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "482111",
+  "exception": null,
+  "title": "Line\u2011Haul Railroads",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "482112",
+  "exception": null,
+  "title": "Short Line Railroads",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "483111",
+  "exception": null,
+  "title": "Deep Sea Freight Transportation",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "483112",
+  "exception": null,
+  "title": "Deep Sea Passenger Transportation",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "483113",
+  "exception": null,
+  "title": "Coastal and Great Lakes Freight Transportation",
+  "receipts_musd": null,
+  "employees": 800,
+  "footnote": null
+ },
+ {
+  "naics": "483114",
+  "exception": null,
+  "title": "Coastal and Great Lakes Passenger Transportation",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "483211",
+  "exception": null,
+  "title": "Inland Water Freight Transportation",
+  "receipts_musd": null,
+  "employees": 1050,
+  "footnote": null
+ },
+ {
+  "naics": "483212",
+  "exception": null,
+  "title": "Inland Water Passenger Transportation",
+  "receipts_musd": null,
+  "employees": 550,
+  "footnote": null
+ },
+ {
+  "naics": "484110",
+  "exception": null,
+  "title": "General Freight Trucking, Local",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "484121",
+  "exception": null,
+  "title": "General Freight Trucking, Long\u2011Distance, Truckload",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "484122",
+  "exception": null,
+  "title": "General Freight Trucking, Long\u2011Distance, Less Than Truckload",
+  "receipts_musd": 43,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "484210",
+  "exception": null,
+  "title": "Used Household and Office Goods Moving",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "484220",
+  "exception": null,
+  "title": "Specialized Freight (except Used Goods) Trucking, Local",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "484230",
+  "exception": null,
+  "title": "Specialized Freight (except Used Goods) Trucking, Long\u2011Distance",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "485111",
+  "exception": null,
+  "title": "Mixed Mode Transit Systems",
+  "receipts_musd": 29,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "485112",
+  "exception": null,
+  "title": "Commuter Rail Systems",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "485113",
+  "exception": null,
+  "title": "Bus and Other Motor Vehicle Transit Systems",
+  "receipts_musd": 32.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "485119",
+  "exception": null,
+  "title": "Other Urban Transit Systems",
+  "receipts_musd": 37.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "485210",
+  "exception": null,
+  "title": "Interurban and Rural Bus Transportation",
+  "receipts_musd": 32,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "485310",
+  "exception": null,
+  "title": "Taxi and Ridesharing Services",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "485320",
+  "exception": null,
+  "title": "Limousine Service",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "485410",
+  "exception": null,
+  "title": "School and Employee Bus Transportation",
+  "receipts_musd": 30,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "485510",
+  "exception": null,
+  "title": "Charter Bus Industry",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "485991",
+  "exception": null,
+  "title": "Special Needs Transportation",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "485999",
+  "exception": null,
+  "title": "All Other Transit and Ground Passenger Transportation",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "486110",
+  "exception": null,
+  "title": "Pipeline Transportation of Crude Oil",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "486210",
+  "exception": null,
+  "title": "Pipeline Transportation of Natural Gas",
+  "receipts_musd": 41.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "486910",
+  "exception": null,
+  "title": "Pipeline Transportation of Refined Petroleum Products",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "486990",
+  "exception": null,
+  "title": "All Other Pipeline Transportation",
+  "receipts_musd": 46,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "487110",
+  "exception": null,
+  "title": "Scenic and Sightseeing Transportation, Land",
+  "receipts_musd": 20.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "487210",
+  "exception": null,
+  "title": "Scenic and Sightseeing Transportation, Water",
+  "receipts_musd": 14,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "487990",
+  "exception": null,
+  "title": "Scenic and Sightseeing Transportation, Other",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "488111",
+  "exception": null,
+  "title": "Air Traffic Control",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "488119",
+  "exception": null,
+  "title": "Other Airport Operations",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "488190",
+  "exception": null,
+  "title": "Other Support Activities for Air Transportation",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "488210",
+  "exception": null,
+  "title": "Support Activities for Rail Transportation",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "488310",
+  "exception": null,
+  "title": "Port and Harbor Operations",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "488320",
+  "exception": null,
+  "title": "Marine Cargo Handling",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "488330",
+  "exception": null,
+  "title": "Navigational Services to Shipping",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "488390",
+  "exception": null,
+  "title": "Other Support Activities for Water Transportation",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "488410",
+  "exception": null,
+  "title": "Motor Vehicle Towing",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "488490",
+  "exception": null,
+  "title": "Other Support Activities for Road Transportation",
+  "receipts_musd": 18,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "488510",
+  "exception": null,
+  "title": "Freight Transportation Arrangement10",
+  "receipts_musd": 20,
+  "employees": null,
+  "footnote": "See footnote 10"
+ },
+ {
+  "naics": "488510",
+  "exception": "Exception",
+  "title": "Non\u2011Vessel Owning Common Carriers and Household Goods Forwarders",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "488991",
+  "exception": null,
+  "title": "Packing and Crating",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "488999",
+  "exception": null,
+  "title": "All Other Support Activities for Transportation",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "491110",
+  "exception": null,
+  "title": "Postal Service",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "492110",
+  "exception": null,
+  "title": "Couriers and Express Delivery Services",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "492210",
+  "exception": null,
+  "title": "Local Messengers and Local Delivery",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "493110",
+  "exception": null,
+  "title": "General Warehousing and Storage",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "493120",
+  "exception": null,
+  "title": "Refrigerated Warehousing and Storage",
+  "receipts_musd": 36.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "493130",
+  "exception": null,
+  "title": "Farm Product Warehousing and Storage",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "493190",
+  "exception": null,
+  "title": "Other Warehousing and Storage",
+  "receipts_musd": 36.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "512110",
+  "exception": null,
+  "title": "Motion Picture and Video Production",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "512120",
+  "exception": null,
+  "title": "Motion Picture and Video Distribution",
+  "receipts_musd": 39,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "512131",
+  "exception": null,
+  "title": "Motion Picture Theaters (except Drive\u2011Ins)",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "512132",
+  "exception": null,
+  "title": "Drive\u2011In Motion Picture Theaters",
+  "receipts_musd": 12.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "512191",
+  "exception": null,
+  "title": "Teleproduction and Other Postproduction Services",
+  "receipts_musd": 39,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "512199",
+  "exception": null,
+  "title": "Other Motion Picture and Video Industries",
+  "receipts_musd": 28.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "512230",
+  "exception": null,
+  "title": "Music Publishers",
+  "receipts_musd": null,
+  "employees": 900,
+  "footnote": null
+ },
+ {
+  "naics": "512240",
+  "exception": null,
+  "title": "Sound Recording Studios",
+  "receipts_musd": 11,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "512250",
+  "exception": null,
+  "title": "Record Production and Distribution",
+  "receipts_musd": null,
+  "employees": 900,
+  "footnote": null
+ },
+ {
+  "naics": "512290",
+  "exception": null,
+  "title": "Other Sound Recording Industries",
+  "receipts_musd": 22.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "513110",
+  "exception": null,
+  "title": "Newspaper Publishers",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "513120",
+  "exception": null,
+  "title": "Periodical Publishers",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "513130",
+  "exception": null,
+  "title": "Book Publishers",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "513140",
+  "exception": null,
+  "title": "Directory and Mailing List Publishers",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "513191",
+  "exception": null,
+  "title": "Greeting Card Publishers",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "513199",
+  "exception": null,
+  "title": "All Other Publishers",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "513210",
+  "exception": null,
+  "title": "Software Publishers15",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "516110",
+  "exception": null,
+  "title": "Radio Broadcasting Stations",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "516120",
+  "exception": null,
+  "title": "Television Broadcasting Stations",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "516210",
+  "exception": null,
+  "title": "Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "517111",
+  "exception": null,
+  "title": "Wired Telecommunications Carriers",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "517112",
+  "exception": null,
+  "title": "Wireless Telecommunications Carriers (except Satellite)",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "517121",
+  "exception": null,
+  "title": "Telecommunications Resellers",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "517122",
+  "exception": null,
+  "title": "Agents for Wireless Telecommunications Services",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "517410",
+  "exception": null,
+  "title": "Satellite Telecommunications",
+  "receipts_musd": 44,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "517810",
+  "exception": null,
+  "title": "All Other Telecommunications",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "518210",
+  "exception": null,
+  "title": "Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "519210",
+  "exception": null,
+  "title": "Libraries and Archives",
+  "receipts_musd": 21,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "519290",
+  "exception": null,
+  "title": "Web Search Portals and All Other Information Services",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": null
+ },
+ {
+  "naics": "522110",
+  "exception": null,
+  "title": "Commercial Banking8",
+  "receipts_musd": null,
+  "employees": null,
+  "footnote": "See footnote 8"
+ },
+ {
+  "naics": "522130",
+  "exception": null,
+  "title": "Credit Unions8",
+  "receipts_musd": null,
+  "employees": null,
+  "footnote": "See footnote 8"
+ },
+ {
+  "naics": "522180",
+  "exception": null,
+  "title": "Savings Institutions and Other Depository Credit Intermediation8",
+  "receipts_musd": null,
+  "employees": null,
+  "footnote": "See footnote 8"
+ },
+ {
+  "naics": "522210",
+  "exception": null,
+  "title": "Credit Card Issuing8",
+  "receipts_musd": null,
+  "employees": null,
+  "footnote": "See footnote 8"
+ },
+ {
+  "naics": "522220",
+  "exception": null,
+  "title": "Sales Financing",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "522291",
+  "exception": null,
+  "title": "Consumer Lending",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "522292",
+  "exception": null,
+  "title": "Real Estate Credit",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "522299",
+  "exception": null,
+  "title": "International, Secondary Market, and All Other Nondepository Credit Intermediation",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "522310",
+  "exception": null,
+  "title": "Mortgage and Nonmortgage Loan Brokers",
+  "receipts_musd": 15,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "522320",
+  "exception": null,
+  "title": "Financial Transactions Processing, Reserve, and Clearinghouse Activities",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "522390",
+  "exception": null,
+  "title": "Other Activities Related to Credit Intermediation",
+  "receipts_musd": 28.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "523150",
+  "exception": null,
+  "title": "Investment Banking and Securities Intermediation",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "523160",
+  "exception": null,
+  "title": "Commodity Contracts Intermediation",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "523210",
+  "exception": null,
+  "title": "Securities and Commodity Exchanges",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "523910",
+  "exception": null,
+  "title": "Miscellaneous Intermediation",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "523940",
+  "exception": null,
+  "title": "Portfolio Management and Investment Advice",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "523991",
+  "exception": null,
+  "title": "Trust, Fiduciary and Custody Activities",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "523999",
+  "exception": null,
+  "title": "Miscellaneous Financial Investment Activities",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "524113",
+  "exception": null,
+  "title": "Direct Life Insurance Carriers",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "524114",
+  "exception": null,
+  "title": "Direct Health and Medical Insurance Carriers",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "524126",
+  "exception": null,
+  "title": "Direct Property and Casualty Insurance Carriers",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": null
+ },
+ {
+  "naics": "524127",
+  "exception": null,
+  "title": "Direct Title Insurance Carriers",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "524128",
+  "exception": null,
+  "title": "Other Direct Insurance (except Life, Health and Medical) Carriers",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "524130",
+  "exception": null,
+  "title": "Reinsurance Carriers",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "524210",
+  "exception": null,
+  "title": "Insurance Agencies and Brokerages",
+  "receipts_musd": 15,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "524291",
+  "exception": null,
+  "title": "Claims Adjusting",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "524292",
+  "exception": null,
+  "title": "Pharmacy Benefit Management and Other Third-Party Administration of Insurance and Pension Funds",
+  "receipts_musd": 45.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "524298",
+  "exception": null,
+  "title": "All Other Insurance Related Activities",
+  "receipts_musd": 30.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "525110",
+  "exception": null,
+  "title": "Pension Funds",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "525120",
+  "exception": null,
+  "title": "Health and Welfare Funds",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "525190",
+  "exception": null,
+  "title": "Other Insurance Funds",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "525910",
+  "exception": null,
+  "title": "Open\u2011End Investment Funds",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "525920",
+  "exception": null,
+  "title": "Trusts, Estates, and Agency Accounts",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "525990",
+  "exception": null,
+  "title": "Other Financial Vehicles",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "531110",
+  "exception": null,
+  "title": "Lessors of Residential Buildings and Dwellings9",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": "See footnote 9"
+ },
+ {
+  "naics": "531110",
+  "exception": "Exception",
+  "title": "Leasing of Building Space to the Federal Government by Owners",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "531120",
+  "exception": null,
+  "title": "Lessors of Nonresidential Buildings (except Miniwarehouses)9",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": "See footnote 9"
+ },
+ {
+  "naics": "531120",
+  "exception": "Exception",
+  "title": "Leasing of Building Space to the Federal Government by Owners",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "531130",
+  "exception": null,
+  "title": "Lessors of Miniwarehouses and Self Storage Units9",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": "See footnote 9"
+ },
+ {
+  "naics": "531130",
+  "exception": "Exception",
+  "title": "Leasing of Building Space to the Federal Government by Owners",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "531190",
+  "exception": null,
+  "title": "Lessors of Other Real Estate Property9",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": "See footnote 9"
+ },
+ {
+  "naics": "531190",
+  "exception": "Exception",
+  "title": "Leasing of Building Space to the Federal Government by Owners",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "531210",
+  "exception": null,
+  "title": "Offices of Real Estate Agents and Brokers10",
+  "receipts_musd": 15,
+  "employees": null,
+  "footnote": "See footnote 10"
+ },
+ {
+  "naics": "531311",
+  "exception": null,
+  "title": "Residential Property Managers",
+  "receipts_musd": 12.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "531312",
+  "exception": null,
+  "title": "Nonresidential Property Managers",
+  "receipts_musd": 19.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "531320",
+  "exception": null,
+  "title": "Offices of Real Estate Appraisers",
+  "receipts_musd": 9.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "531390",
+  "exception": null,
+  "title": "Other Activities Related to Real Estate",
+  "receipts_musd": 19.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532111",
+  "exception": null,
+  "title": "Passenger Car Rental",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532112",
+  "exception": null,
+  "title": "Passenger Car Leasing",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532120",
+  "exception": null,
+  "title": "Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532210",
+  "exception": null,
+  "title": "Consumer Electronics and Appliances Rental",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532281",
+  "exception": null,
+  "title": "Formal Wear and Costume Rental",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532282",
+  "exception": null,
+  "title": "Video Tape and Disc Rental",
+  "receipts_musd": 35,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532283",
+  "exception": null,
+  "title": "Home Health Equipment Rental",
+  "receipts_musd": 41,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532284",
+  "exception": null,
+  "title": "Recreational Goods Rental",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532289",
+  "exception": null,
+  "title": "All Other Consumer Goods Rental",
+  "receipts_musd": 12.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532310",
+  "exception": null,
+  "title": "General Rental Centers",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532411",
+  "exception": null,
+  "title": "Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing",
+  "receipts_musd": 45.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532412",
+  "exception": null,
+  "title": "Construction, Mining and Forestry Machinery and Equipment Rental and Leasing",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532420",
+  "exception": null,
+  "title": "Office Machinery and Equipment Rental and Leasing",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "532490",
+  "exception": null,
+  "title": "Other Commercial and Industrial Machinery and Equipment Rental and Leasing",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "533110",
+  "exception": null,
+  "title": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541110",
+  "exception": null,
+  "title": "Offices of Lawyers",
+  "receipts_musd": 15.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541191",
+  "exception": null,
+  "title": "Title Abstract and Settlement Offices",
+  "receipts_musd": 19.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541199",
+  "exception": null,
+  "title": "All Other Legal Services",
+  "receipts_musd": 20.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541211",
+  "exception": null,
+  "title": "Offices of Certified Public Accountants",
+  "receipts_musd": 26.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541213",
+  "exception": null,
+  "title": "Tax Preparation Services",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541214",
+  "exception": null,
+  "title": "Payroll Services",
+  "receipts_musd": 39,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541219",
+  "exception": null,
+  "title": "Other Accounting Services",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541310",
+  "exception": null,
+  "title": "Architectural Services",
+  "receipts_musd": 12.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541320",
+  "exception": null,
+  "title": "Landscape Architectural Services",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541330",
+  "exception": null,
+  "title": "Engineering Services",
+  "receipts_musd": 25.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541330",
+  "exception": "Exception 1",
+  "title": "Military and Aerospace Equipment and Military Weapons",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541330",
+  "exception": "Exception 2",
+  "title": "Contracts and Subcontracts for Engineering Services Awarded Under the National Energy Policy Act of 1992",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541330",
+  "exception": "Exception 3",
+  "title": "Marine Engineering and Naval Architecture",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541340",
+  "exception": null,
+  "title": "Drafting Services",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541350",
+  "exception": null,
+  "title": "Building Inspection Services",
+  "receipts_musd": 11.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541360",
+  "exception": null,
+  "title": "Geophysical Surveying and Mapping Services",
+  "receipts_musd": 28.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541370",
+  "exception": null,
+  "title": "Surveying and Mapping (except Geophysical) Services",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541380",
+  "exception": null,
+  "title": "Testing Laboratories and Services",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541410",
+  "exception": null,
+  "title": "Interior Design Services",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541420",
+  "exception": null,
+  "title": "Industrial Design Services",
+  "receipts_musd": 17,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541430",
+  "exception": null,
+  "title": "Graphic Design Services",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541490",
+  "exception": null,
+  "title": "Other Specialized Design Services",
+  "receipts_musd": 13.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541511",
+  "exception": null,
+  "title": "Custom Computer Programming Services",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541512",
+  "exception": null,
+  "title": "Computer Systems Design Services",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541513",
+  "exception": null,
+  "title": "Computer Facilities Management Services",
+  "receipts_musd": 37,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541519",
+  "exception": null,
+  "title": "Other Computer Related Services",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541519",
+  "exception": "Exception",
+  "title": "Information Technology Value Added Resellers18",
+  "receipts_musd": null,
+  "employees": 150,
+  "footnote": "See footnote 18"
+ },
+ {
+  "naics": "541611",
+  "exception": null,
+  "title": "Administrative Management and General Management Consulting Services",
+  "receipts_musd": 24.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541612",
+  "exception": null,
+  "title": "Human Resources Consulting Services",
+  "receipts_musd": 29,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541613",
+  "exception": null,
+  "title": "Marketing Consulting Services",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541614",
+  "exception": null,
+  "title": "Process, Physical Distribution and Logistics Consulting Services",
+  "receipts_musd": 20,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541618",
+  "exception": null,
+  "title": "Other Management Consulting Services",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541620",
+  "exception": null,
+  "title": "Environmental Consulting Services",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541690",
+  "exception": null,
+  "title": "Other Scientific and Technical Consulting Services",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541713",
+  "exception": null,
+  "title": "Research and Development in Nanotechnology11",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": "See footnote 11"
+ },
+ {
+  "naics": "541714",
+  "exception": null,
+  "title": "Research and Development in Biotechnology (except Nanobiotechnology)11",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": "See footnote 11"
+ },
+ {
+  "naics": "541715",
+  "exception": null,
+  "title": "Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology) 11",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": "See footnote 11"
+ },
+ {
+  "naics": "541715",
+  "exception": "Exception 1",
+  "title": "Aircraft, Aircraft Engine and Engine Parts11",
+  "receipts_musd": null,
+  "employees": 1500,
+  "footnote": "See footnote 11"
+ },
+ {
+  "naics": "541715",
+  "exception": "Exception 2",
+  "title": "Other Aircraft Parts and Auxiliary Equipment11",
+  "receipts_musd": null,
+  "employees": 1250,
+  "footnote": "See footnote 11"
+ },
+ {
+  "naics": "541715",
+  "exception": "Exception 3",
+  "title": "Guided Missiles and Space Vehicles, Their Propulsion Units and Propulsion Parts11",
+  "receipts_musd": null,
+  "employees": 1300,
+  "footnote": "See footnote 11"
+ },
+ {
+  "naics": "541720",
+  "exception": null,
+  "title": "Research and Development in the Social Sciences and Humanities",
+  "receipts_musd": 28,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541810",
+  "exception": null,
+  "title": "Advertising Agencies10",
+  "receipts_musd": 25.5,
+  "employees": null,
+  "footnote": "See footnote 10"
+ },
+ {
+  "naics": "541820",
+  "exception": null,
+  "title": "Public Relations Agencies",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541830",
+  "exception": null,
+  "title": "Media Buying Agencies",
+  "receipts_musd": 32.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541840",
+  "exception": null,
+  "title": "Media Representatives",
+  "receipts_musd": 21,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541850",
+  "exception": null,
+  "title": "Indoor and Outdoor Display Advertising",
+  "receipts_musd": 34.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541860",
+  "exception": null,
+  "title": "Direct Mail Advertising",
+  "receipts_musd": 22,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541870",
+  "exception": null,
+  "title": "Advertising Material Distribution Services",
+  "receipts_musd": 28.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541890",
+  "exception": null,
+  "title": "Other Services Related to Advertising",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541910",
+  "exception": null,
+  "title": "Marketing Research and Public Opinion Polling",
+  "receipts_musd": 22.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541921",
+  "exception": null,
+  "title": "Photography Studios, Portrait",
+  "receipts_musd": 16,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541922",
+  "exception": null,
+  "title": "Commercial Photography",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541930",
+  "exception": null,
+  "title": "Translation and Interpretation Services",
+  "receipts_musd": 22.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541940",
+  "exception": null,
+  "title": "Veterinary Services",
+  "receipts_musd": 10,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "541990",
+  "exception": null,
+  "title": "All Other Professional, Scientific and Technical Services",
+  "receipts_musd": 19.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "551111",
+  "exception": null,
+  "title": "Offices of Bank Holding Companies",
+  "receipts_musd": 38.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "551112",
+  "exception": null,
+  "title": "Offices of Other Holding Companies",
+  "receipts_musd": 45.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561110",
+  "exception": null,
+  "title": "Office Administrative Services",
+  "receipts_musd": 12.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561210",
+  "exception": null,
+  "title": "Facilities Support Services12",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": "See footnote 12"
+ },
+ {
+  "naics": "561311",
+  "exception": null,
+  "title": "Employment Placement Agencies",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561312",
+  "exception": null,
+  "title": "Executive Search Services",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561320",
+  "exception": null,
+  "title": "Temporary Help Services",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561330",
+  "exception": null,
+  "title": "Professional Employer Organizations",
+  "receipts_musd": 41.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561410",
+  "exception": null,
+  "title": "Document Preparation Services",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561421",
+  "exception": null,
+  "title": "Telephone Answering Services",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561422",
+  "exception": null,
+  "title": "Telemarketing Bureaus and Other contact Centers",
+  "receipts_musd": 25.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561431",
+  "exception": null,
+  "title": "Private Mail Centers",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561439",
+  "exception": null,
+  "title": "Other Business Service Centers (including Copy Shops)",
+  "receipts_musd": 26.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561440",
+  "exception": null,
+  "title": "Collection Agencies",
+  "receipts_musd": 19.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561450",
+  "exception": null,
+  "title": "Credit Bureaus",
+  "receipts_musd": 41,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561491",
+  "exception": null,
+  "title": "Repossession Services",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561492",
+  "exception": null,
+  "title": "Court Reporting and Stenotype Services",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561499",
+  "exception": null,
+  "title": "All Other Business Support Services",
+  "receipts_musd": 21.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561510",
+  "exception": null,
+  "title": "Travel Agencies10",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": "See footnote 10"
+ },
+ {
+  "naics": "561520",
+  "exception": null,
+  "title": "Tour Operators10",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": "See footnote 10"
+ },
+ {
+  "naics": "561591",
+  "exception": null,
+  "title": "Convention and Visitors Bureaus",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561599",
+  "exception": null,
+  "title": "All Other Travel Arrangement and Reservation Services",
+  "receipts_musd": 32.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561611",
+  "exception": null,
+  "title": "Investigation and Personal Background Check Services",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561612",
+  "exception": null,
+  "title": "Security Guards and Patrol Services",
+  "receipts_musd": 29,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561613",
+  "exception": null,
+  "title": "Armored Car Services",
+  "receipts_musd": 43,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561621",
+  "exception": null,
+  "title": "Security Systems Services (except Locksmiths)",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561622",
+  "exception": null,
+  "title": "Locksmiths",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561710",
+  "exception": null,
+  "title": "Exterminating and Pest Control Services",
+  "receipts_musd": 17.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561720",
+  "exception": null,
+  "title": "Janitorial Services",
+  "receipts_musd": 22,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561730",
+  "exception": null,
+  "title": "Landscaping Services",
+  "receipts_musd": 9.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561740",
+  "exception": null,
+  "title": "Carpet and Upholstery Cleaning Services",
+  "receipts_musd": 8.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561790",
+  "exception": null,
+  "title": "Other Services to Buildings and Dwellings",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561910",
+  "exception": null,
+  "title": "Packaging and Labeling Services",
+  "receipts_musd": 19.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "561920",
+  "exception": null,
+  "title": "Convention and Trade Show Organizers10",
+  "receipts_musd": 20,
+  "employees": null,
+  "footnote": "See footnote 10"
+ },
+ {
+  "naics": "561990",
+  "exception": null,
+  "title": "All Other Support Services",
+  "receipts_musd": 16.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "562111",
+  "exception": null,
+  "title": "Solid Waste Collection",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "562112",
+  "exception": null,
+  "title": "Hazardous Waste Collection",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "562119",
+  "exception": null,
+  "title": "Other Waste Collection",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "562211",
+  "exception": null,
+  "title": "Hazardous Waste Treatment and Disposal",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "562212",
+  "exception": null,
+  "title": "Solid Waste Landfill",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "562213",
+  "exception": null,
+  "title": "Solid Waste Combustors and Incinerators",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "562219",
+  "exception": null,
+  "title": "Other Nonhazardous Waste Treatment and Disposal",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "562910",
+  "exception": null,
+  "title": "Remediation Services",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "562910",
+  "exception": "Exception",
+  "title": "Environmental Remediation Services14",
+  "receipts_musd": null,
+  "employees": 1000,
+  "footnote": "See footnote 14"
+ },
+ {
+  "naics": "562920",
+  "exception": null,
+  "title": "Materials Recovery Facilities",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "562991",
+  "exception": null,
+  "title": "Septic Tank and Related Services",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "562998",
+  "exception": null,
+  "title": "All Other Miscellaneous Waste Management Services",
+  "receipts_musd": 16.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611110",
+  "exception": null,
+  "title": "Elementary and Secondary Schools",
+  "receipts_musd": 20,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611210",
+  "exception": null,
+  "title": "Junior Colleges",
+  "receipts_musd": 32.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611310",
+  "exception": null,
+  "title": "Colleges, Universities and Professional Schools",
+  "receipts_musd": 34.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611410",
+  "exception": null,
+  "title": "Business and Secretarial Schools",
+  "receipts_musd": 20.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611420",
+  "exception": null,
+  "title": "Computer Training",
+  "receipts_musd": 16,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611430",
+  "exception": null,
+  "title": "Professional and Management Development Training",
+  "receipts_musd": 15,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611511",
+  "exception": null,
+  "title": "Cosmetology and Barber Schools",
+  "receipts_musd": 13,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611512",
+  "exception": null,
+  "title": "Flight Training",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611513",
+  "exception": null,
+  "title": "Apprenticeship Training",
+  "receipts_musd": 11.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611519",
+  "exception": null,
+  "title": "Other Technical and Trade Schools",
+  "receipts_musd": 21,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611519",
+  "exception": "Exception",
+  "title": "Job Corps Centers16",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": "See footnote 16"
+ },
+ {
+  "naics": "611610",
+  "exception": null,
+  "title": "Fine Arts Schools",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611620",
+  "exception": null,
+  "title": "Sports and Recreation Instruction",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611630",
+  "exception": null,
+  "title": "Language Schools",
+  "receipts_musd": 20.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611691",
+  "exception": null,
+  "title": "Exam Preparation and Tutoring",
+  "receipts_musd": 12.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611692",
+  "exception": null,
+  "title": "Automobile Driving Schools",
+  "receipts_musd": 10,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611699",
+  "exception": null,
+  "title": "All Other Miscellaneous Schools and Instruction",
+  "receipts_musd": 16.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "611710",
+  "exception": null,
+  "title": "Educational Support Services",
+  "receipts_musd": 24,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621111",
+  "exception": null,
+  "title": "Offices of Physicians (except Mental Health Specialists)",
+  "receipts_musd": 16,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621112",
+  "exception": null,
+  "title": "Offices of Physicians, Mental Health Specialists",
+  "receipts_musd": 13.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621210",
+  "exception": null,
+  "title": "Offices of Dentists",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621310",
+  "exception": null,
+  "title": "Offices of Chiropractors",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621320",
+  "exception": null,
+  "title": "Offices of Optometrists",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621330",
+  "exception": null,
+  "title": "Offices of Mental Health Practitioners (except Physicians)",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621340",
+  "exception": null,
+  "title": "Offices of Physical, Occupational and Speech Therapists and Audiologists",
+  "receipts_musd": 12.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621391",
+  "exception": null,
+  "title": "Offices of Podiatrists",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621399",
+  "exception": null,
+  "title": "Offices of All Other Miscellaneous Health Practitioners",
+  "receipts_musd": 10,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621410",
+  "exception": null,
+  "title": "Family Planning Centers",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621420",
+  "exception": null,
+  "title": "Outpatient Mental Health and Substance Abuse Centers",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621491",
+  "exception": null,
+  "title": "HMO Medical Centers",
+  "receipts_musd": 44.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621492",
+  "exception": null,
+  "title": "Kidney Dialysis Centers",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621493",
+  "exception": null,
+  "title": "Freestanding Ambulatory Surgical and Emergency Centers",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621498",
+  "exception": null,
+  "title": "All Other Outpatient Care Centers",
+  "receipts_musd": 25.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621511",
+  "exception": null,
+  "title": "Medical Laboratories",
+  "receipts_musd": 41.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621512",
+  "exception": null,
+  "title": "Diagnostic Imaging Centers",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621610",
+  "exception": null,
+  "title": "Home Health Care Services",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621910",
+  "exception": null,
+  "title": "Ambulance Services",
+  "receipts_musd": 22.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621991",
+  "exception": null,
+  "title": "Blood and Organ Banks",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "621999",
+  "exception": null,
+  "title": "All Other Miscellaneous Ambulatory Health Care Services",
+  "receipts_musd": 20.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "622110",
+  "exception": null,
+  "title": "General Medical and Surgical Hospitals",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "622210",
+  "exception": null,
+  "title": "Psychiatric and Substance Abuse Hospitals",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "622310",
+  "exception": null,
+  "title": "Specialty (except Psychiatric and Substance Abuse) Hospitals",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "623110",
+  "exception": null,
+  "title": "Nursing Care Facilities (Skilled Nursing Facilities)",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "623210",
+  "exception": null,
+  "title": "Residential Intellectual and Developmental Disability Facilities",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "623220",
+  "exception": null,
+  "title": "Residential Mental Health and Substance Abuse Facilities",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "623311",
+  "exception": null,
+  "title": "Continuing Care Retirement Communities",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "623312",
+  "exception": null,
+  "title": "Assisted Living Facilities for the Elderly",
+  "receipts_musd": 23.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "623990",
+  "exception": null,
+  "title": "Other Residential Care Facilities",
+  "receipts_musd": 16,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "624110",
+  "exception": null,
+  "title": "Child and Youth Services",
+  "receipts_musd": 15.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "624120",
+  "exception": null,
+  "title": "Services for the Elderly and Persons with Disabilities",
+  "receipts_musd": 15,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "624190",
+  "exception": null,
+  "title": "Other Individual and Family Services",
+  "receipts_musd": 16,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "624210",
+  "exception": null,
+  "title": "Community Food Services",
+  "receipts_musd": 19.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "624221",
+  "exception": null,
+  "title": "Temporary Shelters",
+  "receipts_musd": 13.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "624229",
+  "exception": null,
+  "title": "Other Community Housing Services",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "624230",
+  "exception": null,
+  "title": "Emergency and Other Relief Services",
+  "receipts_musd": 41.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "624310",
+  "exception": null,
+  "title": "Vocational Rehabilitation Services",
+  "receipts_musd": 15,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "624410",
+  "exception": null,
+  "title": "Child Care Services",
+  "receipts_musd": 9.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "711110",
+  "exception": null,
+  "title": "Theater Companies and Dinner Theaters",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "711120",
+  "exception": null,
+  "title": "Dance Companies",
+  "receipts_musd": 18,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "711130",
+  "exception": null,
+  "title": "Musical Groups and Artists",
+  "receipts_musd": 15,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "711190",
+  "exception": null,
+  "title": "Other Performing Arts Companies",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "711211",
+  "exception": null,
+  "title": "Sports Teams and Clubs",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "711212",
+  "exception": null,
+  "title": "Race Tracks",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "711219",
+  "exception": null,
+  "title": "Other Spectator Sports",
+  "receipts_musd": 16.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "711310",
+  "exception": null,
+  "title": "Promoters of Performing Arts, Sports and Similar Events with Facilities",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "711320",
+  "exception": null,
+  "title": "Promoters of Performing Arts, Sports and Similar Events without Facilities",
+  "receipts_musd": 22,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "711410",
+  "exception": null,
+  "title": "Agents and Managers for Artists, Athletes, Entertainers and Other Public Figures",
+  "receipts_musd": 17.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "711510",
+  "exception": null,
+  "title": "Independent Artists, Writers, and Performers",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "712110",
+  "exception": null,
+  "title": "Museums",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "712120",
+  "exception": null,
+  "title": "Historical Sites",
+  "receipts_musd": 13,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "712130",
+  "exception": null,
+  "title": "Zoos and Botanical Gardens",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "712190",
+  "exception": null,
+  "title": "Nature Parks and Other Similar Institutions",
+  "receipts_musd": 19.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "713110",
+  "exception": null,
+  "title": "Amusement and Theme Parks",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "713120",
+  "exception": null,
+  "title": "Amusement Arcades",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "713210",
+  "exception": null,
+  "title": "Casinos (except Casino Hotels)",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "713290",
+  "exception": null,
+  "title": "Other Gambling Industries",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "713910",
+  "exception": null,
+  "title": "Golf Courses and Country Clubs",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "713920",
+  "exception": null,
+  "title": "Skiing Facilities",
+  "receipts_musd": 35,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "713930",
+  "exception": null,
+  "title": "Marinas",
+  "receipts_musd": 11,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "713940",
+  "exception": null,
+  "title": "Fitness and Recreational Sports Centers",
+  "receipts_musd": 17.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "713950",
+  "exception": null,
+  "title": "Bowling Centers",
+  "receipts_musd": 12.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "713990",
+  "exception": null,
+  "title": "All Other Amusement and Recreation Industries",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "721110",
+  "exception": null,
+  "title": "Hotels (except Casino Hotels) and Motels",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "721120",
+  "exception": null,
+  "title": "Casino Hotels",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "721191",
+  "exception": null,
+  "title": "Bed\u2011and\u2011Breakfast Inns",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "721199",
+  "exception": null,
+  "title": "All Other Traveler Accommodation",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "721211",
+  "exception": null,
+  "title": "RV (Recreational Vehicle) Parks and Campgrounds",
+  "receipts_musd": 10,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "721214",
+  "exception": null,
+  "title": "Recreational and Vacation Camps (except Campgrounds)",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "721310",
+  "exception": null,
+  "title": "Rooming and Boarding Houses, Dormitories, and Workers\u2019 Camps",
+  "receipts_musd": 14,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "722310",
+  "exception": null,
+  "title": "Food Service Contractors",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "722320",
+  "exception": null,
+  "title": "Caterers",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "722330",
+  "exception": null,
+  "title": "Mobile Food Services",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "722410",
+  "exception": null,
+  "title": "Drinking Places (Alcoholic Beverages)",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "722511",
+  "exception": null,
+  "title": "Full-Service Restaurants",
+  "receipts_musd": 11.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "722513",
+  "exception": null,
+  "title": "Limited-Service Restaurants",
+  "receipts_musd": 13.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "722514",
+  "exception": null,
+  "title": "Cafeterias, Grill Buffets, and Buffets",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "722515",
+  "exception": null,
+  "title": "Snack and Nonalcoholic Beverage Bars",
+  "receipts_musd": 22.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811111",
+  "exception": null,
+  "title": "General Automotive Repair",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811114",
+  "exception": null,
+  "title": "Specialized Automotive Repair",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811121",
+  "exception": null,
+  "title": "Automotive Body, Paint and Interior Repair and Maintenance",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811122",
+  "exception": null,
+  "title": "Automotive Glass Replacement Shops",
+  "receipts_musd": 17.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811191",
+  "exception": null,
+  "title": "Automotive Oil Change and Lubrication Shops",
+  "receipts_musd": 11,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811192",
+  "exception": null,
+  "title": "Car Washes",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811198",
+  "exception": null,
+  "title": "All Other Automotive Repair and Maintenance",
+  "receipts_musd": 10,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811210",
+  "exception": null,
+  "title": "Electronic and Precision Equipment Repair and Maintenance",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811310",
+  "exception": null,
+  "title": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance",
+  "receipts_musd": 12.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811411",
+  "exception": null,
+  "title": "Home and Garden Equipment Repair and Maintenance",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811412",
+  "exception": null,
+  "title": "Appliance Repair and Maintenance",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811420",
+  "exception": null,
+  "title": "Reupholstery and Furniture Repair",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811430",
+  "exception": null,
+  "title": "Footwear and Leather Goods Repair",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "811490",
+  "exception": null,
+  "title": "Other Personal and Household Goods Repair and Maintenance",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812111",
+  "exception": null,
+  "title": "Barber Shops",
+  "receipts_musd": 9.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812112",
+  "exception": null,
+  "title": "Beauty Salons",
+  "receipts_musd": 9.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812113",
+  "exception": null,
+  "title": "Nail Salons",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812191",
+  "exception": null,
+  "title": "Diet and Weight Reducing Centers",
+  "receipts_musd": 27.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812199",
+  "exception": null,
+  "title": "Other Personal Care Services",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812210",
+  "exception": null,
+  "title": "Funeral Homes and Funeral Services",
+  "receipts_musd": 12.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812220",
+  "exception": null,
+  "title": "Cemeteries and Crematories",
+  "receipts_musd": 25,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812310",
+  "exception": null,
+  "title": "Coin\u2011Operated Laundries and Drycleaners",
+  "receipts_musd": 13,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812320",
+  "exception": null,
+  "title": "Drycleaning and Laundry Services (except Coin\u2011Operated)",
+  "receipts_musd": 8,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812331",
+  "exception": null,
+  "title": "Linen Supply",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812332",
+  "exception": null,
+  "title": "Industrial Launderers",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812910",
+  "exception": null,
+  "title": "Pet Care (except Veterinary) Services",
+  "receipts_musd": 9,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812921",
+  "exception": null,
+  "title": "Photofinishing Laboratories (except One\u2011Hour)",
+  "receipts_musd": 29.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812922",
+  "exception": null,
+  "title": "One\u2011Hour Photofinishing",
+  "receipts_musd": 19,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812930",
+  "exception": null,
+  "title": "Parking Lots and Garages",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "812990",
+  "exception": null,
+  "title": "All Other Personal Services",
+  "receipts_musd": 15,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "813110",
+  "exception": null,
+  "title": "Religious Organizations",
+  "receipts_musd": 13,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "813211",
+  "exception": null,
+  "title": "Grantmaking Foundations",
+  "receipts_musd": 40,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "813212",
+  "exception": null,
+  "title": "Voluntary Health Organizations",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "813219",
+  "exception": null,
+  "title": "Other Grantmaking and Giving Services",
+  "receipts_musd": 47,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "813311",
+  "exception": null,
+  "title": "Human Rights Organizations",
+  "receipts_musd": 34,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "813312",
+  "exception": null,
+  "title": "Environment, Conservation and Wildlife Organizations",
+  "receipts_musd": 19.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "813319",
+  "exception": null,
+  "title": "Other Social Advocacy Organizations",
+  "receipts_musd": 18,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "813410",
+  "exception": null,
+  "title": "Civic and Social Organizations",
+  "receipts_musd": 9.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "813910",
+  "exception": null,
+  "title": "Business Associations",
+  "receipts_musd": 15.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "813920",
+  "exception": null,
+  "title": "Professional Organizations",
+  "receipts_musd": 23.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "813930",
+  "exception": null,
+  "title": "Labor Unions and Similar Labor Organizations",
+  "receipts_musd": 16.5,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "813940",
+  "exception": null,
+  "title": "Political Organizations",
+  "receipts_musd": 14,
+  "employees": null,
+  "footnote": null
+ },
+ {
+  "naics": "813990",
+  "exception": null,
+  "title": "Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",
+  "receipts_musd": 13.5,
+  "employees": null,
+  "footnote": null
+ }
+]
