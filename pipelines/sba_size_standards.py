@@ -90,6 +90,10 @@ def parse(raw):
         if not m:
             continue
         title = re.sub(r"\s+", " ", str(r[c_title] or "")).strip()
+        foot = str(r[c_foot]).strip() if c_foot is not None and r[c_foot] not in (None, "") else ""
+        fn = re.search(r"(\d+)\s*$", foot)
+        if fn and title.endswith(fn.group(1)):  # footnote number glued to the title, e.g. "Activities2"
+            title = title[: -len(fn.group(1))].rstrip()
         out.append({"naics": m.group(1), "exception": (m.group(2) or "").strip() or None, "title": title,
                     "receipts_musd": num(r[c_rec]), "employees": num(r[c_emp]),
                     "footnote": (str(r[c_foot]).strip() if c_foot is not None and r[c_foot] not in (None, "") else None)})
