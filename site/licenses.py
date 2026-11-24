@@ -165,5 +165,126 @@ GUIDES = [
     },
 ]
 
+GUIDES += [
+    {
+        "code": "GA", "slug": "georgia", "name": "Georgia", "agency": "State Licensing Board for Residential and General Contractors",
+        "answer": "Yes. Georgia licenses residential and general contractors through a state board under the Secretary of State, for residential work over $2,500 and for commercial general contracting.",
+        "facts": [("Licensing board", "SLBRGC"), ("Residential license from", "over $2,500"), ("Commercial GC net worth", "$150,000"), ("Residential net worth", "$25,000")],
+        "body": """
+<h2>When you need a license</h2>
+<p>Under Title 43, Chapter 41 of the Georgia Code, residential contracting where the value of the work is more than $2,500 needs a residential contractor license, and general (commercial) contracting needs a general contractor license. Specialty trade contractors such as electricians, plumbers and HVAC contractors are licensed separately and do not need this license when they stay within their trade.</p>
+<h2>License types</h2>
+<ul>
+<li><b>Residential-Basic:</b> detached one- and two-family homes and townhouses.</li>
+<li><b>Residential-Light Commercial:</b> everything in Residential-Basic plus multifamily and smaller multi-use commercial buildings.</li>
+<li><b>General Contractor:</b> commercial work without a project limit, with a separate limited-tier license for smaller projects.</li>
+</ul>
+<h2>Requirements</h2>
+{costs}
+<p>Applicants pass the board's exam for the license type, show qualifying experience and apply through the Secretary of State's online system (GOALS). Residential contractors complete continuing education every year: 3 hours for Residential-Basic and 6 hours for Residential-Light Commercial. Commercial general contractors do not have a continuing education requirement.</p>
+<h2>Reciprocity</h2>
+<p>Georgia has reciprocity agreements with Louisiana and Mississippi for unlimited commercial general contractors and Residential-Basic contractors.</p>
+""",
+        "costs": [["Residential-Basic", "$25,000", "$300,000 per occurrence"], ["Residential-Light Commercial", "$25,000", "$500,000 per occurrence"],
+                  ["Commercial General Contractor", "$150,000", "Set by board rules"]],
+        "costs_head": ["License", "Minimum net worth", "General liability insurance"],
+        "links": [("Georgia Secretary of State: residential and general contractors FAQ", "https://sos.ga.gov/page/residential-and-general-contractors-faqs"),
+                  ("Licensure comparison chart (PDF)", "https://sos.ga.gov/49-reference-licensure-comparison-chart"),
+                  ("Georgia Code Title 43, Chapter 41", "https://law.justia.com/codes/georgia/title-43/chapter-41/")],
+    },
+    {
+        "code": "NC", "slug": "north-carolina", "name": "North Carolina", "agency": "Licensing Board for General Contractors (NCLBGC)",
+        "answer": "Yes. North Carolina requires a general contractor license from the NCLBGC for any project costing $40,000 or more. Each license carries a limit on project size tied to the contractor's finances.",
+        "facts": [("Licensing board", "NCLBGC"), ("License needed from", "$40,000"), ("Limited license, per project", "up to $750,000"), ("Unlimited license bond option", "$1,000,000")],
+        "body": """
+<h2>When you need a license</h2>
+<p>Under G.S. 87-1, anyone who bids on, builds, superintends or manages the construction of a building, highway, public utility, grading or other improvement where the cost of the undertaking is $40,000 or more is a general contractor and must be licensed. The threshold was raised from $30,000 in 2023. Licensed electrical, plumbing, heating and fire sprinkler contractors working within their own trade are covered by separate rules.</p>
+<h2>Limitations: how big a project you can take</h2>
+{costs}
+<p>Instead of showing working capital or net worth, an applicant can post a surety bond in the amount shown. The intermediate and unlimited working capital must be shown in an audited financial statement or an agreed-upon procedures report from a CPA.</p>
+<h2>Classifications: what kind of work</h2>
+<p>Separately from the limitation, each license lists one or more classifications, such as building, residential, highway or public utilities. The qualifier passes the exam for each classification.</p>
+""",
+        "costs": [["Limited", "Up to $750,000", "$17,000 working capital or $80,000 net worth", "$175,000"],
+                  ["Intermediate", "Up to $1,500,000", "$75,000 working capital", "$500,000"],
+                  ["Unlimited", "No limit", "$150,000 working capital", "$1,000,000"]],
+        "costs_head": ["Limitation", "Single project value", "Financial requirement", "Or surety bond"],
+        "links": [("N.C. General Statutes 87-1", "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_87/GS_87-1.html"),
+                  ("21 NCAC 12A .0204: license limitations", "https://regulations.justia.com/states/north-carolina/title-21/chapter-12/subchapter-a/section-0200/section-12a-0204"),
+                  ("NC Licensing Board for General Contractors", "https://www.nclbgc.org/")],
+    },
+    {
+        "code": "WA", "slug": "washington", "name": "Washington", "agency": "Department of Labor & Industries (L&I)",
+        "answer": "Washington does not license general contractors by exam, but every construction contractor must register with the Department of Labor & Industries, post a bond and carry liability insurance.",
+        "facts": [("Registering agency", "L&I"), ("General contractor bond", "$30,000"), ("Specialty contractor bond", "$15,000"), ("Liability insurance", "$250,000")],
+        "body": """
+<h2>Who must register</h2>
+<p>All construction contractors in Washington must register with L&I. There is no general contractor exam. Contractors register either as a <b>general contractor</b>, who can do most kinds of construction work and hire subcontractors, or as a <b>specialty contractor</b> in one of 63 specialties such as roofing, painting or HVAC. A specialty contractor can only work in its specialty and cannot hire subcontractors.</p>
+<h2>How to register</h2>
+<ol>
+<li>Register your business with the Department of Revenue and get a UBI number.</li>
+<li>Buy a continuous contractor surety bond, or set up an assignment of savings, in the amount below.</li>
+<li>Buy general liability insurance with L&I listed as certificate holder.</li>
+<li>Submit the Application for Contractor Registration with the fee. The bond and insurance must show your exact business name.</li>
+</ol>
+<h2>Bond and insurance</h2>
+{costs}
+<p>Bond amounts rose on July 1, 2024, the first increase since 2001; contractors move to the new amount at their next renewal. L&I can require a larger bond from contractors with court judgments against them.</p>
+<p>Electricians, plumbers and some other trades also need a separate trade license or certificate.</p>
+""",
+        "costs": [["General contractor bond", "$30,000"], ["Specialty contractor bond", "$15,000"],
+                  ["General liability insurance", "$250,000 combined, or $200,000 public liability and $50,000 property damage"]],
+        "costs_head": ["Requirement", "Amount"],
+        "links": [("L&I: contractor registration", "https://lni.wa.gov/licensing-permits/contractors/"),
+                  ("L&I news: higher contractor bonds from July 1, 2024", "https://www.lni.wa.gov/news-events/article/24-13/")],
+    },
+    {
+        "code": "NV", "slug": "nevada", "name": "Nevada", "agency": "Nevada State Contractors Board (NSCB)",
+        "answer": "Yes. Nevada licenses almost all paid construction work through the State Contractors Board. Only repair or maintenance under $1,000 that needs no permit is exempt, and every license has a monetary limit and a bond set by the Board.",
+        "facts": [("Licensing board", "NSCB"), ("License needed from", "$1,000"), ("Bond range", "$1,000–$500,000"), ("Experience", "4 years")],
+        "body": """
+<h2>When you need a license</h2>
+<p>Nevada's contractor law covers nearly all construction for pay. The main exemption, in NRS 624.031, is work to repair or maintain property worth less than $1,000 including labor and materials, and only if no building permit is required and the work is not a licensed trade. The Board does not issue a handyman license.</p>
+<h2>How a Nevada license works</h2>
+<ul>
+<li><b>Classification:</b> A (general engineering), B (general building) or one of the C specialty classifications.</li>
+<li><b>Monetary limit:</b> the largest single contract the license allows, set by the Board from the applicant's financial statement. A limit of $10,000 or more requires a financial statement prepared by a CPA.</li>
+<li><b>Bond:</b> set by the Board between $1,000 and $500,000 based on the license type, monetary limit, financial responsibility and experience. It can be a surety bond or a cash deposit.</li>
+</ul>
+<h2>How to get a license</h2>
+<ol>
+<li>Show at least four years of experience in the classification.</li>
+<li>Pass the management exam and any required trade exam (given by PSI).</li>
+<li>Submit the financial statement for the monetary limit you request.</li>
+<li>File the bond and proof of workers' compensation insurance or an exemption.</li>
+</ol>
+<p>Residential contractors also pay into the Residential Recovery Fund, based on their monetary limit.</p>
+""",
+        "costs": [],
+        "links": [("NSCB: exemptions (NRS 624.031)", "https://www.nvcontractorsboard.com/licensing/exemptions/"),
+                  ("NSCB: bonds", "https://nvcontractorsboard.com/bonds"),
+                  ("NSCB license application (PDF)", "https://www.nvcontractorsboard.com/wp-content/uploads/2025/04/License-App.pdf")],
+    },
+    {
+        "code": "IL", "slug": "illinois", "name": "Illinois", "agency": "Local, plus state roofing and plumbing licenses",
+        "answer": "Illinois has no statewide general contractor license. The state licenses roofing contractors (IDFPR) and plumbers (IDPH); general contractors are licensed by cities and counties, most strictly in Chicago.",
+        "facts": [("State GC license", "None"), ("Roofing", "IDFPR license"), ("Plumbing", "IDPH license"), ("Chicago GC classes", "A to E")],
+        "body": """
+<h2>State-level licenses</h2>
+<ul>
+<li><b>Roofing:</b> anyone doing roofing work anywhere in Illinois needs a roofing contractor license from the Illinois Department of Financial and Professional Regulation (IDFPR). The qualifying party passes the state roofing exam, and the license requires a bond and proof of insurance.</li>
+<li><b>Plumbing:</b> plumbers and plumbing contractors are licensed by the Illinois Department of Public Health (IDPH).</li>
+</ul>
+<h2>General contractors: local rules</h2>
+<p>General contractors, remodelers and most other trades are licensed, if at all, by the city or county where the work is. Requirements vary widely, so check with the local building department before you bid.</p>
+<h2>Chicago</h2>
+<p>The City of Chicago requires a general contractor license for most building construction, alteration, repair and demolition work in the city. Licenses come in five classes, A to E, based on the value of the projects you take on, and the required insurance rises with the class. Electrical, plumbing and other trades need their own city licenses.</p>
+""",
+        "costs": [],
+        "links": [("IDFPR: roofing contractor", "https://idfpr.illinois.gov/profs/roof.html"),
+                  ("City of Chicago: general contractor license", "https://www.chicago.gov/city/en/depts/bldgs/supp_info/TLdetails/GC.html")],
+    },
+]
+
 for g in GUIDES:
-    g["body"] = g["body"].replace("{costs}", T(g.get("costs_head", ["Item", "Amount"]), g["costs"]))
+    g["body"] = g["body"].replace("{costs}", T(g.get("costs_head", ["Item", "Amount"]), g["costs"]) if g["costs"] else "")
