@@ -376,5 +376,92 @@ GUIDES += [
     },
 ]
 
+GUIDES += [
+    {
+        "code": "NJ", "slug": "new-jersey", "name": "New Jersey", "agency": "Division of Consumer Affairs (home improvement registration)",
+        "answer": "New Jersey has no state general contractor license, but every home improvement contractor business must register with the Division of Consumer Affairs and carry $500,000 of liability insurance. Towns cannot issue permits to unregistered contractors.",
+        "facts": [("State GC license", "None"), ("HIC registration", "Required"), ("Liability insurance", "$500,000 per occurrence"), ("Exam", "None")],
+        "body": """
+<h2>Home improvement contractor registration</h2>
+<p>Under the Contractors’ Business Registration Act, businesses that do home improvement work in New Jersey must register with the Division of Consumer Affairs and show their registration number (NJHIC#) at their place of business and in all advertising. Subcontractors of a contractor must register too.</p>
+{costs}
+<p>There is no exam. Since January 1, 2006, municipalities may not issue construction permits to a home improvement contractor who is required to register but has not.</p>
+<h2>Other licenses</h2>
+<p>Electrical contractors, master plumbers and HVACR contractors are licensed by their own state boards. Contractors that raise homes for flood protection also register as home elevation contractors, with extra insurance. Commercial-only general contractors generally follow local rules and public-works prequalification instead.</p>
+""",
+        "costs": [["Commercial general liability insurance", "at least $500,000 per occurrence"], ["Application fee", "$110 (non-refundable)"]],
+        "costs_head": ["Requirement", "Amount"],
+        "links": [("NJ Division of Consumer Affairs: home improvement contractors FAQ", "https://njconsumeraffairs.gov/hic/Pages/FAQ.aspx"),
+                  ("NJ Business Action Center: home improvement contractor quick start (PDF)", "https://www.nj.gov/state/bac/assets/pdf/quick-start/home-improvement-contractor.pdf")],
+    },
+    {
+        "code": "MA", "slug": "massachusetts", "name": "Massachusetts", "agency": "Office of Consumer Affairs (HIC) and Office of Public Safety and Inspections (CSL)",
+        "answer": "Massachusetts has no single general contractor license. Most residential contractors need a Home Improvement Contractor (HIC) registration, a Construction Supervisor License (CSL), or both, depending on the work.",
+        "facts": [("HIC registration", "OCABR"), ("Construction supervisor", "CSL (OPSI)"), ("Out-of-state licenses", "Not recognized"), ("Portal", "MA Contractor Hub")],
+        "body": """
+<h2>Home Improvement Contractor (HIC) registration</h2>
+<p>Contractors doing home improvement work on existing owner-occupied homes of one to four units must register with the Office of Consumer Affairs and Business Regulation. Registration and renewal are done online through the MA Contractor Hub. Registered contractors must follow the law’s rules on written contracts, payments and advertising, and homeowners can claim against a guaranty fund. New construction, buildings of more than four units and investment or vacation properties are outside the HIC law.</p>
+<h2>Construction Supervisor License (CSL)</h2>
+<p>Structural work that needs a building permit must be overseen by a licensed construction supervisor or a registered design professional. The CSL is a competency license with experience and exam requirements, issued by the Office of Public Safety and Inspections. It comes in unrestricted, restricted and specialty types.</p>
+<h2>Which one you need</h2>
+<p>A roofer replacing a roof on an owner-occupied house, for example, needs both. A contractor building a new home needs a CSL but not an HIC registration. The state publishes a table of which work requires an HIC registration, a CSL or a permit. Massachusetts does not recognize contractor licenses from other states.</p>
+""",
+        "costs": [],
+        "links": [("Mass.gov: Home Improvement Contractor registration", "https://mass.gov/info-details/home-improvement-contractor-registration-and-renewal"),
+                  ("Mass.gov: when is a Construction Supervisor License required?", "https://www.mass.gov/info-details/when-is-a-construction-supervisor-license-required")],
+    },
+    {
+        "code": "MD", "slug": "maryland", "name": "Maryland", "agency": "Maryland Home Improvement Commission (MHIC)",
+        "answer": "Yes, for home improvement work. Maryland requires a license from the Maryland Home Improvement Commission, with an exam, $50,000 of liability insurance and a payment into the Guaranty Fund.",
+        "facts": [("Licensing body", "MHIC"), ("Liability insurance", "$50,000"), ("Guaranty Fund (new license)", "$100"), ("Exam", "PSI")],
+        "body": """
+<h2>Who needs an MHIC license</h2>
+<p>Anyone who performs or agrees to perform a home improvement for a homeowner in Maryland needs a contractor license from the Maryland Home Improvement Commission. Salespeople who sell home improvements for a licensed contractor need their own salesperson license. Maryland dropped the separate subcontractor license in 2016.</p>
+<h2>Requirements</h2>
+<ul><li>Pass the MHIC contractor exam, given by PSI.</li>
+<li>Show financial solvency and file proof of at least $50,000 of general liability insurance, kept in force at all times.</li>
+<li>Register any trade name and, for companies, show good standing.</li></ul>
+{costs}
+<h2>The Guaranty Fund</h2>
+<p>Licensed contractors pay into a Guaranty Fund that compensates homeowners for unworkmanlike or incomplete work. A homeowner can recover up to $20,000, and up to $100,000 can be paid for the acts of one contractor; the contractor must then repay the Fund.</p>
+""",
+        "costs": [["Guaranty Fund, original license", "$100 every two years"], ["Guaranty Fund, renewal", "$175 every two years"]],
+        "costs_head": ["Payment", "Amount"],
+        "links": [("Maryland Home Improvement Commission", "https://labor.maryland.gov/License/mhic/"),
+                  ("MHIC license categories and requirements", "https://labor.maryland.gov/license/mhic/mhiclicreq.shtml")],
+    },
+    {
+        "code": "CO", "slug": "colorado", "name": "Colorado", "agency": "Local governments, plus DORA for electrical and plumbing",
+        "answer": "Colorado has no statewide general contractor license. Cities and counties license general contractors, and the state licenses only electricians and plumbers through DORA.",
+        "facts": [("State GC license", "None"), ("State trade licenses", "Electrical, plumbing"), ("State agency", "DORA"), ("GC licensing", "City or county")],
+        "body": """
+<h2>Electrical and plumbing: state licenses</h2>
+<p>The State Electrical Board and State Plumbing Board, part of the Department of Regulatory Agencies (DORA), license electricians and plumbers and register electrical and plumbing contractors. These licenses are required wherever you work in the state.</p>
+<h2>General contractors: local licenses</h2>
+<p>Denver, Colorado Springs, Aurora, Fort Collins and other cities and counties run their own contractor licensing. Many use classes based on the size and type of building (often Class A, B and C) and require passing an ICC exam. In Denver, for example, a contractor needs a supervisor certificate, or must employ someone who has one, before getting a contractor license. Check the rules in each jurisdiction where you will pull permits.</p>
+<h2>Statewide requirements for every contractor</h2>
+<ul><li>Register your business with the Colorado Secretary of State.</li><li>Employers must carry workers’ compensation insurance.</li></ul>
+""",
+        "costs": [],
+        "links": [("Denver: contractor licensing", "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Contractor-Licensing"),
+                  ("Colorado DORA: Division of Professions and Occupations", "https://dpo.colorado.gov/")],
+    },
+    {
+        "code": "SC", "slug": "south-carolina", "name": "South Carolina", "agency": "Contractor’s Licensing Board and Residential Builders Commission (LLR)",
+        "answer": "Yes. South Carolina licenses commercial general and mechanical contractors for projects over $10,000 through the Contractor’s Licensing Board, and residential builders through a separate Residential Builders Commission.",
+        "facts": [("Commercial license from", "over $10,000"), ("Commercial board", "Contractor’s Licensing Board"), ("Residential", "Residential Builders Commission"), ("Agency", "LLR")],
+        "body": """
+<h2>Commercial: Contractor’s Licensing Board</h2>
+<p>General and mechanical contracting where the total cost of construction is more than $10,000 needs a license from the South Carolina Contractor’s Licensing Board. The threshold was raised from $5,000 in 2023. Licenses are issued in classifications (for example building, roofing or swimming pools for general contractors, and electrical, plumbing or HVAC for mechanical contractors) and in groups that set the largest project you may take on, based on your financial statement.</p>
+<h2>Residential: Residential Builders Commission</h2>
+<p>Residential construction is regulated separately by the Residential Builders Commission, which licenses residential builders and registers or licenses residential specialty contractors such as roofers, residential electricians and plumbers. A Residential Builder license, or a general contractor license with the swimming pools classification, is also needed to build or repair residential pools over the $10,000 threshold.</p>
+<p>Owners should check that a contractor’s license group covers the value of the contract; fines can apply to both the owner and the contractor.</p>
+""",
+        "costs": [],
+        "links": [("SC Contractor’s Licensing Board FAQ", "https://llr.sc.gov/clb/faq.aspx"),
+                  ("SC LLR: 2023 legislative update (PDF)", "https://www.llr.sc.gov/clb/PDFFiles/CLB2023LegislativeUpdate.pdf")],
+    },
+]
+
 for g in GUIDES:
     g["body"] = g["body"].replace("{costs}", T(g.get("costs_head", ["Item", "Amount"]), g["costs"]) if g["costs"] else "")
