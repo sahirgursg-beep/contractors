@@ -77,7 +77,7 @@ def page(path, title, desc, body, current="", extra=""):
 <footer class="foot"><div class="wrap">
 <div><b>ContractorRules</b>Public government data for US construction contractors. Not legal advice and not affiliated with any government agency.</div>
 <div><b>Data</b><ul><li><a href="/federal-bids/">Open federal construction bids</a></li><li><a href="/naics/construction/">Construction NAICS size standards</a></li><li><a href="/state/">Contractor licenses by state</a></li><li><a href="/guides/">Guides</a></li></ul></div>
-<div><b>About</b><ul><li><a href="/about/">About the data</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="mailto:info@sahirgur.com">Contact</a></li></ul></div>
+<div><b>About</b><ul><li><a href="/about/">About the data</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/editorial-policy/">Editorial policy</a></li><li><a href="/contact/">Contact</a></li></ul></div>
 </div></footer>
 </body>
 </html>
@@ -396,6 +396,26 @@ i.addEventListener('input',go);f.addEventListener('submit',function(ev){{ev.prev
 <p>Questions: <a href="mailto:info@sahirgur.com">info@sahirgur.com</a>.</p>
 </div></div></section>"""
     pages["/privacy/"] = page("/privacy/", "Privacy | ContractorRules", "What ContractorRules collects about visitors.", privacy)
+
+    # ---- trust pages
+    contact = intro("Contact", "How to reach the people behind ContractorRules.", [("/", "ContractorRules"), ("/contact/", "Contact")])
+    contact += """<section><div class="wrap prose">
+<p>ContractorRules is an independent site published by Sahir Gür (<a href="https://sahirgur.com/">sahirgur.com</a>). It is not affiliated with any government agency.</p>
+<h2>Email</h2><p><a href="mailto:info@sahirgur.com">info@sahirgur.com</a>. We read every message and usually reply within two working days.</p>
+<h2>Corrections</h2><p>If a number, rule or link on the site is wrong or out of date, please tell us the page address and what you found, with a link to the official source if you have one. We check every report against the source and fix confirmed errors, usually the same week.</p>
+<h2>What we cannot help with</h2><p>We cannot give advice on individual cases, file applications or contact agencies on your behalf. For that, please speak to a qualified professional.</p>
+</div></section>"""
+    pages["/contact/"] = page("/contact/", "Contact | ContractorRules", "How to contact ContractorRules and report a correction.", contact)
+    ed = intro("Editorial policy", "How ContractorRules collects, checks and updates the information it publishes.", [("/", "ContractorRules"), ("/editorial-policy/", "Editorial policy")])
+    ed += """<section><div class="wrap prose">
+<h2>What we publish</h2><p>Open federal construction bids, NAICS size standards and state-by-state contractor licensing rules, with guides for contractors.</p>
+<h2>Where the information comes from</h2><p>Federal bids come from SAM.gov’s public API, size standards from the SBA, and licensing rules from each state’s licensing board, statutes and regulations. Each page names its source and links to it. When sources disagree, we follow the official one and say so.</p>
+<h2>How it is kept current</h2><p>Federal bids are refreshed twice a day. State licensing guides are reviewed against the official sources and show the date they were last checked. Pages that explain rules show the date they were last reviewed.</p>
+<h2>Independence</h2><p>The site is funded by advertising. Advertisers and companies mentioned on the site have no say over what we publish, nobody pays to be listed, and we do not accept payment for links or reviews.</p>
+<h2>Corrections</h2><p>We fix confirmed errors as soon as we can and do not hide them. To report one, see the <a href="/contact/">contact page</a>.</p>
+<h2>Not professional advice</h2><p>Everything on the site is general information to help you understand official data and rules. It is not legal, tax or professional advice for your situation.</p>
+</div></section>"""
+    pages["/editorial-policy/"] = page("/editorial-policy/", "Editorial policy | ContractorRules", "How ContractorRules collects, checks, updates and corrects its information.", ed)
     pages["/404.html"] = page("/404.html", "Page not found | ContractorRules", "Page not found.",
                               intro("Page not found", 'The address may have changed. Try the <a href="/">home page</a>.'))
 
