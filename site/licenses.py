@@ -286,5 +286,95 @@ GUIDES += [
     },
 ]
 
+GUIDES += [
+    {
+        "code": "OH", "slug": "ohio", "name": "Ohio", "agency": "Local governments, plus the Ohio Construction Industry Licensing Board (OCILB) for five trades",
+        "answer": "Ohio has no statewide general contractor license. The state licenses five commercial trades through the OCILB; general contractors register with the cities and counties where they work.",
+        "facts": [("State GC license", "None"), ("State trade licenses", "OCILB"), ("Trades licensed", "5"), ("GC registration", "Local")],
+        "body": """
+<h2>What the state licenses</h2>
+<p>The Ohio Construction Industry Licensing Board, part of the Ohio Department of Commerce, licenses commercial contractors in five trades: <b>electrical, plumbing, HVAC, hydronics and refrigeration</b>. If your company does any of that work, a qualified person on staff needs the OCILB license for that trade.</p>
+<h2>General contractors and remodelers</h2>
+<p>For general construction and remodeling outside those trades, Ohio leaves licensing to local governments. Columbus, Cleveland, Cincinnati and many other cities require contractors to register or hold a city license before they pull permits, with their own insurance and bond rules. Check with the building department in each city or county where you plan to work.</p>
+<h2>Other state requirements</h2>
+<ul><li>Register your business with the Ohio Secretary of State.</li>
+<li>Employers must carry workers’ compensation through the Ohio Bureau of Workers’ Compensation, Ohio’s state fund.</li></ul>
+""",
+        "costs": [],
+        "links": [("Ohio Department of Commerce", "https://com.ohio.gov/")],
+    },
+    {
+        "code": "PA", "slug": "pennsylvania", "name": "Pennsylvania", "agency": "Office of Attorney General (home improvement registration)",
+        "answer": "Pennsylvania has no state general contractor license, but anyone doing $5,000 or more of home improvement work a year must register with the Attorney General. Cities such as Philadelphia add their own licenses.",
+        "facts": [("State GC license", "None"), ("HIC registration from", "$5,000 a year"), ("Liability insurance", "$50,000 / $50,000"), ("Registration valid", "2 years")],
+        "body": """
+<h2>Home improvement contractor registration</h2>
+<p>Under the Home Improvement Consumer Protection Act, contractors who perform home improvements on residential property in Pennsylvania must register with the Office of Attorney General and use their PA HIC number on contracts and advertising. Contractors who do less than $5,000 of home improvement work in a calendar year are exempt.</p>
+{costs}
+<p>There is no exam. Registrations last two years and must be renewed. A home improvement contract that does not meet the Act’s requirements can be void and unenforceable by the contractor, so the written contract matters as much as the registration.</p>
+<h2>Commercial work and local licenses</h2>
+<p>The state does not license general contractors for commercial work. Philadelphia, Pittsburgh and other municipalities have their own contractor licenses and permit rules, and trades such as plumbing and electrical are often licensed locally.</p>
+""",
+        "costs": [["Personal injury liability insurance", "at least $50,000"], ["Property damage insurance", "at least $50,000"]],
+        "costs_head": ["Requirement", "Minimum"],
+        "links": [("PA Attorney General: home improvement contractor registration", "https://hic.attorneygeneral.gov/"),
+                  ("PA Attorney General: contractor FAQ", "https://www.attorneygeneral.gov/?p=6380")],
+    },
+    {
+        "code": "MI", "slug": "michigan", "name": "Michigan", "agency": "Department of Licensing and Regulatory Affairs (LARA)",
+        "answer": "Yes, for residential work. Michigan requires a Residential Builder or Maintenance & Alteration Contractor license from LARA for residential jobs of $600 or more. There is no state license for commercial general contracting.",
+        "facts": [("Licensing agency", "LARA"), ("Residential license from", "$600"), ("Prelicensure course", "60 hours"), ("Exam", "PSI")],
+        "body": """
+<h2>Two residential licenses</h2>
+<ul><li><b>Residential Builder:</b> new homes and any residential construction, remodeling or repair.</li>
+<li><b>Maintenance & Alteration (M&A) Contractor:</b> limited to the specific trades listed on the license, such as roofing, siding, carpentry or basement waterproofing.</li></ul>
+<h2>How to get licensed</h2>
+<ol><li>Complete 60 hours of approved prelicensure education, with at least 6 hours in each required subject, such as business management and estimating, and design and building science.</li>
+<li>Apply to LARA online or on paper.</li>
+<li>After LARA approves the application, pass the state exam, which is given by PSI.</li></ol>
+<p>Electrical, plumbing and mechanical work need separate trade licenses. Commercial general contracting has no state license, but local permits and codes still apply.</p>
+""",
+        "costs": [],
+        "links": [("LARA: residential builders and M&A contractors", "https://www.michigan.gov/lara/bureau-list/bcc/Sections/Licensing-Section"),
+                  ("LARA: prelicensure education requirements", "https://www.michigan.gov/lara/bureau-list/bcc/Sections/Licensing-Section/residential-builders/forms/prelicensure-education-requirements-for-residential-builder-and-maintenance-alteration-contractor-a")],
+    },
+    {
+        "code": "VA", "slug": "virginia", "name": "Virginia", "agency": "Department of Professional and Occupational Regulation (DPOR), Board for Contractors",
+        "answer": "Yes. Virginia requires a DPOR contractor license for construction, repair or improvement work over $1,000. The class (A, B or C) depends on the size of your contracts, and the thresholds were raised in 2025.",
+        "facts": [("Licensing board", "Board for Contractors"), ("License needed from", "over $1,000"), ("Class A net worth", "$45,000"), ("Class B net worth", "$15,000")],
+        "body": """
+<h2>License classes</h2>
+{costs}
+<p>Annual revenue limits also apply to Class B and C licenses; check the current limits with DPOR before you choose a class. Contracts that exceed your class are not allowed, so pick the class for the largest jobs you expect.</p>
+<h2>Requirements</h2>
+<ul><li>A designated employee or qualified individual with experience in each specialty on the license.</li>
+<li>A Board-approved pre-license course, and for Class A and B, passing the exams.</li>
+<li>For Class A and B, proof of net worth ($45,000 and $15,000), or a $50,000 surety bond instead.</li></ul>
+<p>Each license also lists specialties (for example building, electrical or plumbing) that limit the type of work. Trade workers such as electricians and plumbers need individual tradesman licenses as well.</p>
+""",
+        "costs": [["Class C", "Over $1,000 and under $30,000"], ["Class B", "$30,000 to under $150,000"], ["Class A", "$150,000 or more"]],
+        "costs_head": ["Class", "Single contract or project"],
+        "links": [("DPOR: contractor licensing step guide (PDF)", "https://www.dpor.virginia.gov/sites/default/files/boards/Contractors/Contractors_Step_Guide.pdf"),
+                  ("Statement of consumer protections (DPOR form)", "https://ris.dls.virginia.gov/uploads/18VAC50/forms/Contractor%20Statement%20of%20Consumer%20Protections-20250609100802.pdf")],
+    },
+    {
+        "code": "TN", "slug": "tennessee", "name": "Tennessee", "agency": "Board for Licensing Contractors (Department of Commerce & Insurance)",
+        "answer": "Yes. Tennessee requires a contractor’s license for projects of $25,000 or more, and a Home Improvement license for residential remodeling from $3,000 to $24,999 in nine counties.",
+        "facts": [("Licensing board", "Board for Licensing Contractors"), ("Contractor license from", "$25,000"), ("Home improvement license", "$3,000–$24,999"), ("HI counties", "9")],
+        "body": """
+<h2>Contractor’s license ($25,000 and up)</h2>
+<p>Any project where the total cost is $25,000 or more needs a contractor’s license from the Board for Licensing Contractors, in every county. Licensing includes a trade exam and a business and law exam, a financial statement that sets your monetary limit, and proof of insurance. From July 1, 2026, the Board’s exams are given by Prov.</p>
+<h2>Home Improvement license ($3,000 to $24,999)</h2>
+<p>Residential remodeling where the total cost, labor and materials included, is from $3,000 to less than $25,000 needs a Home Improvement license in the counties that adopted the law: Bradley, Davidson, Hamilton, Haywood, Knox, Marion, Robertson, Rutherford and Shelby.</p>
+{costs}
+<p>The Home Improvement license does not cover electrical, gas, mechanical, HVAC or plumbing work, which have their own licenses, including limited licenses for electrical and plumbing jobs under $25,000.</p>
+""",
+        "costs": [["Exam", "None"], ["Application fee", "$250 for a two-year license"]],
+        "costs_head": ["Home Improvement license", "Detail"],
+        "links": [("Tennessee Board for Licensing Contractors", "https://www.tn.gov/commerce/regboards/contractor"),
+                  ("Home Improvement license requirements", "https://www.tn.gov/commerce/regboards/hi/application-requirements-process.html")],
+    },
+]
+
 for g in GUIDES:
     g["body"] = g["body"].replace("{costs}", T(g.get("costs_head", ["Item", "Amount"]), g["costs"]) if g["costs"] else "")

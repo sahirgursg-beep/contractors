@@ -354,7 +354,7 @@ else{{o.className='result no';o.textContent='Over the limit: not small under NAI
 <div class="grid">
 <a class="card" href="/naics/construction/"><h3>SBA size standards</h3><p class="note" style="margin:0">Is your business “small” for set-aside contracts? Limits for all {len(main)} construction codes, with a quick check on each code’s page.</p><span class="go">See all codes</span></a>
 <a class="card" href="/federal-bids/"><h3>Federal construction bids</h3><p class="note" style="margin:0">Solicitations, sources sought and presolicitations with a construction NAICS code, sorted by response deadline.</p><span class="go">See open bids</span></a>
-<a class="card" href="/state/"><h3>State contractor licenses</h3><p class="note" style="margin:0">When a license is required, exams, bonds and fees in 10 states, from California to North Carolina.</p><span class="go">See state guides</span></a>
+<a class="card" href="/state/"><h3>State contractor licenses</h3><p class="note" style="margin:0">When a license is required, exams, bonds and fees in 15 states, from California to Virginia.</p><span class="go">See state guides</span></a>
 </div></div></section>
 <section style="padding-top:0"><div class="wrap">{proposal_notice()}</div></section>
 <script>
