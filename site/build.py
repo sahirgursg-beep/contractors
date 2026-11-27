@@ -44,7 +44,7 @@ def std(r):
 
 
 def page(path, title, desc, body, current="", extra=""):
-    nav = [("/federal-bids/", "Federal bids", "bids"), ("/state/", "State licenses", "lic"), ("/naics/construction/", "NAICS size standards", "naics"), ("/about/", "About the data", "about")]
+    nav = [("/federal-bids/", "Federal bids", "bids"), ("/state/", "State licenses", "lic"), ("/naics/construction/", "NAICS size standards", "naics"), ("/guides/", "Guides", "guides"), ("/about/", "About the data", "about")]
     links = "".join(f'<a href="{h}"{" aria-current=page" if k == current else ""}>{t}</a>' for h, t, k in nav)
     robots = "" if INDEX else '<meta name="robots" content="noindex">\n'
     return f"""<!doctype html>
@@ -76,7 +76,7 @@ def page(path, title, desc, body, current="", extra=""):
 </main>
 <footer class="foot"><div class="wrap">
 <div><b>ContractorRules</b>Public government data for US construction contractors. Not legal advice and not affiliated with any government agency.</div>
-<div><b>Data</b><ul><li><a href="/federal-bids/">Open federal construction bids</a></li><li><a href="/naics/construction/">Construction NAICS size standards</a></li><li><a href="/state/">Contractor licenses by state</a></li></ul></div>
+<div><b>Data</b><ul><li><a href="/federal-bids/">Open federal construction bids</a></li><li><a href="/naics/construction/">Construction NAICS size standards</a></li><li><a href="/state/">Contractor licenses by state</a></li><li><a href="/guides/">Guides</a></li></ul></div>
 <div><b>About</b><ul><li><a href="/about/">About the data</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="mailto:info@sahirgur.com">Contact</a></li></ul></div>
 </div></footer>
 </body>
@@ -381,6 +381,8 @@ i.addEventListener('input',go);f.addEventListener('submit',function(ev){{ev.prev
 <h2>Corrections</h2>
 <p>If you spot an error, email <a href="mailto:info@sahirgur.com">info@sahirgur.com</a>.</p>
 </div></div></section>"""
+    import guides
+    guides.build(pages, page, intro)
     pages["/about/"] = page("/about/", "About the data | ContractorRules", "Sources, update method and limits of ContractorRules data.", about, "about")
 
     privacy = intro("Privacy", "What ContractorRules collects about visitors.")
